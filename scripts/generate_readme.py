@@ -21,14 +21,15 @@ def main() -> None:
 
     lines = [START, "", "## Explore the directory", ""]
     visible = [category for category in categories if grouped[category["id"]]]
-    lines.append(" · ".join(f"[{category['name']}](#{category['id']})" for category in visible))
+    lines.extend(["| Category | Resources |", "|---|---:|"])
+    lines.extend(f"| [{category['name']}](#{category['id']}) | {len(grouped[category['id']])} |" for category in visible)
     lines.append("")
     for category in visible:
         lines.extend([f"<a id=\"{category['id']}\"></a>", "", f"### {category['name']}", "", category["description"], "", "| Name | Type | Description | Compatibility | Link |", "|---|---|---|---|---|"])
         for item in sorted(grouped[category["id"]], key=lambda value: value["name"].lower()):
             compatibility = ", ".join(item["compatibility"]) if item["compatibility"] else "—"
             lines.append(f"| {item['name']} | {item['type']} | {item['description']} | {compatibility} | [Visit]({item['url']}) |")
-        lines.append("")
+        lines.extend(["", "[Back to directory ↑](#explore-the-directory)", ""])
     lines.append(END)
 
     readme_path = ROOT / "README.md"

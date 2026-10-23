@@ -1,26 +1,147 @@
 [
-  {"id":"agent-skills","name":"Agent Skills","description":"Reusable instructions and capabilities for AI coding and general-purpose agents."},
-  {"id":"mcp-servers","name":"MCP Servers","description":"Servers that expose tools and context through the Model Context Protocol."},
-  {"id":"frontend-design","name":"Frontend & UI/UX","description":"Skills, tools, and guidance for interface design and frontend development."},
-  {"id":"software-engineering","name":"Software Engineering","description":"Development, review, testing, architecture, and maintenance resources."},
-  {"id":"devops-cloud","name":"DevOps, Cloud & Infrastructure","description":"Deployment, operations, observability, cloud, and infrastructure resources."},
-  {"id":"cybersecurity","name":"Cybersecurity","description":"Defensive security, secure development, auditing, and compliance resources."},
-  {"id":"research-knowledge","name":"Research & Knowledge","description":"Research, retrieval, citations, knowledge management, and fact-checking tools."},
-  {"id":"productivity","name":"Productivity & Personal Workflows","description":"Documents, scheduling, notes, communication, and workflow automation."},
-  {"id":"content-creative","name":"Content & Creative Work","description":"Writing, media generation, design, and creative automation resources."},
-  {"id":"video-generation","name":"Video, Motion & 3D","description":"Video generation, editing, compositing, motion graphics, avatars, and 3D creative workflows."},
-  {"id":"image-generation","name":"Image Generation & Visual Media","description":"Image generation, editing, upscaling, visual pipelines, and creative model tooling."},
-  {"id":"audio-music","name":"Audio, Voice & Music","description":"Speech, transcription, voice synthesis, music generation, and audio production resources."},
-  {"id":"business-marketing","name":"Business, Marketing & Sales","description":"Customer, market, sales, support, and business operations tools."},
-  {"id":"data-analytics","name":"Data Science & Analytics","description":"Analysis, visualization, machine learning, data engineering, and BI resources."},
-  {"id":"software-testing","name":"Software Testing & Quality","description":"Unit, integration, end-to-end, load, accessibility, API, and AI-system testing resources."},
-  {"id":"programming-languages","name":"Programming Languages & SDKs","description":"Language ecosystems, runtimes, SDKs, package tooling, and programming references."},
-  {"id":"databases","name":"Databases, Storage & Search","description":"Relational, document, vector, search, caching, and data-platform resources."},
-  {"id":"automation-integration","name":"Automation & Integrations","description":"Workflow automation, browser control, integration platforms, and event-driven tooling."},
-  {"id":"backend-api","name":"Backend, APIs & Full Stack","description":"Backend frameworks, API development, authentication, real-time systems, and full-stack platforms."},
-  {"id":"agent-development","name":"AI Agent Development","description":"Frameworks and infrastructure for building, evaluating, and operating agents."},
-  {"id":"education","name":"Education & Learning","description":"Tutoring, study, courseware, and educational creation resources."},
-  {"id":"specialized-industries","name":"Specialized Industries","description":"Domain-specific resources whose professional limitations should be assessed."},
-  {"id":"ecosystem","name":"AI Ecosystem Resources","description":"Directories, registries, documentation, tutorials, and awesome lists."},
-  {"id":"design-guides","name":"Design Guides","description":"Authoritative interface, platform, and accessibility guidance."}
+  {
+    "id": "agent-skills",
+    "name": "Agent Skills",
+    "description": "Reusable instructions and capabilities for AI coding and general-purpose agents."
+  },
+  {
+    "id": "mcp-servers",
+    "name": "MCP Servers",
+    "description": "Servers that expose tools and context through the Model Context Protocol."
+  },
+  {
+    "id": "frontend-design",
+    "name": "Frontend & UI/UX",
+    "description": "Skills, tools, and guidance for interface design and frontend development."
+  },
+  {
+    "id": "software-engineering",
+    "name": "Software Engineering",
+    "description": "Development, review, testing, architecture, and maintenance resources."
+  },
+  {
+    "id": "devops-cloud",
+    "name": "DevOps, Cloud & Infrastructure",
+    "description": "Deployment, operations, observability, cloud, and infrastructure resources."
+  },
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity",
+    "description": "Defensive security, secure development, auditing, and compliance resources."
+  },
+  {
+    "id": "research-knowledge",
+    "name": "Research & Knowledge",
+    "description": "Research, retrieval, citations, knowledge management, and fact-checking tools."
+  },
+  {
+    "id": "productivity",
+    "name": "Productivity & Personal Workflows",
+    "description": "Documents, scheduling, notes, communication, and workflow automation."
+  },
+  {
+    "id": "content-creative",
+    "name": "Content & Creative Work",
+    "description": "Writing, media generation, design, and creative automation resources."
+  },
+  {
+    "id": "video-generation",
+    "name": "Video, Motion & 3D",
+    "description": "Video generation, editing, compositing, motion graphics, avatars, and 3D creative workflows."
+  },
+  {
+    "id": "image-generation",
+    "name": "Image Generation & Visual Media",
+    "description": "Image generation, editing, upscaling, visual pipelines, and creative model tooling."
+  },
+  {
+    "id": "audio-music",
+    "name": "Audio, Voice & Music",
+    "description": "Speech, transcription, voice synthesis, music generation, and audio production resources."
+  },
+  {
+    "id": "business-marketing",
+    "name": "Business, Marketing & Sales",
+    "description": "Customer, market, sales, support, and business operations tools."
+  },
+  {
+    "id": "data-analytics",
+    "name": "Data Science & Analytics",
+    "description": "Analysis, visualization, machine learning, data engineering, and BI resources."
+  },
+  {
+    "id": "software-testing",
+    "name": "Software Testing & Quality",
+    "description": "Unit, integration, end-to-end, load, accessibility, API, and AI-system testing resources."
+  },
+  {
+    "id": "programming-languages",
+    "name": "Programming Languages & SDKs",
+    "description": "Language ecosystems, runtimes, SDKs, package tooling, and programming references."
+  },
+  {
+    "id": "databases",
+    "name": "Databases, Storage & Search",
+    "description": "Relational, document, vector, search, caching, and data-platform resources."
+  },
+  {
+    "id": "automation-integration",
+    "name": "Automation & Integrations",
+    "description": "Workflow automation, browser control, integration platforms, and event-driven tooling."
+  },
+  {
+    "id": "backend-api",
+    "name": "Backend, APIs & Full Stack",
+    "description": "Backend frameworks, API development, authentication, real-time systems, and full-stack platforms."
+  },
+  {
+    "id": "agent-development",
+    "name": "AI Agent Development",
+    "description": "Frameworks and infrastructure for building, evaluating, and operating agents."
+  },
+  {
+    "id": "education",
+    "name": "Education & Learning",
+    "description": "Tutoring, study, courseware, and educational creation resources."
+  },
+  {
+    "id": "specialized-industries",
+    "name": "Specialized Industries",
+    "description": "Domain-specific resources whose professional limitations should be assessed."
+  },
+  {
+    "id": "ecosystem",
+    "name": "AI Ecosystem Resources",
+    "description": "Directories, registries, documentation, tutorials, and awesome lists."
+  },
+  {
+    "id": "design-guides",
+    "name": "Design Guides",
+    "description": "Authoritative interface, platform, and accessibility guidance."
+  },
+  {
+    "id": "trading-research",
+    "name": "Trading & Quantitative Research",
+    "description": "Research, backtesting, and market-data tools. Backtests do not establish future returns."
+  },
+  {
+    "id": "finance-accounting",
+    "name": "Finance & Accounting",
+    "description": "Financial language models, accounting, reporting, and financial research resources."
+  },
+  {
+    "id": "healthcare-ai",
+    "name": "Healthcare & Life Sciences",
+    "description": "Medical AI research and biomedical tooling; inclusion does not establish clinical validation."
+  },
+  {
+    "id": "organization-work",
+    "name": "Organization & Team Operations",
+    "description": "Knowledge, project management, team collaboration, and organizational automation."
+  },
+  {
+    "id": "blogs-research",
+    "name": "Blogs, Research & Discovery",
+    "description": "Primary engineering blogs, research publications, and established curated directories."
+  }
 ]

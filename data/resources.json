@@ -1,198 +1,3541 @@
 [
-  {"id":"anthropic-frontend-design","name":"frontend-design","type":"agent-skill","category":"frontend-design","description":"Anthropic's official skill for creating distinctive, production-quality frontend interfaces.","url":"https://github.com/anthropics/skills/tree/main/skills/frontend-design","source":"official","compatibility":["Claude Code","Claude.ai"],"tags":["frontend","design","ui"],"verified_at":null,"maintenance":"active"},
-  {"id":"ui-ux-pro-max","name":"ui-ux-pro-max","type":"agent-skill","category":"frontend-design","description":"Community design intelligence skill covering styles, palettes, typography, charts, and UI stacks.","url":"https://github.com/nextlevelbuilder/ui-ux-pro-max-skill","source":"community","compatibility":["Claude Code","Codex","Cursor"],"tags":["ui","ux","design-system"],"verified_at":null,"maintenance":"active"},
-  {"id":"design-taste-frontend","name":"design-taste-frontend","type":"agent-skill","category":"frontend-design","description":"Opinionated frontend design skill focused on visual craft and avoiding generic generated interfaces.","url":"https://github.com/Leonxlnx/taste-skill","source":"community","compatibility":["Claude Code"],"tags":["frontend","visual-design"],"verified_at":null,"maintenance":"unknown"},
-  {"id":"shadcn-ui-mcp-server","name":"shadcn-ui-mcp-server","type":"mcp-server","category":"frontend-design","description":"Community MCP server for browsing and working with shadcn/ui components and registries.","url":"https://github.com/Jpisnice/shadcn-ui-mcp-server","source":"community","compatibility":["MCP clients"],"tags":["shadcn","components","mcp"],"verified_at":null,"maintenance":"active"},
-  {"id":"magic-mcp","name":"21st.dev Magic MCP","type":"mcp-server","category":"frontend-design","description":"MCP server from 21st.dev for generating and discovering polished user-interface components.","url":"https://github.com/21st-dev/magic-mcp","source":"official","compatibility":["MCP clients"],"tags":["components","generation","mcp"],"verified_at":null,"maintenance":"active"},
-  {"id":"vercel-react-best-practices","name":"vercel-react-best-practices","type":"agent-skill","category":"frontend-design","description":"Vercel-maintained guidance for React and Next.js performance patterns used by coding agents.","url":"https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices","source":"official","compatibility":["Agent Skills clients"],"tags":["react","nextjs","performance"],"verified_at":null,"maintenance":"active"},
-  {"id":"gsap-skills","name":"GSAP Skills","type":"skill-collection","category":"frontend-design","description":"Official GreenSock skill collection for creating and optimizing GSAP web animations.","url":"https://github.com/greensock/gsap-skills","source":"official","compatibility":["Agent Skills clients"],"tags":["gsap","animation"],"verified_at":null,"maintenance":"active"},
-  {"id":"motion-framer-skill","name":"motion-framer","type":"agent-skill","category":"frontend-design","description":"Community skill with practical patterns for building interface animation using Motion for React.","url":"https://github.com/freshtechbro/claudedesignskills/tree/main/.claude/skills/motion-framer","source":"community","compatibility":["Claude Code"],"tags":["motion","react","animation"],"verified_at":null,"maintenance":"active"},
-  {"id":"convex-create-component","name":"convex-create-component","type":"agent-skill","category":"software-engineering","description":"Convex-maintained skill for building reusable components with isolated schemas and APIs.","url":"https://github.com/get-convex/agent-skills","source":"official","compatibility":["Agent Skills clients"],"tags":["convex","backend","components"],"verified_at":null,"maintenance":"active"},
-  {"id":"vercel-react-native-skills","name":"vercel-react-native-skills","type":"agent-skill","category":"frontend-design","description":"Vercel-maintained best practices for performant React Native and Expo applications.","url":"https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills","source":"official","compatibility":["Agent Skills clients"],"tags":["react-native","expo","mobile"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"anthropic-skills","name":"Anthropic Skills","type":"skill-collection","category":"agent-skills","description":"Official collection of example and production skills for Claude products and compatible agents.","url":"https://github.com/anthropics/skills","source":"official","compatibility":["Claude Code","Claude.ai"],"tags":["skills","claude"],"verified_at":null,"maintenance":"active"},
-  {"id":"openai-skills","name":"OpenAI Skills","type":"skill-collection","category":"agent-skills","description":"OpenAI's public collection of reusable skills for Codex and agent workflows.","url":"https://github.com/openai/skills","source":"official","compatibility":["Codex"],"tags":["skills","codex"],"verified_at":null,"maintenance":"active"},
-  {"id":"agentskills-spec","name":"Agent Skills Specification","type":"documentation","category":"agent-skills","description":"Open specification describing the portable Agent Skills folder and SKILL.md format.","url":"https://agentskills.io/specification","source":"official","compatibility":["Agent Skills clients"],"tags":["standard","skills"],"verified_at":null,"maintenance":"active"},
-  {"id":"github-awesome-copilot","name":"awesome-copilot","type":"skill-collection","category":"agent-skills","description":"GitHub-maintained community catalog of Copilot instructions, prompts, agents, and skills.","url":"https://github.com/github/awesome-copilot","source":"official","compatibility":["GitHub Copilot"],"tags":["copilot","prompts","skills"],"verified_at":null,"maintenance":"active"},
-  {"id":"gemini-cli-extensions","name":"Gemini CLI Extensions","type":"documentation","category":"agent-skills","description":"Official documentation for packaging prompts, MCP servers, skills, and configuration as Gemini CLI extensions.","url":"https://github.com/google-gemini/gemini-cli/blob/main/docs/extensions/index.md","source":"official","compatibility":["Gemini CLI"],"tags":["gemini","extensions"],"verified_at":null,"maintenance":"active"},
-  {"id":"cursor-rules","name":"Cursor Rules","type":"documentation","category":"agent-skills","description":"Official Cursor documentation for persistent project instructions and reusable agent guidance.","url":"https://cursor.com/docs/rules","source":"official","compatibility":["Cursor"],"tags":["cursor","rules"],"verified_at":null,"maintenance":"active"},
-  {"id":"opencode-agents","name":"OpenCode Agents","type":"documentation","category":"agent-skills","description":"Official OpenCode documentation for configuring specialized primary agents and subagents.","url":"https://opencode.ai/docs/agents/","source":"official","compatibility":["OpenCode"],"tags":["opencode","agents"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"model-context-protocol","name":"Model Context Protocol","type":"documentation","category":"mcp-servers","description":"Official protocol documentation for connecting AI applications to tools and external data.","url":"https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro","source":"official","compatibility":["MCP"],"tags":["mcp","protocol"],"verified_at":null,"maintenance":"active"},
-  {"id":"mcp-servers-reference","name":"MCP Reference Servers","type":"skill-collection","category":"mcp-servers","description":"Official reference implementations demonstrating core Model Context Protocol server patterns.","url":"https://github.com/modelcontextprotocol/servers","source":"official","compatibility":["MCP clients"],"tags":["mcp","reference"],"verified_at":null,"maintenance":"active"},
-  {"id":"github-mcp-server","name":"GitHub MCP Server","type":"mcp-server","category":"mcp-servers","description":"GitHub's official MCP server for repository, issue, pull request, code, and workflow operations.","url":"https://github.com/github/github-mcp-server","source":"official","compatibility":["MCP clients"],"tags":["github","developer-tools"],"verified_at":null,"maintenance":"active"},
-  {"id":"playwright-mcp","name":"Playwright MCP","type":"mcp-server","category":"mcp-servers","description":"Microsoft's official browser automation MCP server built on Playwright's accessibility model.","url":"https://github.com/microsoft/playwright-mcp","source":"official","compatibility":["MCP clients"],"tags":["browser","automation"],"verified_at":null,"maintenance":"active"},
-  {"id":"cloudflare-mcp-server","name":"Cloudflare MCP Servers","type":"mcp-server","category":"mcp-servers","description":"Cloudflare-maintained MCP servers for documentation, observability, bindings, and platform operations.","url":"https://github.com/cloudflare/mcp-server-cloudflare","source":"official","compatibility":["MCP clients"],"tags":["cloudflare","cloud"],"verified_at":null,"maintenance":"active"},
-  {"id":"aws-mcp-servers","name":"AWS MCP Servers","type":"mcp-server","category":"mcp-servers","description":"AWS Labs collection of specialized MCP servers for AWS services and cloud development.","url":"https://github.com/awslabs/mcp","source":"official","compatibility":["MCP clients"],"tags":["aws","cloud"],"verified_at":null,"maintenance":"active"},
-  {"id":"azure-mcp","name":"Azure MCP Server","type":"mcp-server","category":"mcp-servers","description":"Microsoft's official MCP server for working with supported Azure services and resources.","url":"https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server","source":"official","compatibility":["MCP clients"],"tags":["azure","cloud"],"verified_at":null,"maintenance":"active"},
-  {"id":"postgres-mcp","name":"Postgres MCP Pro","type":"mcp-server","category":"mcp-servers","description":"Community PostgreSQL MCP server with database inspection, analysis, and performance tooling.","url":"https://github.com/crystaldba/postgres-mcp","source":"community","compatibility":["MCP clients"],"tags":["postgresql","database"],"verified_at":null,"maintenance":"active"},
-  {"id":"context7","name":"Context7 MCP","type":"mcp-server","category":"mcp-servers","description":"Upstash-maintained MCP server that supplies current, version-specific library documentation.","url":"https://github.com/upstash/context7","source":"official","compatibility":["MCP clients"],"tags":["documentation","retrieval"],"verified_at":null,"maintenance":"active"},
-  {"id":"sequential-thinking-mcp","name":"Sequential Thinking","type":"mcp-server","category":"mcp-servers","description":"Reference MCP server offering a structured tool for dynamic, reflective problem-solving sequences.","url":"https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking","source":"official","compatibility":["MCP clients"],"tags":["reasoning","reference"],"verified_at":null,"maintenance":"active"},
-  {"id":"mcp-python-sdk","name":"MCP Python SDK","type":"mcp-sdk","category":"mcp-servers","description":"Official Python SDK for implementing Model Context Protocol clients and servers.","url":"https://github.com/modelcontextprotocol/python-sdk","source":"official","compatibility":["Python"],"tags":["sdk","python"],"verified_at":null,"maintenance":"active"},
-  {"id":"mcp-typescript-sdk","name":"MCP TypeScript SDK","type":"mcp-sdk","category":"mcp-servers","description":"Official TypeScript SDK for building Model Context Protocol clients and servers.","url":"https://github.com/modelcontextprotocol/typescript-sdk","source":"official","compatibility":["TypeScript"],"tags":["sdk","typescript"],"verified_at":null,"maintenance":"active"},
-  {"id":"mcp-inspector","name":"MCP Inspector","type":"ai-tool","category":"mcp-servers","description":"Official interactive developer tool for testing and debugging MCP servers and protocol exchanges.","url":"https://github.com/modelcontextprotocol/inspector","source":"official","compatibility":["MCP"],"tags":["debugging","development"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"vercel-web-interface-guidelines","name":"Vercel Web Interface Guidelines","type":"guide","category":"design-guides","description":"Practical guidance for interactions, animation, layout, content, forms, and web performance.","url":"https://vercel.com/design/guidelines","source":"official","compatibility":[],"tags":["web","ux","performance"],"verified_at":null,"maintenance":"active"},
-  {"id":"apple-human-interface-guidelines","name":"Apple Human Interface Guidelines","type":"guide","category":"design-guides","description":"Apple's official guidance for consistent, accessible, and intuitive experiences across its platforms.","url":"https://developer.apple.com/design/human-interface-guidelines/","source":"official","compatibility":["Apple platforms"],"tags":["apple","mobile","accessibility"],"verified_at":null,"maintenance":"active"},
-  {"id":"material-design","name":"Material Design","type":"guide","category":"design-guides","description":"Google's design system and guidance for building accessible, adaptive digital products.","url":"https://m3.material.io/","source":"official","compatibility":[],"tags":["material","design-system"],"verified_at":null,"maintenance":"active"},
-  {"id":"wcag","name":"Web Content Accessibility Guidelines","type":"guide","category":"design-guides","description":"W3C's international recommendations for making web content more accessible to people with disabilities.","url":"https://www.w3.org/WAI/standards-guidelines/wcag/","source":"standards-body","compatibility":[],"tags":["accessibility","standard"],"verified_at":null,"maintenance":"active"},
-  {"id":"inclusive-components","name":"Inclusive Components","type":"guide","category":"design-guides","description":"Practical patterns for designing and implementing robust, inclusive web interface components.","url":"https://inclusive-components.design/","source":"community","compatibility":[],"tags":["accessibility","components"],"verified_at":null,"maintenance":"stable"},
-
-  {"id":"openai-agents-sdk-python","name":"OpenAI Agents SDK for Python","type":"framework","category":"agent-development","description":"OpenAI's lightweight Python framework for tool-using agents, handoffs, guardrails, and tracing.","url":"https://github.com/openai/openai-agents-python","source":"official","compatibility":["Python"],"tags":["agents","orchestration"],"verified_at":null,"maintenance":"active"},
-  {"id":"langgraph","name":"LangGraph","type":"framework","category":"agent-development","description":"LangChain framework for building controllable, stateful, long-running agent workflows.","url":"https://github.com/langchain-ai/langgraph","source":"official","compatibility":["Python","JavaScript"],"tags":["agents","graphs","orchestration"],"verified_at":null,"maintenance":"active"},
-  {"id":"autogen","name":"Microsoft Agent Framework","type":"framework","category":"agent-development","description":"Microsoft framework for building and orchestrating single-agent and multi-agent applications.","url":"https://github.com/microsoft/agent-framework","source":"official","compatibility":["Python",".NET"],"tags":["agents","multi-agent"],"verified_at":null,"maintenance":"active"},
-  {"id":"crewai","name":"CrewAI","type":"framework","category":"agent-development","description":"Open-source Python framework for coordinating role-based AI agents, crews, and flows.","url":"https://github.com/crewAIInc/crewAI","source":"official","compatibility":["Python"],"tags":["agents","multi-agent"],"verified_at":null,"maintenance":"active"},
-  {"id":"pydantic-ai","name":"Pydantic AI","type":"framework","category":"agent-development","description":"Pydantic's Python agent framework emphasizing typed dependencies, structured output, and testing.","url":"https://github.com/pydantic/pydantic-ai","source":"official","compatibility":["Python"],"tags":["agents","typing"],"verified_at":null,"maintenance":"active"},
-  {"id":"semantic-kernel","name":"Semantic Kernel","type":"framework","category":"agent-development","description":"Microsoft SDK for integrating models, plugins, memory, and agent orchestration into applications.","url":"https://github.com/microsoft/semantic-kernel","source":"official","compatibility":["Python",".NET","Java"],"tags":["agents","sdk"],"verified_at":null,"maintenance":"active"},
-  {"id":"llamaindex","name":"LlamaIndex","type":"framework","category":"agent-development","description":"Framework for context-augmented applications using documents, retrieval, workflows, and agents.","url":"https://github.com/run-llama/llama_index","source":"official","compatibility":["Python","TypeScript"],"tags":["rag","retrieval","agents"],"verified_at":null,"maintenance":"active"},
-  {"id":"haystack","name":"Haystack","type":"framework","category":"agent-development","description":"deepset's open-source Python framework for production retrieval, pipelines, and agent systems.","url":"https://github.com/deepset-ai/haystack","source":"official","compatibility":["Python"],"tags":["rag","pipelines"],"verified_at":null,"maintenance":"active"},
-  {"id":"dspy","name":"DSPy","type":"framework","category":"agent-development","description":"Stanford framework for programming and optimizing modular language-model applications.","url":"https://github.com/stanfordnlp/dspy","source":"official","compatibility":["Python"],"tags":["prompt-optimization","evaluation"],"verified_at":null,"maintenance":"active"},
-  {"id":"mem0","name":"Mem0","type":"library","category":"agent-development","description":"Open-source memory layer for personalizing AI agents and retaining useful cross-session context.","url":"https://github.com/mem0ai/mem0","source":"official","compatibility":["Python","JavaScript"],"tags":["memory","agents"],"verified_at":null,"maintenance":"active"},
-  {"id":"qdrant","name":"Qdrant","type":"open-source-app","category":"agent-development","description":"Open-source vector search engine and database designed for filtering and similarity retrieval.","url":"https://github.com/qdrant/qdrant","source":"official","compatibility":[],"tags":["vector-database","rag"],"verified_at":null,"maintenance":"active"},
-  {"id":"langfuse","name":"Langfuse","type":"open-source-app","category":"agent-development","description":"Open-source platform for tracing, evaluating, and monitoring language-model applications.","url":"https://github.com/langfuse/langfuse","source":"official","compatibility":[],"tags":["observability","evaluation"],"verified_at":null,"maintenance":"active"},
-  {"id":"promptfoo","name":"Promptfoo","type":"ai-tool","category":"agent-development","description":"Open-source command-line and library tooling for evaluating prompts, models, and agent security.","url":"https://github.com/promptfoo/promptfoo","source":"official","compatibility":["Node.js"],"tags":["evaluation","security"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"aider","name":"Aider","type":"ai-tool","category":"software-engineering","description":"Open-source terminal pair programmer that edits local Git repositories with language models.","url":"https://github.com/Aider-AI/aider","source":"official","compatibility":["CLI"],"tags":["coding","git"],"verified_at":null,"maintenance":"active"},
-  {"id":"continue","name":"Continue","type":"ai-tool","category":"software-engineering","description":"Open-source coding assistant platform for IDE chat, edits, autocomplete, and custom models.","url":"https://github.com/continuedev/continue","source":"official","compatibility":["VS Code","JetBrains"],"tags":["coding","ide"],"verified_at":null,"maintenance":"active"},
-  {"id":"openhands","name":"OpenHands","type":"open-source-app","category":"software-engineering","description":"Open-source platform for software-development agents that can edit code and run tools.","url":"https://github.com/All-Hands-AI/OpenHands","source":"official","compatibility":[],"tags":["coding-agent","development"],"verified_at":null,"maintenance":"active"},
-  {"id":"swe-agent","name":"SWE-agent","type":"framework","category":"software-engineering","description":"Princeton research project for agents that resolve issues in real GitHub repositories.","url":"https://github.com/SWE-agent/SWE-agent","source":"official","compatibility":["Python"],"tags":["coding-agent","research"],"verified_at":null,"maintenance":"active"},
-  {"id":"semgrep","name":"Semgrep","type":"ai-tool","category":"cybersecurity","description":"Static analysis platform for finding security and correctness issues with customizable rules.","url":"https://github.com/semgrep/semgrep","source":"official","compatibility":["CLI","CI"],"tags":["sast","secure-coding"],"verified_at":null,"maintenance":"active"},
-  {"id":"trivy","name":"Trivy","type":"ai-tool","category":"cybersecurity","description":"Aqua Security scanner for vulnerabilities, misconfigurations, secrets, licenses, and supply chains.","url":"https://github.com/aquasecurity/trivy","source":"official","compatibility":["CLI","CI"],"tags":["vulnerability-scanning","containers"],"verified_at":null,"maintenance":"active"},
-  {"id":"osv-scanner","name":"OSV-Scanner","type":"ai-tool","category":"cybersecurity","description":"Google's scanner for vulnerabilities in project dependencies using the Open Source Vulnerabilities database.","url":"https://github.com/google/osv-scanner","source":"official","compatibility":["CLI","CI"],"tags":["dependencies","vulnerabilities"],"verified_at":null,"maintenance":"active"},
-  {"id":"owasp-top-ten","name":"OWASP Top 10","type":"guide","category":"cybersecurity","description":"Widely used awareness document covering the most critical security risks to web applications.","url":"https://owasp.org/projects/top-ten","source":"standards-body","compatibility":[],"tags":["web-security","guidance"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"jupyter-ai","name":"Jupyter AI","type":"ai-tool","category":"data-analytics","description":"JupyterLab extension and Python package for generative-AI assistance in notebook workflows.","url":"https://github.com/jupyterlab/jupyter-ai","source":"official","compatibility":["JupyterLab"],"tags":["notebooks","data"],"verified_at":null,"maintenance":"active"},
-  {"id":"duckdb","name":"DuckDB","type":"open-source-app","category":"data-analytics","description":"In-process analytical SQL database suited to local analysis and data engineering workflows.","url":"https://github.com/duckdb/duckdb","source":"official","compatibility":[],"tags":["sql","analytics"],"verified_at":null,"maintenance":"active"},
-  {"id":"polars","name":"Polars","type":"library","category":"data-analytics","description":"Fast DataFrame library written in Rust with bindings for Python and other languages.","url":"https://github.com/pola-rs/polars","source":"official","compatibility":["Python","Rust"],"tags":["dataframe","analytics"],"verified_at":null,"maintenance":"active"},
-  {"id":"apache-superset","name":"Apache Superset","type":"open-source-app","category":"data-analytics","description":"Apache's open-source platform for data exploration, visualization, and business intelligence.","url":"https://github.com/apache/superset","source":"official","compatibility":[],"tags":["bi","visualization"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"paperless-ngx","name":"Paperless-ngx","type":"open-source-app","category":"productivity","description":"Community document-management system for indexing, searching, and organizing scanned documents.","url":"https://github.com/paperless-ngx/paperless-ngx","source":"community","compatibility":[],"tags":["documents","ocr"],"verified_at":null,"maintenance":"active"},
-  {"id":"n8n","name":"n8n","type":"open-source-app","category":"productivity","description":"Source-available workflow automation platform with integrations and AI workflow building blocks.","url":"https://github.com/n8n-io/n8n","source":"official","compatibility":[],"tags":["automation","workflows"],"verified_at":null,"maintenance":"active"},
-  {"id":"obsidian","name":"Obsidian Help","type":"documentation","category":"productivity","description":"Official documentation for the local-first note-taking and personal knowledge-management application.","url":"https://help.obsidian.md/","source":"official","compatibility":["Obsidian"],"tags":["notes","pkm"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"hugging-face-diffusers","name":"Diffusers","type":"library","category":"content-creative","description":"Hugging Face library providing pretrained diffusion models for image, video, and audio generation.","url":"https://github.com/huggingface/diffusers","source":"official","compatibility":["Python"],"tags":["image-generation","diffusion"],"verified_at":null,"maintenance":"active"},
-  {"id":"comfyui","name":"ComfyUI","type":"open-source-app","category":"content-creative","description":"Node-based graphical interface and inference engine for composable generative-media workflows.","url":"https://github.com/Comfy-Org/ComfyUI","source":"official","compatibility":[],"tags":["image-generation","workflows"],"verified_at":null,"maintenance":"active"},
-  {"id":"open-webui","name":"Open WebUI","type":"open-source-app","category":"ecosystem","description":"Self-hosted extensible interface for interacting with language models and knowledge sources.","url":"https://github.com/open-webui/open-webui","source":"official","compatibility":[],"tags":["llm","self-hosted"],"verified_at":null,"maintenance":"active"},
-  {"id":"awesome-generative-ai","name":"Awesome Generative AI","type":"awesome-list","category":"ecosystem","description":"Community-curated collection of generative AI research, tools, projects, and learning resources.","url":"https://github.com/steven2358/awesome-generative-ai","source":"community","compatibility":[],"tags":["awesome-list","generative-ai"],"verified_at":null,"maintenance":"active"},
-  {"id":"awesome-mcp-servers","name":"Awesome MCP Servers","type":"awesome-list","category":"ecosystem","description":"Community directory of Model Context Protocol servers grouped by capability and integration.","url":"https://github.com/punkpeye/awesome-mcp-servers","source":"community","compatibility":["MCP clients"],"tags":["awesome-list","mcp"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"docker-ai-agent","name":"Docker Agent","type":"documentation","category":"devops-cloud","description":"Official documentation for Docker's open-source framework for defining and running teams of AI agents.","url":"https://docs.docker.com/ai/docker-agent/","source":"official","compatibility":["Docker"],"tags":["containers","ai"],"verified_at":null,"maintenance":"active"},
-  {"id":"kubernetes","name":"Kubernetes","type":"open-source-app","category":"devops-cloud","description":"Open-source system for automating deployment, scaling, and management of containerized applications.","url":"https://github.com/kubernetes/kubernetes","source":"official","compatibility":[],"tags":["kubernetes","containers"],"verified_at":null,"maintenance":"active"},
-  {"id":"opentofu","name":"OpenTofu","type":"open-source-app","category":"devops-cloud","description":"Linux Foundation infrastructure-as-code tool and open-source Terraform-compatible alternative.","url":"https://github.com/opentofu/opentofu","source":"official","compatibility":[],"tags":["iac","terraform"],"verified_at":null,"maintenance":"active"},
-  {"id":"ansible","name":"Ansible","type":"open-source-app","category":"devops-cloud","description":"Agentless automation system for configuration management, deployment, and orchestration.","url":"https://github.com/ansible/ansible","source":"official","compatibility":["Python"],"tags":["automation","configuration"],"verified_at":null,"maintenance":"active"},
-  {"id":"opentelemetry","name":"OpenTelemetry","type":"framework","category":"devops-cloud","description":"Vendor-neutral observability framework for generating and collecting traces, metrics, and logs.","url":"https://github.com/open-telemetry/opentelemetry-specification","source":"standards-body","compatibility":[],"tags":["observability","telemetry"],"verified_at":null,"maintenance":"active"},
-  {"id":"prometheus","name":"Prometheus","type":"open-source-app","category":"devops-cloud","description":"Cloud Native Computing Foundation monitoring system and time-series database.","url":"https://github.com/prometheus/prometheus","source":"official","compatibility":[],"tags":["monitoring","metrics"],"verified_at":null,"maintenance":"active"},
-  {"id":"grafana","name":"Grafana","type":"open-source-app","category":"devops-cloud","description":"Open-source platform for querying, visualizing, and alerting on operational data.","url":"https://github.com/grafana/grafana","source":"official","compatibility":[],"tags":["observability","dashboards"],"verified_at":null,"maintenance":"active"},
-  {"id":"backstage","name":"Backstage","type":"platform","category":"devops-cloud","description":"CNCF framework for building internal developer portals and managing software catalogs.","url":"https://github.com/backstage/backstage","source":"official","compatibility":[],"tags":["developer-portal","platform-engineering"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"zotero","name":"Zotero","type":"open-source-app","category":"research-knowledge","description":"Open-source research assistant for collecting, organizing, citing, and sharing sources.","url":"https://github.com/zotero/zotero","source":"official","compatibility":[],"tags":["citations","research"],"verified_at":null,"maintenance":"active"},
-  {"id":"openalex","name":"OpenAlex","type":"platform","category":"research-knowledge","description":"Open catalog of scholarly works, authors, institutions, topics, and citation relationships.","url":"https://openalex.org/","source":"official","compatibility":[],"tags":["scholarly-data","citations"],"verified_at":null,"maintenance":"active"},
-  {"id":"semantic-scholar-api","name":"Semantic Scholar API","type":"documentation","category":"research-knowledge","description":"Official API documentation for programmatic access to scholarly paper and citation data.","url":"https://api.semanticscholar.org/api-docs/","source":"official","compatibility":[],"tags":["papers","api"],"verified_at":null,"maintenance":"active"},
-  {"id":"crossref-api","name":"Crossref REST API","type":"documentation","category":"research-knowledge","description":"Public API for querying DOI metadata and scholarly publishing records from Crossref.","url":"https://www.crossref.org/documentation/retrieve-metadata/rest-api/","source":"standards-body","compatibility":[],"tags":["doi","metadata"],"verified_at":null,"maintenance":"active"},
-  {"id":"wikipedia-wikidata","name":"Wikidata","type":"platform","category":"research-knowledge","description":"Collaboratively maintained open knowledge base with structured, queryable entities and relationships.","url":"https://www.wikidata.org/wiki/Wikidata:Introduction","source":"official","compatibility":[],"tags":["knowledge-graph","open-data"],"verified_at":null,"maintenance":"active"},
-  {"id":"unpaywall","name":"Unpaywall","type":"platform","category":"research-knowledge","description":"Open database and API for locating legally available open-access scholarly articles.","url":"https://unpaywall.org/products/api","source":"official","compatibility":[],"tags":["open-access","papers"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"metabase","name":"Metabase","type":"open-source-app","category":"business-marketing","description":"Open-source business intelligence platform for questions, dashboards, and embedded analytics.","url":"https://github.com/metabase/metabase","source":"official","compatibility":[],"tags":["business-intelligence","analytics"],"verified_at":null,"maintenance":"active"},
-  {"id":"erpnext","name":"ERPNext","type":"open-source-app","category":"business-marketing","description":"Open-source enterprise resource planning suite for finance, sales, inventory, and operations.","url":"https://github.com/frappe/erpnext","source":"official","compatibility":[],"tags":["erp","operations"],"verified_at":null,"maintenance":"active"},
-  {"id":"chatwoot","name":"Chatwoot","type":"open-source-app","category":"business-marketing","description":"Open-source customer engagement platform for support inboxes, automation, and messaging channels.","url":"https://github.com/chatwoot/chatwoot","source":"official","compatibility":[],"tags":["customer-support","crm"],"verified_at":null,"maintenance":"active"},
-  {"id":"mautic","name":"Mautic","type":"open-source-app","category":"business-marketing","description":"Open-source marketing automation platform for campaigns, contacts, email, and segmentation.","url":"https://github.com/mautic/mautic","source":"official","compatibility":[],"tags":["marketing-automation","crm"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"khanmigo","name":"Khanmigo","type":"platform","category":"education","description":"Khan Academy's AI-powered learning and teaching assistant with guided educational workflows.","url":"https://www.khanmigo.ai/","source":"official","compatibility":[],"tags":["tutoring","learning"],"verified_at":null,"maintenance":"active"},
-  {"id":"openstax","name":"OpenStax","type":"platform","category":"education","description":"Nonprofit publisher providing openly licensed textbooks and supporting learning resources.","url":"https://openstax.org/","source":"official","compatibility":[],"tags":["textbooks","open-education"],"verified_at":null,"maintenance":"active"},
-  {"id":"freecodecamp","name":"freeCodeCamp","type":"platform","category":"education","description":"Nonprofit learning platform with free programming curricula, projects, and certifications.","url":"https://github.com/freeCodeCamp/freeCodeCamp","source":"official","compatibility":[],"tags":["programming","courses"],"verified_at":null,"maintenance":"active"},
-  {"id":"the-algorithms","name":"The Algorithms","type":"documentation","category":"education","description":"Community collection of open-source algorithm implementations across many programming languages.","url":"https://github.com/TheAlgorithms","source":"community","compatibility":[],"tags":["algorithms","programming"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"fhir-specification","name":"HL7 FHIR","type":"documentation","category":"specialized-industries","description":"Healthcare data-exchange specification; implementations require clinical, privacy, and regulatory review.","url":"https://hl7.org/fhir/","source":"standards-body","compatibility":[],"tags":["healthcare","interoperability"],"verified_at":null,"maintenance":"active"},
-  {"id":"openbb","name":"OpenBB","type":"platform","category":"specialized-industries","description":"Open-source investment research platform; outputs are informational and not financial advice.","url":"https://github.com/OpenBB-finance/OpenBB","source":"official","compatibility":["Python"],"tags":["finance","research"],"verified_at":null,"maintenance":"active"},
-  {"id":"legal-citation-manual","name":"CourtListener","type":"platform","category":"specialized-industries","description":"Free Law Project database and APIs for U.S. legal opinions, dockets, and citations; verify legal use.","url":"https://www.courtlistener.com/","source":"official","compatibility":[],"tags":["legal","research"],"verified_at":null,"maintenance":"active"},
-  {"id":"ifcopenshell","name":"IfcOpenShell","type":"library","category":"specialized-industries","description":"Open-source library and tools for working with IFC building information models; validate professional outputs.","url":"https://github.com/IfcOpenShell/IfcOpenShell","source":"official","compatibility":["Python","C++"],"tags":["architecture","bim"],"verified_at":null,"maintenance":"active"},
-  {"id":"openfoam","name":"OpenFOAM","type":"open-source-app","category":"specialized-industries","description":"Open-source computational fluid dynamics software requiring appropriate engineering validation and expertise.","url":"https://github.com/OpenFOAM/OpenFOAM-dev","source":"official","compatibility":[],"tags":["engineering","simulation"],"verified_at":null,"maintenance":"active"},
-  {"id":"qgis","name":"QGIS","type":"open-source-app","category":"specialized-industries","description":"Open-source geographic information system for spatial analysis, mapping, and geospatial workflows.","url":"https://github.com/qgis/QGIS","source":"official","compatibility":[],"tags":["gis","geospatial"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"awesome-sysadmin","name":"Awesome Sysadmin","type":"awesome-list","category":"ecosystem","description":"Established curated list of open-source system administration tools and resources.","url":"https://github.com/awesome-foss/awesome-sysadmin","source":"community","compatibility":[],"tags":["awesome-list","sysadmin"],"verified_at":null,"maintenance":"active"},
-  {"id":"awesome-selfhosted","name":"Awesome Selfhosted","type":"awesome-list","category":"ecosystem","description":"Community-curated directory of free software network services and web applications for self-hosting.","url":"https://github.com/awesome-selfhosted/awesome-selfhosted","source":"community","compatibility":[],"tags":["awesome-list","self-hosted"],"verified_at":null,"maintenance":"active"},
-  {"id":"mcp-registry","name":"MCP Registry","type":"mcp-registry","category":"ecosystem","description":"Official Model Context Protocol registry for discovering published MCP servers and metadata.","url":"https://registry.modelcontextprotocol.io/","source":"official","compatibility":["MCP"],"tags":["registry","mcp"],"verified_at":null,"maintenance":"active"},
-  {"id":"skills-sh","name":"Skills Directory","type":"platform","category":"ecosystem","description":"Public Agent Skills directory; treat listings as untrusted code and independently inspect every skill before use.","url":"https://www.skills.sh/","source":"community","compatibility":["Agent Skills clients"],"tags":["skills","directory"],"verified_at":null,"maintenance":"active"},
-  {"id":"hugging-face-spaces","name":"Hugging Face Spaces","type":"platform","category":"ecosystem","description":"Platform for discovering, publishing, and running interactive machine-learning applications.","url":"https://huggingface.co/spaces","source":"official","compatibility":[],"tags":["apps","models"],"verified_at":null,"maintenance":"active"},
-  {"id":"ollama","name":"Ollama","type":"open-source-app","category":"ecosystem","description":"Local model runtime and distribution tool for running supported language and multimodal models.","url":"https://github.com/ollama/ollama","source":"official","compatibility":[],"tags":["local-ai","models"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"azure-agent-skills","name":"Azure Agent Skills","type":"skill-collection","category":"agent-skills","description":"Microsoft-maintained skills for planning, deploying, operating, and optimizing workloads on Azure.","url":"https://github.com/microsoft/azure-skills","source":"official","compatibility":["Agent Skills clients"],"tags":["azure","cloud","skills"],"verified_at":null,"maintenance":"active"},
-  {"id":"cloudflare-agent-skills","name":"Cloudflare Agent Skills","type":"skill-collection","category":"agent-skills","description":"Official Cloudflare skills covering Workers, Durable Objects, performance, security, and platform tooling.","url":"https://github.com/cloudflare/skills","source":"official","compatibility":["Agent Skills clients"],"tags":["cloudflare","workers","skills"],"verified_at":null,"maintenance":"active"},
-  {"id":"firebase-agent-skills","name":"Firebase Agent Skills","type":"skill-collection","category":"agent-skills","description":"Official Firebase skills for authentication, Firestore, hosting, security rules, Genkit, and app development.","url":"https://github.com/firebase/agent-skills","source":"official","compatibility":["Agent Skills clients"],"tags":["firebase","backend","skills"],"verified_at":null,"maintenance":"active"},
-  {"id":"supabase-agent-skills","name":"Supabase Agent Skills","type":"skill-collection","category":"agent-skills","description":"Supabase-maintained agent skills for PostgreSQL design, security, performance, and platform workflows.","url":"https://github.com/supabase/agent-skills","source":"official","compatibility":["Agent Skills clients"],"tags":["supabase","postgresql","skills"],"verified_at":null,"maintenance":"active"},
-  {"id":"stripe-ai-skills","name":"Stripe AI Skills","type":"skill-collection","category":"agent-skills","description":"Official Stripe resources and skills for integrating, upgrading, and operating Stripe-powered applications.","url":"https://github.com/stripe/ai","source":"official","compatibility":["Agent Skills clients"],"tags":["stripe","payments","skills"],"verified_at":null,"maintenance":"active"},
-  {"id":"expo-agent-skills","name":"Expo Skills","type":"skill-collection","category":"agent-skills","description":"Expo-maintained skills for building, reviewing, and improving React Native applications.","url":"https://github.com/expo/skills","source":"official","compatibility":["Agent Skills clients"],"tags":["expo","react-native","skills"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"firecrawl-mcp","name":"Firecrawl MCP Server","type":"mcp-server","category":"mcp-servers","description":"Official Firecrawl MCP server for web search, crawling, extraction, and structured research workflows.","url":"https://github.com/mendableai/firecrawl-mcp-server","source":"official","compatibility":["MCP clients"],"tags":["web","search","scraping"],"verified_at":null,"maintenance":"active"},
-  {"id":"sentry-mcp","name":"Sentry MCP Server","type":"mcp-server","category":"mcp-servers","description":"Official Sentry MCP server for investigating application errors, issues, projects, and observability data.","url":"https://github.com/getsentry/sentry-mcp","source":"official","compatibility":["MCP clients"],"tags":["sentry","observability","debugging"],"verified_at":null,"maintenance":"active"},
-  {"id":"stripe-agent-toolkit","name":"Stripe Agent Toolkit","type":"mcp-server","category":"mcp-servers","description":"Official Stripe toolkit exposing payment and business operations to supported AI agents and MCP clients.","url":"https://github.com/stripe/agent-toolkit","source":"official","compatibility":["MCP clients","Python","TypeScript"],"tags":["stripe","payments","commerce"],"verified_at":null,"maintenance":"active"},
-  {"id":"supabase-mcp","name":"Supabase MCP Server","type":"mcp-server","category":"mcp-servers","description":"Official community-maintained Supabase server for database, project, migration, and development workflows.","url":"https://github.com/supabase-community/supabase-mcp","source":"official","compatibility":["MCP clients"],"tags":["supabase","postgresql","database"],"verified_at":null,"maintenance":"active"},
-  {"id":"notion-mcp","name":"Notion MCP Server","type":"mcp-server","category":"mcp-servers","description":"Official Notion MCP server for connecting AI tools to pages, databases, and workspace content.","url":"https://github.com/makenotion/notion-mcp-server","source":"official","compatibility":["MCP clients"],"tags":["notion","knowledge","productivity"],"verified_at":null,"maintenance":"active"},
-  {"id":"blender-mcp","name":"Blender MCP","type":"mcp-server","category":"mcp-servers","description":"Community MCP integration that lets compatible agents control Blender scenes, objects, and rendering workflows.","url":"https://github.com/ahujasid/blender-mcp","source":"community","compatibility":["MCP clients","Blender"],"tags":["blender","3d","creative"],"verified_at":null,"maintenance":"active"},
-  {"id":"figma-context-mcp","name":"Figma Context MCP","type":"mcp-server","category":"mcp-servers","description":"Community MCP server that provides design context from Figma files to AI coding agents.","url":"https://github.com/GLips/Figma-Context-MCP","source":"community","compatibility":["MCP clients","Figma"],"tags":["figma","design-to-code"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"remotion","name":"Remotion","type":"framework","category":"video-generation","description":"React framework for creating programmatic videos, compositions, captions, and rendering pipelines.","url":"https://github.com/remotion-dev/remotion","source":"official","compatibility":["React","TypeScript"],"tags":["video","react","rendering"],"verified_at":null,"maintenance":"active"},
-  {"id":"remotion-agent-skills","name":"Remotion Agent Skills","type":"skill-collection","category":"video-generation","description":"Official Remotion skills for creating, rendering, captioning, and structuring programmatic videos.","url":"https://github.com/remotion-dev/skills","source":"official","compatibility":["Agent Skills clients"],"tags":["video","remotion","skills"],"verified_at":null,"maintenance":"active"},
-  {"id":"moviepy","name":"MoviePy","type":"library","category":"video-generation","description":"Python library for scripted video editing, compositing, transformations, titles, and audio mixing.","url":"https://github.com/Zulko/moviepy","source":"official","compatibility":["Python"],"tags":["video-editing","python"],"verified_at":null,"maintenance":"active"},
-  {"id":"ffmpeg","name":"FFmpeg","type":"open-source-app","category":"video-generation","description":"Cross-platform toolkit for recording, converting, filtering, streaming, and processing multimedia.","url":"https://github.com/FFmpeg/FFmpeg","source":"official","compatibility":[],"tags":["video","audio","transcoding"],"verified_at":null,"maintenance":"active"},
-  {"id":"shotcut","name":"Shotcut","type":"open-source-app","category":"video-generation","description":"Cross-platform open-source video editor with timeline, filters, transitions, and broad format support.","url":"https://github.com/mltframework/shotcut","source":"official","compatibility":[],"tags":["video-editing","desktop"],"verified_at":null,"maintenance":"active"},
-  {"id":"kdenlive","name":"Kdenlive","type":"open-source-app","category":"video-generation","description":"KDE's open-source non-linear video editor for multitrack editing, effects, titles, and proxy workflows.","url":"https://invent.kde.org/multimedia/kdenlive","source":"official","compatibility":[],"tags":["video-editing","kde"],"verified_at":null,"maintenance":"active"},
-  {"id":"blender","name":"Blender","type":"open-source-app","category":"video-generation","description":"Open-source 3D creation suite for modeling, animation, simulation, compositing, and video editing.","url":"https://github.com/blender/blender","source":"official","compatibility":[],"tags":["3d","animation","rendering"],"verified_at":null,"maintenance":"active"},
-  {"id":"wan-video","name":"Wan Video","type":"framework","category":"video-generation","description":"Open-source video generation models and inference code from Alibaba's Wan research team.","url":"https://github.com/Wan-Video/Wan2.1","source":"official","compatibility":["Python"],"tags":["text-to-video","video-model"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"stable-diffusion-webui","name":"Stable Diffusion Web UI","type":"open-source-app","category":"image-generation","description":"Community web interface for Stable Diffusion generation, editing, extensions, and model workflows.","url":"https://github.com/AUTOMATIC1111/stable-diffusion-webui","source":"community","compatibility":["Python"],"tags":["stable-diffusion","image-generation"],"verified_at":null,"maintenance":"active"},
-  {"id":"invokeai","name":"InvokeAI","type":"open-source-app","category":"image-generation","description":"Creative engine for Stable Diffusion models with canvas, workflow, gallery, and generation tooling.","url":"https://github.com/invoke-ai/InvokeAI","source":"official","compatibility":["Python"],"tags":["image-generation","creative"],"verified_at":null,"maintenance":"active"},
-  {"id":"krita-ai-diffusion","name":"Krita AI Diffusion","type":"ai-tool","category":"image-generation","description":"Krita plugin for generative fill, upscaling, control workflows, and local diffusion-based editing.","url":"https://github.com/Acly/krita-ai-diffusion","source":"community","compatibility":["Krita"],"tags":["image-editing","diffusion"],"verified_at":null,"maintenance":"active"},
-  {"id":"real-esrgan","name":"Real-ESRGAN","type":"framework","category":"image-generation","description":"Open-source restoration framework for practical image and video super-resolution and enhancement.","url":"https://github.com/xinntao/Real-ESRGAN","source":"official","compatibility":["Python"],"tags":["upscaling","restoration"],"verified_at":null,"maintenance":"stable"},
-  {"id":"segment-anything","name":"Segment Anything","type":"framework","category":"image-generation","description":"Meta AI research models and code for promptable object segmentation in images.","url":"https://github.com/facebookresearch/segment-anything","source":"official","compatibility":["Python"],"tags":["segmentation","computer-vision"],"verified_at":null,"maintenance":"stable"},
-  {"id":"flux","name":"FLUX","type":"framework","category":"image-generation","description":"Official inference code and model resources for Black Forest Labs' FLUX image generation models.","url":"https://github.com/black-forest-labs/flux","source":"official","compatibility":["Python"],"tags":["image-generation","models"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"whisper","name":"Whisper","type":"framework","category":"audio-music","description":"OpenAI's open-source neural speech recognition model and transcription toolkit.","url":"https://github.com/openai/whisper","source":"official","compatibility":["Python"],"tags":["speech-to-text","transcription"],"verified_at":null,"maintenance":"active"},
-  {"id":"faster-whisper","name":"faster-whisper","type":"library","category":"audio-music","description":"CTranslate2 implementation of Whisper optimized for faster and lower-memory transcription.","url":"https://github.com/SYSTRAN/faster-whisper","source":"official","compatibility":["Python"],"tags":["speech-to-text","performance"],"verified_at":null,"maintenance":"active"},
-  {"id":"coqui-tts","name":"Coqui TTS","type":"framework","category":"audio-music","description":"Deep-learning toolkit for training and running text-to-speech and voice synthesis models.","url":"https://github.com/coqui-ai/TTS","source":"official","compatibility":["Python"],"tags":["text-to-speech","voice"],"verified_at":null,"maintenance":"stable"},
-  {"id":"audiocraft","name":"AudioCraft","type":"framework","category":"audio-music","description":"Meta research library for audio and music generation models including MusicGen and AudioGen.","url":"https://github.com/facebookresearch/audiocraft","source":"official","compatibility":["Python"],"tags":["music-generation","audio"],"verified_at":null,"maintenance":"stable"},
-  {"id":"muse-score","name":"MuseScore","type":"open-source-app","category":"audio-music","description":"Open-source music notation and composition application with playback, engraving, and export tools.","url":"https://github.com/musescore/MuseScore","source":"official","compatibility":[],"tags":["music","notation"],"verified_at":null,"maintenance":"active"},
-  {"id":"audacity","name":"Audacity","type":"open-source-app","category":"audio-music","description":"Cross-platform multi-track audio editor and recorder for editing, cleanup, effects, and export.","url":"https://github.com/audacity/audacity","source":"official","compatibility":[],"tags":["audio-editing","recording"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"playwright","name":"Playwright","type":"framework","category":"software-testing","description":"Microsoft's cross-browser end-to-end testing and automation framework for modern web applications.","url":"https://github.com/microsoft/playwright","source":"official","compatibility":["TypeScript","Python","Java",".NET"],"tags":["e2e","browser-testing"],"verified_at":null,"maintenance":"active"},
-  {"id":"cypress","name":"Cypress","type":"framework","category":"software-testing","description":"JavaScript testing framework for browser end-to-end, component, integration, and API testing.","url":"https://github.com/cypress-io/cypress","source":"official","compatibility":["JavaScript","TypeScript"],"tags":["e2e","component-testing"],"verified_at":null,"maintenance":"active"},
-  {"id":"vitest","name":"Vitest","type":"framework","category":"software-testing","description":"Vite-native unit testing framework with TypeScript, ESM, mocking, coverage, and workspace support.","url":"https://github.com/vitest-dev/vitest","source":"official","compatibility":["JavaScript","TypeScript"],"tags":["unit-testing","vite"],"verified_at":null,"maintenance":"active"},
-  {"id":"pytest","name":"pytest","type":"framework","category":"software-testing","description":"Mature Python testing framework with concise fixtures, parametrization, plugins, and rich failure output.","url":"https://github.com/pytest-dev/pytest","source":"official","compatibility":["Python"],"tags":["unit-testing","python"],"verified_at":null,"maintenance":"active"},
-  {"id":"k6","name":"Grafana k6","type":"ai-tool","category":"software-testing","description":"Developer-focused load and performance testing tool for APIs, websites, and distributed systems.","url":"https://github.com/grafana/k6","source":"official","compatibility":["JavaScript","CLI"],"tags":["load-testing","performance"],"verified_at":null,"maintenance":"active"},
-  {"id":"schemathesis","name":"Schemathesis","type":"framework","category":"software-testing","description":"Property-based API testing tool that generates checks from OpenAPI and GraphQL schemas.","url":"https://github.com/schemathesis/schemathesis","source":"official","compatibility":["Python","CLI"],"tags":["api-testing","property-testing"],"verified_at":null,"maintenance":"active"},
-  {"id":"axe-core","name":"axe-core","type":"library","category":"software-testing","description":"Deque's accessibility testing engine for automated checks in browsers and testing frameworks.","url":"https://github.com/dequelabs/axe-core","source":"official","compatibility":["JavaScript"],"tags":["accessibility","testing"],"verified_at":null,"maintenance":"active"},
-  {"id":"testcontainers","name":"Testcontainers","type":"framework","category":"software-testing","description":"Libraries for integration tests using lightweight, disposable containers for databases and services.","url":"https://github.com/testcontainers/testcontainers-java","source":"official","compatibility":["Java"],"tags":["integration-testing","containers"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"python","name":"Python","type":"documentation","category":"programming-languages","description":"Official documentation, tutorials, language reference, and standard library for Python.","url":"https://docs.python.org/3/","source":"official","compatibility":["Python"],"tags":["language","documentation"],"verified_at":null,"maintenance":"active"},
-  {"id":"typescript","name":"TypeScript","type":"documentation","category":"programming-languages","description":"Official TypeScript language, compiler, handbook, and tooling repository from Microsoft.","url":"https://github.com/microsoft/TypeScript","source":"official","compatibility":["TypeScript"],"tags":["language","javascript"],"verified_at":null,"maintenance":"active"},
-  {"id":"rust","name":"Rust","type":"documentation","category":"programming-languages","description":"Official Rust language repository and gateway to its compiler, standard library, and documentation.","url":"https://github.com/rust-lang/rust","source":"official","compatibility":["Rust"],"tags":["language","systems"],"verified_at":null,"maintenance":"active"},
-  {"id":"go","name":"Go","type":"documentation","category":"programming-languages","description":"Official source, documentation, and tooling for the Go programming language.","url":"https://github.com/golang/go","source":"official","compatibility":["Go"],"tags":["language","backend"],"verified_at":null,"maintenance":"active"},
-  {"id":"kotlin","name":"Kotlin","type":"documentation","category":"programming-languages","description":"Official Kotlin language repository for JVM, Android, JavaScript, WebAssembly, and native development.","url":"https://github.com/JetBrains/kotlin","source":"official","compatibility":["Kotlin"],"tags":["language","jvm","mobile"],"verified_at":null,"maintenance":"active"},
-  {"id":"swift","name":"Swift","type":"documentation","category":"programming-languages","description":"Official Swift programming language and standard library for Apple platforms and servers.","url":"https://github.com/swiftlang/swift","source":"official","compatibility":["Swift"],"tags":["language","apple"],"verified_at":null,"maintenance":"active"},
-  {"id":"dotnet","name":".NET","type":"framework","category":"programming-languages","description":"Microsoft's cross-platform runtime, SDK, and libraries for building .NET applications.","url":"https://github.com/dotnet/runtime","source":"official","compatibility":["C#","F#","Visual Basic"],"tags":["runtime","sdk"],"verified_at":null,"maintenance":"active"},
-  {"id":"nodejs","name":"Node.js","type":"framework","category":"programming-languages","description":"Cross-platform JavaScript runtime for servers, tools, command-line applications, and automation.","url":"https://github.com/nodejs/node","source":"official","compatibility":["JavaScript","TypeScript"],"tags":["runtime","javascript"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"postgresql","name":"PostgreSQL","type":"open-source-app","category":"databases","description":"Advanced open-source relational database with extensibility, transactions, JSON, and rich SQL support.","url":"https://www.postgresql.org/","source":"official","compatibility":[],"tags":["sql","relational"],"verified_at":null,"maintenance":"active"},
-  {"id":"sqlite","name":"SQLite","type":"library","category":"databases","description":"Small, self-contained transactional SQL database engine embedded in applications and tools.","url":"https://www.sqlite.org/","source":"official","compatibility":[],"tags":["sql","embedded"],"verified_at":null,"maintenance":"active"},
-  {"id":"mongodb","name":"MongoDB","type":"open-source-app","category":"databases","description":"Document database platform with flexible JSON-like data models, indexing, and distributed operation.","url":"https://github.com/mongodb/mongo","source":"official","compatibility":[],"tags":["document-database","nosql"],"verified_at":null,"maintenance":"active"},
-  {"id":"redis","name":"Redis","type":"open-source-app","category":"databases","description":"In-memory data store for caching, queues, streams, vector search, and real-time applications.","url":"https://github.com/redis/redis","source":"official","compatibility":[],"tags":["cache","in-memory"],"verified_at":null,"maintenance":"active"},
-  {"id":"elasticsearch","name":"Elasticsearch","type":"open-source-app","category":"databases","description":"Distributed search and analytics engine for full-text search, observability, and structured data.","url":"https://github.com/elastic/elasticsearch","source":"official","compatibility":[],"tags":["search","analytics"],"verified_at":null,"maintenance":"active"},
-  {"id":"milvus","name":"Milvus","type":"open-source-app","category":"databases","description":"Cloud-native vector database for similarity search and large-scale AI retrieval workloads.","url":"https://github.com/milvus-io/milvus","source":"official","compatibility":[],"tags":["vector-database","retrieval"],"verified_at":null,"maintenance":"active"},
-  {"id":"weaviate","name":"Weaviate","type":"open-source-app","category":"databases","description":"Open-source vector database supporting semantic search, hybrid retrieval, and generative integrations.","url":"https://github.com/weaviate/weaviate","source":"official","compatibility":[],"tags":["vector-database","semantic-search"],"verified_at":null,"maintenance":"active"},
-  {"id":"chroma","name":"Chroma","type":"open-source-app","category":"databases","description":"Open-source embedding database focused on local and application-level AI retrieval workflows.","url":"https://github.com/chroma-core/chroma","source":"official","compatibility":["Python","JavaScript"],"tags":["vector-database","embeddings"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"activepieces","name":"Activepieces","type":"open-source-app","category":"automation-integration","description":"Open-source automation platform for building human and AI workflows across apps and services.","url":"https://github.com/activepieces/activepieces","source":"official","compatibility":[],"tags":["automation","integrations"],"verified_at":null,"maintenance":"active"},
-  {"id":"windmill","name":"Windmill","type":"open-source-app","category":"automation-integration","description":"Open-source workflow engine and developer platform for scripts, flows, apps, and scheduled jobs.","url":"https://github.com/windmill-labs/windmill","source":"official","compatibility":[],"tags":["automation","workflows"],"verified_at":null,"maintenance":"active"},
-  {"id":"kestra","name":"Kestra","type":"open-source-app","category":"automation-integration","description":"Event-driven orchestration platform for declarative data, infrastructure, and business workflows.","url":"https://github.com/kestra-io/kestra","source":"official","compatibility":[],"tags":["orchestration","workflows"],"verified_at":null,"maintenance":"active"},
-  {"id":"huginn","name":"Huginn","type":"open-source-app","category":"automation-integration","description":"Self-hosted system for creating agents that monitor events and automate actions across the web.","url":"https://github.com/huginn/huginn","source":"community","compatibility":[],"tags":["automation","monitoring"],"verified_at":null,"maintenance":"active"},
-  {"id":"browser-use","name":"Browser Use","type":"framework","category":"automation-integration","description":"Open-source framework for enabling AI agents to navigate and interact with websites in a browser.","url":"https://github.com/browser-use/browser-use","source":"official","compatibility":["Python"],"tags":["browser","agents","automation"],"verified_at":null,"maintenance":"active"},
-  {"id":"stagehand","name":"Stagehand","type":"framework","category":"automation-integration","description":"Browserbase framework combining browser automation code with natural-language AI actions and extraction.","url":"https://github.com/browserbase/stagehand","source":"official","compatibility":["TypeScript","Python"],"tags":["browser","automation","agents"],"verified_at":null,"maintenance":"active"},
-
-  {"id":"fastapi","name":"FastAPI","type":"framework","category":"backend-api","description":"Modern Python framework for high-performance APIs with type hints and automatic OpenAPI documentation.","url":"https://github.com/fastapi/fastapi","source":"official","compatibility":["Python"],"tags":["api","backend"],"verified_at":null,"maintenance":"active"},
-  {"id":"nestjs","name":"NestJS","type":"framework","category":"backend-api","description":"Progressive Node.js framework for structured, scalable server-side TypeScript applications.","url":"https://github.com/nestjs/nest","source":"official","compatibility":["TypeScript"],"tags":["api","backend"],"verified_at":null,"maintenance":"active"},
-  {"id":"django","name":"Django","type":"framework","category":"backend-api","description":"Batteries-included Python web framework with ORM, authentication, administration, and security tooling.","url":"https://github.com/django/django","source":"official","compatibility":["Python"],"tags":["web","backend"],"verified_at":null,"maintenance":"active"},
-  {"id":"spring-boot","name":"Spring Boot","type":"framework","category":"backend-api","description":"Spring framework for production Java services with opinionated configuration and operational features.","url":"https://github.com/spring-projects/spring-boot","source":"official","compatibility":["Java","Kotlin"],"tags":["backend","java"],"verified_at":null,"maintenance":"active"},
-  {"id":"pocketbase","name":"PocketBase","type":"open-source-app","category":"backend-api","description":"Single-file open-source backend with embedded database, authentication, files, and real-time subscriptions.","url":"https://github.com/pocketbase/pocketbase","source":"official","compatibility":["Go","JavaScript"],"tags":["backend","realtime"],"verified_at":null,"maintenance":"active"},
-  {"id":"appwrite","name":"Appwrite","type":"open-source-app","category":"backend-api","description":"Open-source backend platform providing authentication, databases, storage, functions, and messaging APIs.","url":"https://github.com/appwrite/appwrite","source":"official","compatibility":[],"tags":["backend-as-a-service","api"],"verified_at":null,"maintenance":"active"},
-  {"id":"directus","name":"Directus","type":"open-source-app","category":"backend-api","description":"Data platform providing instant REST and GraphQL APIs, authentication, automation, and an admin application.","url":"https://github.com/directus/directus","source":"official","compatibility":[],"tags":["api","headless-cms"],"verified_at":null,"maintenance":"active"}
+  {
+    "id": "anthropic-frontend-design",
+    "name": "frontend-design",
+    "type": "agent-skill",
+    "category": "frontend-design",
+    "description": "Anthropic's official skill for creating distinctive, production-quality frontend interfaces.",
+    "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
+    "source": "official",
+    "compatibility": [
+      "Claude Code",
+      "Claude.ai"
+    ],
+    "tags": [
+      "frontend",
+      "design",
+      "ui"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "ui-ux-pro-max",
+    "name": "ui-ux-pro-max",
+    "type": "agent-skill",
+    "category": "frontend-design",
+    "description": "Community design intelligence skill covering styles, palettes, typography, charts, and UI stacks.",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source": "community",
+    "compatibility": [
+      "Claude Code",
+      "Codex",
+      "Cursor"
+    ],
+    "tags": [
+      "ui",
+      "ux",
+      "design-system"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "design-taste-frontend",
+    "name": "design-taste-frontend",
+    "type": "agent-skill",
+    "category": "frontend-design",
+    "description": "Opinionated frontend design skill focused on visual craft and avoiding generic generated interfaces.",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "source": "community",
+    "compatibility": [
+      "Claude Code"
+    ],
+    "tags": [
+      "frontend",
+      "visual-design"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "shadcn-ui-mcp-server",
+    "name": "shadcn-ui-mcp-server",
+    "type": "mcp-server",
+    "category": "frontend-design",
+    "description": "Community MCP server for browsing and working with shadcn/ui components and registries.",
+    "url": "https://github.com/Jpisnice/shadcn-ui-mcp-server",
+    "source": "community",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "shadcn",
+      "components",
+      "mcp"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "magic-mcp",
+    "name": "21st.dev Magic MCP",
+    "type": "mcp-server",
+    "category": "frontend-design",
+    "description": "MCP server from 21st.dev for generating and discovering polished user-interface components.",
+    "url": "https://github.com/21st-dev/magic-mcp",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "components",
+      "generation",
+      "mcp"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "vercel-react-best-practices",
+    "name": "vercel-react-best-practices",
+    "type": "agent-skill",
+    "category": "frontend-design",
+    "description": "Vercel-maintained guidance for React and Next.js performance patterns used by coding agents.",
+    "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "react",
+      "nextjs",
+      "performance"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "gsap-skills",
+    "name": "GSAP Skills",
+    "type": "skill-collection",
+    "category": "frontend-design",
+    "description": "Official GreenSock skill collection for creating and optimizing GSAP web animations.",
+    "url": "https://github.com/greensock/gsap-skills",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "gsap",
+      "animation"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "motion-framer-skill",
+    "name": "motion-framer",
+    "type": "agent-skill",
+    "category": "frontend-design",
+    "description": "Community skill with practical patterns for building interface animation using Motion for React.",
+    "url": "https://github.com/freshtechbro/claudedesignskills/tree/main/.claude/skills/motion-framer",
+    "source": "community",
+    "compatibility": [
+      "Claude Code"
+    ],
+    "tags": [
+      "motion",
+      "react",
+      "animation"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "convex-create-component",
+    "name": "convex-create-component",
+    "type": "agent-skill",
+    "category": "software-engineering",
+    "description": "Convex-maintained skill for building reusable components with isolated schemas and APIs.",
+    "url": "https://github.com/get-convex/agent-skills",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "convex",
+      "backend",
+      "components"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "vercel-react-native-skills",
+    "name": "vercel-react-native-skills",
+    "type": "agent-skill",
+    "category": "frontend-design",
+    "description": "Vercel-maintained best practices for performant React Native and Expo applications.",
+    "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "react-native",
+      "expo",
+      "mobile"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "anthropic-skills",
+    "name": "Anthropic Skills",
+    "type": "skill-collection",
+    "category": "agent-skills",
+    "description": "Official collection of example and production skills for Claude products and compatible agents.",
+    "url": "https://github.com/anthropics/skills",
+    "source": "official",
+    "compatibility": [
+      "Claude Code",
+      "Claude.ai"
+    ],
+    "tags": [
+      "skills",
+      "claude"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "openai-skills",
+    "name": "OpenAI Skills",
+    "type": "skill-collection",
+    "category": "agent-skills",
+    "description": "OpenAI's public collection of reusable skills for Codex and agent workflows.",
+    "url": "https://github.com/openai/skills",
+    "source": "official",
+    "compatibility": [
+      "Codex"
+    ],
+    "tags": [
+      "skills",
+      "codex"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "agentskills-spec",
+    "name": "Agent Skills Specification",
+    "type": "documentation",
+    "category": "agent-skills",
+    "description": "Open specification describing the portable Agent Skills folder and SKILL.md format.",
+    "url": "https://agentskills.io/specification",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "standard",
+      "skills"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "github-awesome-copilot",
+    "name": "awesome-copilot",
+    "type": "skill-collection",
+    "category": "agent-skills",
+    "description": "GitHub-maintained community catalog of Copilot instructions, prompts, agents, and skills.",
+    "url": "https://github.com/github/awesome-copilot",
+    "source": "official",
+    "compatibility": [
+      "GitHub Copilot"
+    ],
+    "tags": [
+      "copilot",
+      "prompts",
+      "skills"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "gemini-cli-extensions",
+    "name": "Gemini CLI Extensions",
+    "type": "documentation",
+    "category": "agent-skills",
+    "description": "Official documentation for packaging prompts, MCP servers, skills, and configuration as Gemini CLI extensions.",
+    "url": "https://github.com/google-gemini/gemini-cli/blob/main/docs/extensions/index.md",
+    "source": "official",
+    "compatibility": [
+      "Gemini CLI"
+    ],
+    "tags": [
+      "gemini",
+      "extensions"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "cursor-rules",
+    "name": "Cursor Rules",
+    "type": "documentation",
+    "category": "agent-skills",
+    "description": "Official Cursor documentation for persistent project instructions and reusable agent guidance.",
+    "url": "https://cursor.com/docs/rules",
+    "source": "official",
+    "compatibility": [
+      "Cursor"
+    ],
+    "tags": [
+      "cursor",
+      "rules"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "opencode-agents",
+    "name": "OpenCode Agents",
+    "type": "documentation",
+    "category": "agent-skills",
+    "description": "Official OpenCode documentation for configuring specialized primary agents and subagents.",
+    "url": "https://opencode.ai/docs/agents/",
+    "source": "official",
+    "compatibility": [
+      "OpenCode"
+    ],
+    "tags": [
+      "opencode",
+      "agents"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "model-context-protocol",
+    "name": "Model Context Protocol",
+    "type": "documentation",
+    "category": "mcp-servers",
+    "description": "Official protocol documentation for connecting AI applications to tools and external data.",
+    "url": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro",
+    "source": "official",
+    "compatibility": [
+      "MCP"
+    ],
+    "tags": [
+      "mcp",
+      "protocol"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "mcp-servers-reference",
+    "name": "MCP Reference Servers",
+    "type": "skill-collection",
+    "category": "mcp-servers",
+    "description": "Official reference implementations demonstrating core Model Context Protocol server patterns.",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "mcp",
+      "reference"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "github-mcp-server",
+    "name": "GitHub MCP Server",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "GitHub's official MCP server for repository, issue, pull request, code, and workflow operations.",
+    "url": "https://github.com/github/github-mcp-server",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "github",
+      "developer-tools"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "playwright-mcp",
+    "name": "Playwright MCP",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Microsoft's official browser automation MCP server built on Playwright's accessibility model.",
+    "url": "https://github.com/microsoft/playwright-mcp",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "browser",
+      "automation"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "cloudflare-mcp-server",
+    "name": "Cloudflare MCP Servers",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Cloudflare-maintained MCP servers for documentation, observability, bindings, and platform operations.",
+    "url": "https://github.com/cloudflare/mcp-server-cloudflare",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "cloudflare",
+      "cloud"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "aws-mcp-servers",
+    "name": "AWS MCP Servers",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "AWS Labs collection of specialized MCP servers for AWS services and cloud development.",
+    "url": "https://github.com/awslabs/mcp",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "aws",
+      "cloud"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "azure-mcp",
+    "name": "Azure MCP Server",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Microsoft's official MCP server for working with supported Azure services and resources.",
+    "url": "https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "azure",
+      "cloud"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "postgres-mcp",
+    "name": "Postgres MCP Pro",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Community PostgreSQL MCP server with database inspection, analysis, and performance tooling.",
+    "url": "https://github.com/crystaldba/postgres-mcp",
+    "source": "community",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "postgresql",
+      "database"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "context7",
+    "name": "Context7 MCP",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Upstash-maintained MCP server that supplies current, version-specific library documentation.",
+    "url": "https://github.com/upstash/context7",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "documentation",
+      "retrieval"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "sequential-thinking-mcp",
+    "name": "Sequential Thinking",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Reference MCP server offering a structured tool for dynamic, reflective problem-solving sequences.",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "reasoning",
+      "reference"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "mcp-python-sdk",
+    "name": "MCP Python SDK",
+    "type": "mcp-sdk",
+    "category": "mcp-servers",
+    "description": "Official Python SDK for implementing Model Context Protocol clients and servers.",
+    "url": "https://github.com/modelcontextprotocol/python-sdk",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "sdk",
+      "python"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "mcp-typescript-sdk",
+    "name": "MCP TypeScript SDK",
+    "type": "mcp-sdk",
+    "category": "mcp-servers",
+    "description": "Official TypeScript SDK for building Model Context Protocol clients and servers.",
+    "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+    "source": "official",
+    "compatibility": [
+      "TypeScript"
+    ],
+    "tags": [
+      "sdk",
+      "typescript"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "mcp-inspector",
+    "name": "MCP Inspector",
+    "type": "ai-tool",
+    "category": "mcp-servers",
+    "description": "Official interactive developer tool for testing and debugging MCP servers and protocol exchanges.",
+    "url": "https://github.com/modelcontextprotocol/inspector",
+    "source": "official",
+    "compatibility": [
+      "MCP"
+    ],
+    "tags": [
+      "debugging",
+      "development"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "vercel-web-interface-guidelines",
+    "name": "Vercel Web Interface Guidelines",
+    "type": "guide",
+    "category": "design-guides",
+    "description": "Practical guidance for interactions, animation, layout, content, forms, and web performance.",
+    "url": "https://vercel.com/design/guidelines",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "web",
+      "ux",
+      "performance"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "apple-human-interface-guidelines",
+    "name": "Apple Human Interface Guidelines",
+    "type": "guide",
+    "category": "design-guides",
+    "description": "Apple's official guidance for consistent, accessible, and intuitive experiences across its platforms.",
+    "url": "https://developer.apple.com/design/human-interface-guidelines/",
+    "source": "official",
+    "compatibility": [
+      "Apple platforms"
+    ],
+    "tags": [
+      "apple",
+      "mobile",
+      "accessibility"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "material-design",
+    "name": "Material Design",
+    "type": "guide",
+    "category": "design-guides",
+    "description": "Google's design system and guidance for building accessible, adaptive digital products.",
+    "url": "https://m3.material.io/",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "material",
+      "design-system"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "wcag",
+    "name": "Web Content Accessibility Guidelines",
+    "type": "guide",
+    "category": "design-guides",
+    "description": "W3C's international recommendations for making web content more accessible to people with disabilities.",
+    "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+    "source": "standards-body",
+    "compatibility": [],
+    "tags": [
+      "accessibility",
+      "standard"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "inclusive-components",
+    "name": "Inclusive Components",
+    "type": "guide",
+    "category": "design-guides",
+    "description": "Practical patterns for designing and implementing robust, inclusive web interface components.",
+    "url": "https://inclusive-components.design/",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "accessibility",
+      "components"
+    ],
+    "verified_at": null,
+    "maintenance": "stable"
+  },
+  {
+    "id": "openai-agents-sdk-python",
+    "name": "OpenAI Agents SDK for Python",
+    "type": "framework",
+    "category": "agent-development",
+    "description": "OpenAI's lightweight Python framework for tool-using agents, handoffs, guardrails, and tracing.",
+    "url": "https://github.com/openai/openai-agents-python",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "agents",
+      "orchestration"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "langgraph",
+    "name": "LangGraph",
+    "type": "framework",
+    "category": "agent-development",
+    "description": "LangChain framework for building controllable, stateful, long-running agent workflows.",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "source": "official",
+    "compatibility": [
+      "Python",
+      "JavaScript"
+    ],
+    "tags": [
+      "agents",
+      "graphs",
+      "orchestration"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "autogen",
+    "name": "Microsoft Agent Framework",
+    "type": "framework",
+    "category": "agent-development",
+    "description": "Microsoft framework for building and orchestrating single-agent and multi-agent applications.",
+    "url": "https://github.com/microsoft/agent-framework",
+    "source": "official",
+    "compatibility": [
+      "Python",
+      ".NET"
+    ],
+    "tags": [
+      "agents",
+      "multi-agent"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "type": "framework",
+    "category": "agent-development",
+    "description": "Open-source Python framework for coordinating role-based AI agents, crews, and flows.",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "agents",
+      "multi-agent"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "pydantic-ai",
+    "name": "Pydantic AI",
+    "type": "framework",
+    "category": "agent-development",
+    "description": "Pydantic's Python agent framework emphasizing typed dependencies, structured output, and testing.",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "agents",
+      "typing"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "semantic-kernel",
+    "name": "Semantic Kernel",
+    "type": "framework",
+    "category": "agent-development",
+    "description": "Microsoft SDK for integrating models, plugins, memory, and agent orchestration into applications.",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "source": "official",
+    "compatibility": [
+      "Python",
+      ".NET",
+      "Java"
+    ],
+    "tags": [
+      "agents",
+      "sdk"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "llamaindex",
+    "name": "LlamaIndex",
+    "type": "framework",
+    "category": "agent-development",
+    "description": "Framework for context-augmented applications using documents, retrieval, workflows, and agents.",
+    "url": "https://github.com/run-llama/llama_index",
+    "source": "official",
+    "compatibility": [
+      "Python",
+      "TypeScript"
+    ],
+    "tags": [
+      "rag",
+      "retrieval",
+      "agents"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "haystack",
+    "name": "Haystack",
+    "type": "framework",
+    "category": "agent-development",
+    "description": "deepset's open-source Python framework for production retrieval, pipelines, and agent systems.",
+    "url": "https://github.com/deepset-ai/haystack",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "rag",
+      "pipelines"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "dspy",
+    "name": "DSPy",
+    "type": "framework",
+    "category": "agent-development",
+    "description": "Stanford framework for programming and optimizing modular language-model applications.",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "prompt-optimization",
+      "evaluation"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "mem0",
+    "name": "Mem0",
+    "type": "library",
+    "category": "agent-development",
+    "description": "Open-source memory layer for personalizing AI agents and retaining useful cross-session context.",
+    "url": "https://github.com/mem0ai/mem0",
+    "source": "official",
+    "compatibility": [
+      "Python",
+      "JavaScript"
+    ],
+    "tags": [
+      "memory",
+      "agents"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "qdrant",
+    "name": "Qdrant",
+    "type": "open-source-app",
+    "category": "agent-development",
+    "description": "Open-source vector search engine and database designed for filtering and similarity retrieval.",
+    "url": "https://github.com/qdrant/qdrant",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "vector-database",
+      "rag"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "langfuse",
+    "name": "Langfuse",
+    "type": "open-source-app",
+    "category": "agent-development",
+    "description": "Open-source platform for tracing, evaluating, and monitoring language-model applications.",
+    "url": "https://github.com/langfuse/langfuse",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "observability",
+      "evaluation"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "promptfoo",
+    "name": "Promptfoo",
+    "type": "ai-tool",
+    "category": "agent-development",
+    "description": "Open-source command-line and library tooling for evaluating prompts, models, and agent security.",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "source": "official",
+    "compatibility": [
+      "Node.js"
+    ],
+    "tags": [
+      "evaluation",
+      "security"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "aider",
+    "name": "Aider",
+    "type": "ai-tool",
+    "category": "software-engineering",
+    "description": "Open-source terminal pair programmer that edits local Git repositories with language models.",
+    "url": "https://github.com/Aider-AI/aider",
+    "source": "official",
+    "compatibility": [
+      "CLI"
+    ],
+    "tags": [
+      "coding",
+      "git"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "continue",
+    "name": "Continue",
+    "type": "ai-tool",
+    "category": "software-engineering",
+    "description": "Open-source coding assistant platform for IDE chat, edits, autocomplete, and custom models.",
+    "url": "https://github.com/continuedev/continue",
+    "source": "official",
+    "compatibility": [
+      "VS Code",
+      "JetBrains"
+    ],
+    "tags": [
+      "coding",
+      "ide"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands",
+    "type": "open-source-app",
+    "category": "software-engineering",
+    "description": "Open-source platform for software-development agents that can edit code and run tools.",
+    "url": "https://github.com/All-Hands-AI/OpenHands",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "coding-agent",
+      "development"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "swe-agent",
+    "name": "SWE-agent",
+    "type": "framework",
+    "category": "software-engineering",
+    "description": "Princeton research project for agents that resolve issues in real GitHub repositories.",
+    "url": "https://github.com/SWE-agent/SWE-agent",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "coding-agent",
+      "research"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "semgrep",
+    "name": "Semgrep",
+    "type": "ai-tool",
+    "category": "cybersecurity",
+    "description": "Static analysis platform for finding security and correctness issues with customizable rules.",
+    "url": "https://github.com/semgrep/semgrep",
+    "source": "official",
+    "compatibility": [
+      "CLI",
+      "CI"
+    ],
+    "tags": [
+      "sast",
+      "secure-coding"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "trivy",
+    "name": "Trivy",
+    "type": "ai-tool",
+    "category": "cybersecurity",
+    "description": "Aqua Security scanner for vulnerabilities, misconfigurations, secrets, licenses, and supply chains.",
+    "url": "https://github.com/aquasecurity/trivy",
+    "source": "official",
+    "compatibility": [
+      "CLI",
+      "CI"
+    ],
+    "tags": [
+      "vulnerability-scanning",
+      "containers"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "osv-scanner",
+    "name": "OSV-Scanner",
+    "type": "ai-tool",
+    "category": "cybersecurity",
+    "description": "Google's scanner for vulnerabilities in project dependencies using the Open Source Vulnerabilities database.",
+    "url": "https://github.com/google/osv-scanner",
+    "source": "official",
+    "compatibility": [
+      "CLI",
+      "CI"
+    ],
+    "tags": [
+      "dependencies",
+      "vulnerabilities"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "owasp-top-ten",
+    "name": "OWASP Top 10",
+    "type": "guide",
+    "category": "cybersecurity",
+    "description": "Widely used awareness document covering the most critical security risks to web applications.",
+    "url": "https://owasp.org/projects/top-ten",
+    "source": "standards-body",
+    "compatibility": [],
+    "tags": [
+      "web-security",
+      "guidance"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "jupyter-ai",
+    "name": "Jupyter AI",
+    "type": "ai-tool",
+    "category": "data-analytics",
+    "description": "JupyterLab extension and Python package for generative-AI assistance in notebook workflows.",
+    "url": "https://github.com/jupyterlab/jupyter-ai",
+    "source": "official",
+    "compatibility": [
+      "JupyterLab"
+    ],
+    "tags": [
+      "notebooks",
+      "data"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "duckdb",
+    "name": "DuckDB",
+    "type": "open-source-app",
+    "category": "data-analytics",
+    "description": "In-process analytical SQL database suited to local analysis and data engineering workflows.",
+    "url": "https://github.com/duckdb/duckdb",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "sql",
+      "analytics"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "polars",
+    "name": "Polars",
+    "type": "library",
+    "category": "data-analytics",
+    "description": "Fast DataFrame library written in Rust with bindings for Python and other languages.",
+    "url": "https://github.com/pola-rs/polars",
+    "source": "official",
+    "compatibility": [
+      "Python",
+      "Rust"
+    ],
+    "tags": [
+      "dataframe",
+      "analytics"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "apache-superset",
+    "name": "Apache Superset",
+    "type": "open-source-app",
+    "category": "data-analytics",
+    "description": "Apache's open-source platform for data exploration, visualization, and business intelligence.",
+    "url": "https://github.com/apache/superset",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "bi",
+      "visualization"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "paperless-ngx",
+    "name": "Paperless-ngx",
+    "type": "open-source-app",
+    "category": "productivity",
+    "description": "Community document-management system for indexing, searching, and organizing scanned documents.",
+    "url": "https://github.com/paperless-ngx/paperless-ngx",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "documents",
+      "ocr"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "type": "open-source-app",
+    "category": "productivity",
+    "description": "Source-available workflow automation platform with integrations and AI workflow building blocks.",
+    "url": "https://github.com/n8n-io/n8n",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "automation",
+      "workflows"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "obsidian",
+    "name": "Obsidian Help",
+    "type": "documentation",
+    "category": "productivity",
+    "description": "Official documentation for the local-first note-taking and personal knowledge-management application.",
+    "url": "https://help.obsidian.md/",
+    "source": "official",
+    "compatibility": [
+      "Obsidian"
+    ],
+    "tags": [
+      "notes",
+      "pkm"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "hugging-face-diffusers",
+    "name": "Diffusers",
+    "type": "library",
+    "category": "content-creative",
+    "description": "Hugging Face library providing pretrained diffusion models for image, video, and audio generation.",
+    "url": "https://github.com/huggingface/diffusers",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "image-generation",
+      "diffusion"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "type": "open-source-app",
+    "category": "content-creative",
+    "description": "Node-based graphical interface and inference engine for composable generative-media workflows.",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "image-generation",
+      "workflows"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "open-webui",
+    "name": "Open WebUI",
+    "type": "open-source-app",
+    "category": "ecosystem",
+    "description": "Self-hosted extensible interface for interacting with language models and knowledge sources.",
+    "url": "https://github.com/open-webui/open-webui",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "llm",
+      "self-hosted"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "awesome-generative-ai",
+    "name": "Awesome Generative AI",
+    "type": "awesome-list",
+    "category": "ecosystem",
+    "description": "Community-curated collection of generative AI research, tools, projects, and learning resources.",
+    "url": "https://github.com/steven2358/awesome-generative-ai",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "awesome-list",
+      "generative-ai"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "awesome-mcp-servers",
+    "name": "Awesome MCP Servers",
+    "type": "awesome-list",
+    "category": "ecosystem",
+    "description": "Community directory of Model Context Protocol servers grouped by capability and integration.",
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "source": "community",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "awesome-list",
+      "mcp"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "docker-ai-agent",
+    "name": "Docker Agent",
+    "type": "documentation",
+    "category": "devops-cloud",
+    "description": "Official documentation for Docker's open-source framework for defining and running teams of AI agents.",
+    "url": "https://docs.docker.com/ai/docker-agent/",
+    "source": "official",
+    "compatibility": [
+      "Docker"
+    ],
+    "tags": [
+      "containers",
+      "ai"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "type": "open-source-app",
+    "category": "devops-cloud",
+    "description": "Open-source system for automating deployment, scaling, and management of containerized applications.",
+    "url": "https://github.com/kubernetes/kubernetes",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "kubernetes",
+      "containers"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "opentofu",
+    "name": "OpenTofu",
+    "type": "open-source-app",
+    "category": "devops-cloud",
+    "description": "Linux Foundation infrastructure-as-code tool and open-source Terraform-compatible alternative.",
+    "url": "https://github.com/opentofu/opentofu",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "iac",
+      "terraform"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible",
+    "type": "open-source-app",
+    "category": "devops-cloud",
+    "description": "Agentless automation system for configuration management, deployment, and orchestration.",
+    "url": "https://github.com/ansible/ansible",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "automation",
+      "configuration"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "opentelemetry",
+    "name": "OpenTelemetry",
+    "type": "framework",
+    "category": "devops-cloud",
+    "description": "Vendor-neutral observability framework for generating and collecting traces, metrics, and logs.",
+    "url": "https://github.com/open-telemetry/opentelemetry-specification",
+    "source": "standards-body",
+    "compatibility": [],
+    "tags": [
+      "observability",
+      "telemetry"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus",
+    "type": "open-source-app",
+    "category": "devops-cloud",
+    "description": "Cloud Native Computing Foundation monitoring system and time-series database.",
+    "url": "https://github.com/prometheus/prometheus",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "monitoring",
+      "metrics"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "type": "open-source-app",
+    "category": "devops-cloud",
+    "description": "Open-source platform for querying, visualizing, and alerting on operational data.",
+    "url": "https://github.com/grafana/grafana",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "observability",
+      "dashboards"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "backstage",
+    "name": "Backstage",
+    "type": "platform",
+    "category": "devops-cloud",
+    "description": "CNCF framework for building internal developer portals and managing software catalogs.",
+    "url": "https://github.com/backstage/backstage",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "developer-portal",
+      "platform-engineering"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "zotero",
+    "name": "Zotero",
+    "type": "open-source-app",
+    "category": "research-knowledge",
+    "description": "Open-source research assistant for collecting, organizing, citing, and sharing sources.",
+    "url": "https://github.com/zotero/zotero",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "citations",
+      "research"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "openalex",
+    "name": "OpenAlex",
+    "type": "platform",
+    "category": "research-knowledge",
+    "description": "Open catalog of scholarly works, authors, institutions, topics, and citation relationships.",
+    "url": "https://openalex.org/",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "scholarly-data",
+      "citations"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "semantic-scholar-api",
+    "name": "Semantic Scholar API",
+    "type": "documentation",
+    "category": "research-knowledge",
+    "description": "Official API documentation for programmatic access to scholarly paper and citation data.",
+    "url": "https://api.semanticscholar.org/api-docs/",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "papers",
+      "api"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "crossref-api",
+    "name": "Crossref REST API",
+    "type": "documentation",
+    "category": "research-knowledge",
+    "description": "Public API for querying DOI metadata and scholarly publishing records from Crossref.",
+    "url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+    "source": "standards-body",
+    "compatibility": [],
+    "tags": [
+      "doi",
+      "metadata"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "wikipedia-wikidata",
+    "name": "Wikidata",
+    "type": "platform",
+    "category": "research-knowledge",
+    "description": "Collaboratively maintained open knowledge base with structured, queryable entities and relationships.",
+    "url": "https://www.wikidata.org/wiki/Wikidata:Introduction",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "knowledge-graph",
+      "open-data"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "unpaywall",
+    "name": "Unpaywall",
+    "type": "platform",
+    "category": "research-knowledge",
+    "description": "Open database and API for locating legally available open-access scholarly articles.",
+    "url": "https://unpaywall.org/products/api",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "open-access",
+      "papers"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "metabase",
+    "name": "Metabase",
+    "type": "open-source-app",
+    "category": "business-marketing",
+    "description": "Open-source business intelligence platform for questions, dashboards, and embedded analytics.",
+    "url": "https://github.com/metabase/metabase",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "business-intelligence",
+      "analytics"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "erpnext",
+    "name": "ERPNext",
+    "type": "open-source-app",
+    "category": "business-marketing",
+    "description": "Open-source enterprise resource planning suite for finance, sales, inventory, and operations.",
+    "url": "https://github.com/frappe/erpnext",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "erp",
+      "operations"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "chatwoot",
+    "name": "Chatwoot",
+    "type": "open-source-app",
+    "category": "business-marketing",
+    "description": "Open-source customer engagement platform for support inboxes, automation, and messaging channels.",
+    "url": "https://github.com/chatwoot/chatwoot",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "customer-support",
+      "crm"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "mautic",
+    "name": "Mautic",
+    "type": "open-source-app",
+    "category": "business-marketing",
+    "description": "Open-source marketing automation platform for campaigns, contacts, email, and segmentation.",
+    "url": "https://github.com/mautic/mautic",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "marketing-automation",
+      "crm"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "khanmigo",
+    "name": "Khanmigo",
+    "type": "platform",
+    "category": "education",
+    "description": "Khan Academy's AI-powered learning and teaching assistant with guided educational workflows.",
+    "url": "https://www.khanmigo.ai/",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "tutoring",
+      "learning"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "openstax",
+    "name": "OpenStax",
+    "type": "platform",
+    "category": "education",
+    "description": "Nonprofit publisher providing openly licensed textbooks and supporting learning resources.",
+    "url": "https://openstax.org/",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "textbooks",
+      "open-education"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "freecodecamp",
+    "name": "freeCodeCamp",
+    "type": "platform",
+    "category": "education",
+    "description": "Nonprofit learning platform with free programming curricula, projects, and certifications.",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "programming",
+      "courses"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "the-algorithms",
+    "name": "The Algorithms",
+    "type": "documentation",
+    "category": "education",
+    "description": "Community collection of open-source algorithm implementations across many programming languages.",
+    "url": "https://github.com/TheAlgorithms",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "algorithms",
+      "programming"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "fhir-specification",
+    "name": "HL7 FHIR",
+    "type": "documentation",
+    "category": "specialized-industries",
+    "description": "Healthcare data-exchange specification; implementations require clinical, privacy, and regulatory review.",
+    "url": "https://hl7.org/fhir/",
+    "source": "standards-body",
+    "compatibility": [],
+    "tags": [
+      "healthcare",
+      "interoperability"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "openbb",
+    "name": "OpenBB",
+    "type": "platform",
+    "category": "specialized-industries",
+    "description": "Open-source investment research platform; outputs are informational and not financial advice.",
+    "url": "https://github.com/OpenBB-finance/OpenBB",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "finance",
+      "research"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "legal-citation-manual",
+    "name": "CourtListener",
+    "type": "platform",
+    "category": "specialized-industries",
+    "description": "Free Law Project database and APIs for U.S. legal opinions, dockets, and citations; verify legal use.",
+    "url": "https://www.courtlistener.com/",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "legal",
+      "research"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "ifcopenshell",
+    "name": "IfcOpenShell",
+    "type": "library",
+    "category": "specialized-industries",
+    "description": "Open-source library and tools for working with IFC building information models; validate professional outputs.",
+    "url": "https://github.com/IfcOpenShell/IfcOpenShell",
+    "source": "official",
+    "compatibility": [
+      "Python",
+      "C++"
+    ],
+    "tags": [
+      "architecture",
+      "bim"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "openfoam",
+    "name": "OpenFOAM",
+    "type": "open-source-app",
+    "category": "specialized-industries",
+    "description": "Open-source computational fluid dynamics software requiring appropriate engineering validation and expertise.",
+    "url": "https://github.com/OpenFOAM/OpenFOAM-dev",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "engineering",
+      "simulation"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "qgis",
+    "name": "QGIS",
+    "type": "open-source-app",
+    "category": "specialized-industries",
+    "description": "Open-source geographic information system for spatial analysis, mapping, and geospatial workflows.",
+    "url": "https://github.com/qgis/QGIS",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "gis",
+      "geospatial"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "awesome-sysadmin",
+    "name": "Awesome Sysadmin",
+    "type": "awesome-list",
+    "category": "ecosystem",
+    "description": "Established curated list of open-source system administration tools and resources.",
+    "url": "https://github.com/awesome-foss/awesome-sysadmin",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "awesome-list",
+      "sysadmin"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "awesome-selfhosted",
+    "name": "Awesome Selfhosted",
+    "type": "awesome-list",
+    "category": "ecosystem",
+    "description": "Community-curated directory of free software network services and web applications for self-hosting.",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "awesome-list",
+      "self-hosted"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "mcp-registry",
+    "name": "MCP Registry",
+    "type": "mcp-registry",
+    "category": "ecosystem",
+    "description": "Official Model Context Protocol registry for discovering published MCP servers and metadata.",
+    "url": "https://registry.modelcontextprotocol.io/",
+    "source": "official",
+    "compatibility": [
+      "MCP"
+    ],
+    "tags": [
+      "registry",
+      "mcp"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "skills-sh",
+    "name": "Skills Directory",
+    "type": "platform",
+    "category": "ecosystem",
+    "description": "Public Agent Skills directory; treat listings as untrusted code and independently inspect every skill before use.",
+    "url": "https://www.skills.sh/",
+    "source": "community",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "skills",
+      "directory"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "hugging-face-spaces",
+    "name": "Hugging Face Spaces",
+    "type": "platform",
+    "category": "ecosystem",
+    "description": "Platform for discovering, publishing, and running interactive machine-learning applications.",
+    "url": "https://huggingface.co/spaces",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "apps",
+      "models"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "type": "open-source-app",
+    "category": "ecosystem",
+    "description": "Local model runtime and distribution tool for running supported language and multimodal models.",
+    "url": "https://github.com/ollama/ollama",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "local-ai",
+      "models"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "azure-agent-skills",
+    "name": "Azure Agent Skills",
+    "type": "skill-collection",
+    "category": "agent-skills",
+    "description": "Microsoft-maintained skills for planning, deploying, operating, and optimizing workloads on Azure.",
+    "url": "https://github.com/microsoft/azure-skills",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "azure",
+      "cloud",
+      "skills"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "cloudflare-agent-skills",
+    "name": "Cloudflare Agent Skills",
+    "type": "skill-collection",
+    "category": "agent-skills",
+    "description": "Official Cloudflare skills covering Workers, Durable Objects, performance, security, and platform tooling.",
+    "url": "https://github.com/cloudflare/skills",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "cloudflare",
+      "workers",
+      "skills"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "firebase-agent-skills",
+    "name": "Firebase Agent Skills",
+    "type": "skill-collection",
+    "category": "agent-skills",
+    "description": "Official Firebase skills for authentication, Firestore, hosting, security rules, Genkit, and app development.",
+    "url": "https://github.com/firebase/agent-skills",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "firebase",
+      "backend",
+      "skills"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "supabase-agent-skills",
+    "name": "Supabase Agent Skills",
+    "type": "skill-collection",
+    "category": "agent-skills",
+    "description": "Supabase-maintained agent skills for PostgreSQL design, security, performance, and platform workflows.",
+    "url": "https://github.com/supabase/agent-skills",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "supabase",
+      "postgresql",
+      "skills"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "stripe-ai-skills",
+    "name": "Stripe AI Skills",
+    "type": "skill-collection",
+    "category": "agent-skills",
+    "description": "Official Stripe resources and skills for integrating, upgrading, and operating Stripe-powered applications.",
+    "url": "https://github.com/stripe/ai",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "stripe",
+      "payments",
+      "skills"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "expo-agent-skills",
+    "name": "Expo Skills",
+    "type": "skill-collection",
+    "category": "agent-skills",
+    "description": "Expo-maintained skills for building, reviewing, and improving React Native applications.",
+    "url": "https://github.com/expo/skills",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "expo",
+      "react-native",
+      "skills"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "firecrawl-mcp",
+    "name": "Firecrawl MCP Server",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Official Firecrawl MCP server for web search, crawling, extraction, and structured research workflows.",
+    "url": "https://github.com/mendableai/firecrawl-mcp-server",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "web",
+      "search",
+      "scraping"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "sentry-mcp",
+    "name": "Sentry MCP Server",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Official Sentry MCP server for investigating application errors, issues, projects, and observability data.",
+    "url": "https://github.com/getsentry/sentry-mcp",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "sentry",
+      "observability",
+      "debugging"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "stripe-agent-toolkit",
+    "name": "Stripe Agent Toolkit",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Official Stripe toolkit exposing payment and business operations to supported AI agents and MCP clients.",
+    "url": "https://github.com/stripe/agent-toolkit",
+    "source": "official",
+    "compatibility": [
+      "MCP clients",
+      "Python",
+      "TypeScript"
+    ],
+    "tags": [
+      "stripe",
+      "payments",
+      "commerce"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "supabase-mcp",
+    "name": "Supabase MCP Server",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Official community-maintained Supabase server for database, project, migration, and development workflows.",
+    "url": "https://github.com/supabase-community/supabase-mcp",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "supabase",
+      "postgresql",
+      "database"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "notion-mcp",
+    "name": "Notion MCP Server",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Official Notion MCP server for connecting AI tools to pages, databases, and workspace content.",
+    "url": "https://github.com/makenotion/notion-mcp-server",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "notion",
+      "knowledge",
+      "productivity"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "blender-mcp",
+    "name": "Blender MCP",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Community MCP integration that lets compatible agents control Blender scenes, objects, and rendering workflows.",
+    "url": "https://github.com/ahujasid/blender-mcp",
+    "source": "community",
+    "compatibility": [
+      "MCP clients",
+      "Blender"
+    ],
+    "tags": [
+      "blender",
+      "3d",
+      "creative"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "figma-context-mcp",
+    "name": "Figma Context MCP",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "Community MCP server that provides design context from Figma files to AI coding agents.",
+    "url": "https://github.com/GLips/Figma-Context-MCP",
+    "source": "community",
+    "compatibility": [
+      "MCP clients",
+      "Figma"
+    ],
+    "tags": [
+      "figma",
+      "design-to-code"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "remotion",
+    "name": "Remotion",
+    "type": "framework",
+    "category": "video-generation",
+    "description": "React framework for creating programmatic videos, compositions, captions, and rendering pipelines.",
+    "url": "https://github.com/remotion-dev/remotion",
+    "source": "official",
+    "compatibility": [
+      "React",
+      "TypeScript"
+    ],
+    "tags": [
+      "video",
+      "react",
+      "rendering"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "remotion-agent-skills",
+    "name": "Remotion Agent Skills",
+    "type": "skill-collection",
+    "category": "video-generation",
+    "description": "Official Remotion skills for creating, rendering, captioning, and structuring programmatic videos.",
+    "url": "https://github.com/remotion-dev/skills",
+    "source": "official",
+    "compatibility": [
+      "Agent Skills clients"
+    ],
+    "tags": [
+      "video",
+      "remotion",
+      "skills"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "moviepy",
+    "name": "MoviePy",
+    "type": "library",
+    "category": "video-generation",
+    "description": "Python library for scripted video editing, compositing, transformations, titles, and audio mixing.",
+    "url": "https://github.com/Zulko/moviepy",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "video-editing",
+      "python"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "ffmpeg",
+    "name": "FFmpeg",
+    "type": "open-source-app",
+    "category": "video-generation",
+    "description": "Cross-platform toolkit for recording, converting, filtering, streaming, and processing multimedia.",
+    "url": "https://github.com/FFmpeg/FFmpeg",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "video",
+      "audio",
+      "transcoding"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "shotcut",
+    "name": "Shotcut",
+    "type": "open-source-app",
+    "category": "video-generation",
+    "description": "Cross-platform open-source video editor with timeline, filters, transitions, and broad format support.",
+    "url": "https://github.com/mltframework/shotcut",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "video-editing",
+      "desktop"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "kdenlive",
+    "name": "Kdenlive",
+    "type": "open-source-app",
+    "category": "video-generation",
+    "description": "KDE's open-source non-linear video editor for multitrack editing, effects, titles, and proxy workflows.",
+    "url": "https://invent.kde.org/multimedia/kdenlive",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "video-editing",
+      "kde"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "blender",
+    "name": "Blender",
+    "type": "open-source-app",
+    "category": "video-generation",
+    "description": "Open-source 3D creation suite for modeling, animation, simulation, compositing, and video editing.",
+    "url": "https://github.com/blender/blender",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "3d",
+      "animation",
+      "rendering"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "wan-video",
+    "name": "Wan Video",
+    "type": "framework",
+    "category": "video-generation",
+    "description": "Open-source video generation models and inference code from Alibaba's Wan research team.",
+    "url": "https://github.com/Wan-Video/Wan2.1",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "text-to-video",
+      "video-model"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "stable-diffusion-webui",
+    "name": "Stable Diffusion Web UI",
+    "type": "open-source-app",
+    "category": "image-generation",
+    "description": "Community web interface for Stable Diffusion generation, editing, extensions, and model workflows.",
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "source": "community",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "stable-diffusion",
+      "image-generation"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "invokeai",
+    "name": "InvokeAI",
+    "type": "open-source-app",
+    "category": "image-generation",
+    "description": "Creative engine for Stable Diffusion models with canvas, workflow, gallery, and generation tooling.",
+    "url": "https://github.com/invoke-ai/InvokeAI",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "image-generation",
+      "creative"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "krita-ai-diffusion",
+    "name": "Krita AI Diffusion",
+    "type": "ai-tool",
+    "category": "image-generation",
+    "description": "Krita plugin for generative fill, upscaling, control workflows, and local diffusion-based editing.",
+    "url": "https://github.com/Acly/krita-ai-diffusion",
+    "source": "community",
+    "compatibility": [
+      "Krita"
+    ],
+    "tags": [
+      "image-editing",
+      "diffusion"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "real-esrgan",
+    "name": "Real-ESRGAN",
+    "type": "framework",
+    "category": "image-generation",
+    "description": "Open-source restoration framework for practical image and video super-resolution and enhancement.",
+    "url": "https://github.com/xinntao/Real-ESRGAN",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "upscaling",
+      "restoration"
+    ],
+    "verified_at": null,
+    "maintenance": "stable"
+  },
+  {
+    "id": "segment-anything",
+    "name": "Segment Anything",
+    "type": "framework",
+    "category": "image-generation",
+    "description": "Meta AI research models and code for promptable object segmentation in images.",
+    "url": "https://github.com/facebookresearch/segment-anything",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "segmentation",
+      "computer-vision"
+    ],
+    "verified_at": null,
+    "maintenance": "stable"
+  },
+  {
+    "id": "flux",
+    "name": "FLUX",
+    "type": "framework",
+    "category": "image-generation",
+    "description": "Official inference code and model resources for Black Forest Labs' FLUX image generation models.",
+    "url": "https://github.com/black-forest-labs/flux",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "image-generation",
+      "models"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "whisper",
+    "name": "Whisper",
+    "type": "framework",
+    "category": "audio-music",
+    "description": "OpenAI's open-source neural speech recognition model and transcription toolkit.",
+    "url": "https://github.com/openai/whisper",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "speech-to-text",
+      "transcription"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "faster-whisper",
+    "name": "faster-whisper",
+    "type": "library",
+    "category": "audio-music",
+    "description": "CTranslate2 implementation of Whisper optimized for faster and lower-memory transcription.",
+    "url": "https://github.com/SYSTRAN/faster-whisper",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "speech-to-text",
+      "performance"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "coqui-tts",
+    "name": "Coqui TTS",
+    "type": "framework",
+    "category": "audio-music",
+    "description": "Deep-learning toolkit for training and running text-to-speech and voice synthesis models.",
+    "url": "https://github.com/coqui-ai/TTS",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "text-to-speech",
+      "voice"
+    ],
+    "verified_at": null,
+    "maintenance": "stable"
+  },
+  {
+    "id": "audiocraft",
+    "name": "AudioCraft",
+    "type": "framework",
+    "category": "audio-music",
+    "description": "Meta research library for audio and music generation models including MusicGen and AudioGen.",
+    "url": "https://github.com/facebookresearch/audiocraft",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "music-generation",
+      "audio"
+    ],
+    "verified_at": null,
+    "maintenance": "stable"
+  },
+  {
+    "id": "muse-score",
+    "name": "MuseScore",
+    "type": "open-source-app",
+    "category": "audio-music",
+    "description": "Open-source music notation and composition application with playback, engraving, and export tools.",
+    "url": "https://github.com/musescore/MuseScore",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "music",
+      "notation"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "audacity",
+    "name": "Audacity",
+    "type": "open-source-app",
+    "category": "audio-music",
+    "description": "Cross-platform multi-track audio editor and recorder for editing, cleanup, effects, and export.",
+    "url": "https://github.com/audacity/audacity",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "audio-editing",
+      "recording"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "playwright",
+    "name": "Playwright",
+    "type": "framework",
+    "category": "software-testing",
+    "description": "Microsoft's cross-browser end-to-end testing and automation framework for modern web applications.",
+    "url": "https://github.com/microsoft/playwright",
+    "source": "official",
+    "compatibility": [
+      "TypeScript",
+      "Python",
+      "Java",
+      ".NET"
+    ],
+    "tags": [
+      "e2e",
+      "browser-testing"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "cypress",
+    "name": "Cypress",
+    "type": "framework",
+    "category": "software-testing",
+    "description": "JavaScript testing framework for browser end-to-end, component, integration, and API testing.",
+    "url": "https://github.com/cypress-io/cypress",
+    "source": "official",
+    "compatibility": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "tags": [
+      "e2e",
+      "component-testing"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "vitest",
+    "name": "Vitest",
+    "type": "framework",
+    "category": "software-testing",
+    "description": "Vite-native unit testing framework with TypeScript, ESM, mocking, coverage, and workspace support.",
+    "url": "https://github.com/vitest-dev/vitest",
+    "source": "official",
+    "compatibility": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "tags": [
+      "unit-testing",
+      "vite"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "pytest",
+    "name": "pytest",
+    "type": "framework",
+    "category": "software-testing",
+    "description": "Mature Python testing framework with concise fixtures, parametrization, plugins, and rich failure output.",
+    "url": "https://github.com/pytest-dev/pytest",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "unit-testing",
+      "python"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "k6",
+    "name": "Grafana k6",
+    "type": "ai-tool",
+    "category": "software-testing",
+    "description": "Developer-focused load and performance testing tool for APIs, websites, and distributed systems.",
+    "url": "https://github.com/grafana/k6",
+    "source": "official",
+    "compatibility": [
+      "JavaScript",
+      "CLI"
+    ],
+    "tags": [
+      "load-testing",
+      "performance"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "schemathesis",
+    "name": "Schemathesis",
+    "type": "framework",
+    "category": "software-testing",
+    "description": "Property-based API testing tool that generates checks from OpenAPI and GraphQL schemas.",
+    "url": "https://github.com/schemathesis/schemathesis",
+    "source": "official",
+    "compatibility": [
+      "Python",
+      "CLI"
+    ],
+    "tags": [
+      "api-testing",
+      "property-testing"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "axe-core",
+    "name": "axe-core",
+    "type": "library",
+    "category": "software-testing",
+    "description": "Deque's accessibility testing engine for automated checks in browsers and testing frameworks.",
+    "url": "https://github.com/dequelabs/axe-core",
+    "source": "official",
+    "compatibility": [
+      "JavaScript"
+    ],
+    "tags": [
+      "accessibility",
+      "testing"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "testcontainers",
+    "name": "Testcontainers",
+    "type": "framework",
+    "category": "software-testing",
+    "description": "Libraries for integration tests using lightweight, disposable containers for databases and services.",
+    "url": "https://github.com/testcontainers/testcontainers-java",
+    "source": "official",
+    "compatibility": [
+      "Java"
+    ],
+    "tags": [
+      "integration-testing",
+      "containers"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "type": "documentation",
+    "category": "programming-languages",
+    "description": "Official documentation, tutorials, language reference, and standard library for Python.",
+    "url": "https://docs.python.org/3/",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "language",
+      "documentation"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "type": "documentation",
+    "category": "programming-languages",
+    "description": "Official TypeScript language, compiler, handbook, and tooling repository from Microsoft.",
+    "url": "https://github.com/microsoft/TypeScript",
+    "source": "official",
+    "compatibility": [
+      "TypeScript"
+    ],
+    "tags": [
+      "language",
+      "javascript"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "type": "documentation",
+    "category": "programming-languages",
+    "description": "Official Rust language repository and gateway to its compiler, standard library, and documentation.",
+    "url": "https://github.com/rust-lang/rust",
+    "source": "official",
+    "compatibility": [
+      "Rust"
+    ],
+    "tags": [
+      "language",
+      "systems"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "type": "documentation",
+    "category": "programming-languages",
+    "description": "Official source, documentation, and tooling for the Go programming language.",
+    "url": "https://github.com/golang/go",
+    "source": "official",
+    "compatibility": [
+      "Go"
+    ],
+    "tags": [
+      "language",
+      "backend"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "kotlin",
+    "name": "Kotlin",
+    "type": "documentation",
+    "category": "programming-languages",
+    "description": "Official Kotlin language repository for JVM, Android, JavaScript, WebAssembly, and native development.",
+    "url": "https://github.com/JetBrains/kotlin",
+    "source": "official",
+    "compatibility": [
+      "Kotlin"
+    ],
+    "tags": [
+      "language",
+      "jvm",
+      "mobile"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "type": "documentation",
+    "category": "programming-languages",
+    "description": "Official Swift programming language and standard library for Apple platforms and servers.",
+    "url": "https://github.com/swiftlang/swift",
+    "source": "official",
+    "compatibility": [
+      "Swift"
+    ],
+    "tags": [
+      "language",
+      "apple"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "dotnet",
+    "name": ".NET",
+    "type": "framework",
+    "category": "programming-languages",
+    "description": "Microsoft's cross-platform runtime, SDK, and libraries for building .NET applications.",
+    "url": "https://github.com/dotnet/runtime",
+    "source": "official",
+    "compatibility": [
+      "C#",
+      "F#",
+      "Visual Basic"
+    ],
+    "tags": [
+      "runtime",
+      "sdk"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "type": "framework",
+    "category": "programming-languages",
+    "description": "Cross-platform JavaScript runtime for servers, tools, command-line applications, and automation.",
+    "url": "https://github.com/nodejs/node",
+    "source": "official",
+    "compatibility": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "tags": [
+      "runtime",
+      "javascript"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "type": "open-source-app",
+    "category": "databases",
+    "description": "Advanced open-source relational database with extensibility, transactions, JSON, and rich SQL support.",
+    "url": "https://www.postgresql.org/",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "sql",
+      "relational"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite",
+    "type": "library",
+    "category": "databases",
+    "description": "Small, self-contained transactional SQL database engine embedded in applications and tools.",
+    "url": "https://www.sqlite.org/",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "sql",
+      "embedded"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "type": "open-source-app",
+    "category": "databases",
+    "description": "Document database platform with flexible JSON-like data models, indexing, and distributed operation.",
+    "url": "https://github.com/mongodb/mongo",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "document-database",
+      "nosql"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "type": "open-source-app",
+    "category": "databases",
+    "description": "In-memory data store for caching, queues, streams, vector search, and real-time applications.",
+    "url": "https://github.com/redis/redis",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "cache",
+      "in-memory"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch",
+    "type": "open-source-app",
+    "category": "databases",
+    "description": "Distributed search and analytics engine for full-text search, observability, and structured data.",
+    "url": "https://github.com/elastic/elasticsearch",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "search",
+      "analytics"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "milvus",
+    "name": "Milvus",
+    "type": "open-source-app",
+    "category": "databases",
+    "description": "Cloud-native vector database for similarity search and large-scale AI retrieval workloads.",
+    "url": "https://github.com/milvus-io/milvus",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "vector-database",
+      "retrieval"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "weaviate",
+    "name": "Weaviate",
+    "type": "open-source-app",
+    "category": "databases",
+    "description": "Open-source vector database supporting semantic search, hybrid retrieval, and generative integrations.",
+    "url": "https://github.com/weaviate/weaviate",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "vector-database",
+      "semantic-search"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "chroma",
+    "name": "Chroma",
+    "type": "open-source-app",
+    "category": "databases",
+    "description": "Open-source embedding database focused on local and application-level AI retrieval workflows.",
+    "url": "https://github.com/chroma-core/chroma",
+    "source": "official",
+    "compatibility": [
+      "Python",
+      "JavaScript"
+    ],
+    "tags": [
+      "vector-database",
+      "embeddings"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "activepieces",
+    "name": "Activepieces",
+    "type": "open-source-app",
+    "category": "automation-integration",
+    "description": "Open-source automation platform for building human and AI workflows across apps and services.",
+    "url": "https://github.com/activepieces/activepieces",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "automation",
+      "integrations"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "windmill",
+    "name": "Windmill",
+    "type": "open-source-app",
+    "category": "automation-integration",
+    "description": "Open-source workflow engine and developer platform for scripts, flows, apps, and scheduled jobs.",
+    "url": "https://github.com/windmill-labs/windmill",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "automation",
+      "workflows"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "kestra",
+    "name": "Kestra",
+    "type": "open-source-app",
+    "category": "automation-integration",
+    "description": "Event-driven orchestration platform for declarative data, infrastructure, and business workflows.",
+    "url": "https://github.com/kestra-io/kestra",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "orchestration",
+      "workflows"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "huginn",
+    "name": "Huginn",
+    "type": "open-source-app",
+    "category": "automation-integration",
+    "description": "Self-hosted system for creating agents that monitor events and automate actions across the web.",
+    "url": "https://github.com/huginn/huginn",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "automation",
+      "monitoring"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "browser-use",
+    "name": "Browser Use",
+    "type": "framework",
+    "category": "automation-integration",
+    "description": "Open-source framework for enabling AI agents to navigate and interact with websites in a browser.",
+    "url": "https://github.com/browser-use/browser-use",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "browser",
+      "agents",
+      "automation"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "stagehand",
+    "name": "Stagehand",
+    "type": "framework",
+    "category": "automation-integration",
+    "description": "Browserbase framework combining browser automation code with natural-language AI actions and extraction.",
+    "url": "https://github.com/browserbase/stagehand",
+    "source": "official",
+    "compatibility": [
+      "TypeScript",
+      "Python"
+    ],
+    "tags": [
+      "browser",
+      "automation",
+      "agents"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "type": "framework",
+    "category": "backend-api",
+    "description": "Modern Python framework for high-performance APIs with type hints and automatic OpenAPI documentation.",
+    "url": "https://github.com/fastapi/fastapi",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "api",
+      "backend"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "nestjs",
+    "name": "NestJS",
+    "type": "framework",
+    "category": "backend-api",
+    "description": "Progressive Node.js framework for structured, scalable server-side TypeScript applications.",
+    "url": "https://github.com/nestjs/nest",
+    "source": "official",
+    "compatibility": [
+      "TypeScript"
+    ],
+    "tags": [
+      "api",
+      "backend"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "type": "framework",
+    "category": "backend-api",
+    "description": "Batteries-included Python web framework with ORM, authentication, administration, and security tooling.",
+    "url": "https://github.com/django/django",
+    "source": "official",
+    "compatibility": [
+      "Python"
+    ],
+    "tags": [
+      "web",
+      "backend"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "spring-boot",
+    "name": "Spring Boot",
+    "type": "framework",
+    "category": "backend-api",
+    "description": "Spring framework for production Java services with opinionated configuration and operational features.",
+    "url": "https://github.com/spring-projects/spring-boot",
+    "source": "official",
+    "compatibility": [
+      "Java",
+      "Kotlin"
+    ],
+    "tags": [
+      "backend",
+      "java"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "pocketbase",
+    "name": "PocketBase",
+    "type": "open-source-app",
+    "category": "backend-api",
+    "description": "Single-file open-source backend with embedded database, authentication, files, and real-time subscriptions.",
+    "url": "https://github.com/pocketbase/pocketbase",
+    "source": "official",
+    "compatibility": [
+      "Go",
+      "JavaScript"
+    ],
+    "tags": [
+      "backend",
+      "realtime"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "appwrite",
+    "name": "Appwrite",
+    "type": "open-source-app",
+    "category": "backend-api",
+    "description": "Open-source backend platform providing authentication, databases, storage, functions, and messaging APIs.",
+    "url": "https://github.com/appwrite/appwrite",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "backend-as-a-service",
+      "api"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "directus",
+    "name": "Directus",
+    "type": "open-source-app",
+    "category": "backend-api",
+    "description": "Data platform providing instant REST and GraphQL APIs, authentication, automation, and an admin application.",
+    "url": "https://github.com/directus/directus",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "api",
+      "headless-cms"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
+  },
+  {
+    "id": "ai4finance-foundation-finrl",
+    "name": "FinRL",
+    "type": "framework",
+    "category": "trading-research",
+    "description": "Reinforcement learning framework for quantitative finance and trading research.",
+    "url": "https://github.com/AI4Finance-Foundation/FinRL",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "trading-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "microsoft-qlib",
+    "name": "Qlib",
+    "type": "framework",
+    "category": "trading-research",
+    "description": "Microsoft quantitative investment research platform for data, modeling, and strategy evaluation.",
+    "url": "https://github.com/microsoft/qlib",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "trading-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "freqtrade-freqtrade",
+    "name": "Freqtrade",
+    "type": "open-source-app",
+    "category": "trading-research",
+    "description": "Crypto strategy research, backtesting, optimization, and trading automation platform.",
+    "url": "https://github.com/freqtrade/freqtrade",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "trading-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "quantopian-zipline",
+    "name": "Zipline",
+    "type": "library",
+    "category": "trading-research",
+    "description": "Event-driven algorithmic trading backtesting engine and research reference.",
+    "url": "https://github.com/quantopian/zipline",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "trading-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "kernc-backtesting-py",
+    "name": "Backtesting.py",
+    "type": "library",
+    "category": "trading-research",
+    "description": "Python framework for simulating and analyzing trading strategies on historical data.",
+    "url": "https://github.com/kernc/backtesting.py",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "trading-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "polakowo-vectorbt",
+    "name": "vectorbt",
+    "type": "library",
+    "category": "trading-research",
+    "description": "Vectorized Python tools for quantitative strategy exploration and portfolio backtesting.",
+    "url": "https://github.com/polakowo/vectorbt",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "trading-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "quantconnect-lean",
+    "name": "LEAN",
+    "type": "framework",
+    "category": "trading-research",
+    "description": "Open-source algorithmic trading engine for research, backtesting, and execution integrations.",
+    "url": "https://github.com/QuantConnect/Lean",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "trading-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "ai4finance-foundation-fingpt",
+    "name": "FinGPT",
+    "type": "framework",
+    "category": "finance-accounting",
+    "description": "Open-source financial language-model research, datasets, and application examples.",
+    "url": "https://github.com/AI4Finance-Foundation/FinGPT",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "finance-accounting"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "ai4finance-foundation-finnlp",
+    "name": "FinNLP",
+    "type": "library",
+    "category": "finance-accounting",
+    "description": "Financial natural-language processing data pipelines and research tooling.",
+    "url": "https://github.com/AI4Finance-Foundation/FinNLP",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "finance-accounting"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "ai4finance-foundation-awesome-ai4finance",
+    "name": "Awesome AI4Finance",
+    "type": "awesome-list",
+    "category": "finance-accounting",
+    "description": "Curated financial AI research, models, datasets, and quantitative tooling.",
+    "url": "https://github.com/AI4Finance-Foundation/Awesome_AI4Finance",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "finance-accounting"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "beancount-beancount",
+    "name": "Beancount",
+    "type": "open-source-app",
+    "category": "finance-accounting",
+    "description": "Plain-text double-entry accounting system for programmable financial workflows.",
+    "url": "https://github.com/beancount/beancount",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "finance-accounting"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "frappe-books",
+    "name": "Frappe Books",
+    "type": "open-source-app",
+    "category": "finance-accounting",
+    "description": "Open-source desktop bookkeeping application for small-business accounting.",
+    "url": "https://github.com/frappe/books",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "finance-accounting"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "project-monai-monai",
+    "name": "MONAI",
+    "type": "framework",
+    "category": "healthcare-ai",
+    "description": "PyTorch-based toolkit for deep learning research in healthcare imaging.",
+    "url": "https://github.com/Project-MONAI/MONAI",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "healthcare-ai"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "google-health-medgemma",
+    "name": "MedGemma",
+    "type": "framework",
+    "category": "healthcare-ai",
+    "description": "Google Health resources and examples for medical multimodal model research.",
+    "url": "https://github.com/google-health/medgemma",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "healthcare-ai"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "scverse-scanpy",
+    "name": "Scanpy",
+    "type": "library",
+    "category": "healthcare-ai",
+    "description": "Scalable Python toolkit for analyzing single-cell gene expression data.",
+    "url": "https://github.com/scverse/scanpy",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "healthcare-ai"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "deepchem-deepchem",
+    "name": "DeepChem",
+    "type": "framework",
+    "category": "healthcare-ai",
+    "description": "Machine-learning framework for molecular, chemical, and life-science research.",
+    "url": "https://github.com/DeepChem/deepchem",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "healthcare-ai"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "torchio-project-torchio",
+    "name": "TorchIO",
+    "type": "library",
+    "category": "healthcare-ai",
+    "description": "Tools for loading, preprocessing, augmenting, and sampling medical images.",
+    "url": "https://github.com/TorchIO-project/torchio",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "healthcare-ai"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "langgenius-dify",
+    "name": "Dify",
+    "type": "open-source-app",
+    "category": "organization-work",
+    "description": "Platform for building AI workflows, knowledge applications, and agents.",
+    "url": "https://github.com/langgenius/dify",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "organization-work"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "flowiseai-flowise",
+    "name": "Flowise",
+    "type": "open-source-app",
+    "category": "organization-work",
+    "description": "Visual tools for composing language-model workflows and agent applications.",
+    "url": "https://github.com/FlowiseAI/Flowise",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "organization-work"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "onyx-dot-app-onyx",
+    "name": "Onyx",
+    "type": "open-source-app",
+    "category": "organization-work",
+    "description": "Enterprise AI search and assistant platform connected to organizational knowledge.",
+    "url": "https://github.com/onyx-dot-app/onyx",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "organization-work"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "outline-outline",
+    "name": "Outline",
+    "type": "open-source-app",
+    "category": "organization-work",
+    "description": "Collaborative team knowledge base with search, documents, and integrations.",
+    "url": "https://github.com/outline/outline",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "organization-work"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "makeplane-plane",
+    "name": "Plane",
+    "type": "open-source-app",
+    "category": "organization-work",
+    "description": "Project management platform for issues, cycles, roadmaps, and team planning.",
+    "url": "https://github.com/makeplane/plane",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "organization-work"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "twentyhq-twenty",
+    "name": "Twenty",
+    "type": "open-source-app",
+    "category": "organization-work",
+    "description": "Open-source CRM for organizing customer records, relationships, and team workflows.",
+    "url": "https://github.com/twentyhq/twenty",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "organization-work"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "docmost-docmost",
+    "name": "Docmost",
+    "type": "open-source-app",
+    "category": "organization-work",
+    "description": "Collaborative documentation and wiki platform for organizational knowledge.",
+    "url": "https://github.com/docmost/docmost",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "organization-work"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "shubhamsaboo-awesome-llm-apps",
+    "name": "Awesome LLM Apps",
+    "type": "awesome-list",
+    "category": "blogs-research",
+    "description": "Curated example applications for agents, retrieval, multimodal AI, and practical workflows.",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "blogs-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "e2b-dev-awesome-ai-agents",
+    "name": "Awesome AI Agents",
+    "type": "awesome-list",
+    "category": "blogs-research",
+    "description": "Community collection of AI agent projects and application examples.",
+    "url": "https://github.com/e2b-dev/awesome-ai-agents",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "blogs-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "dair-ai-prompt-engineering-guide",
+    "name": "Prompt Engineering Guide",
+    "type": "guide",
+    "category": "blogs-research",
+    "description": "Community educational guide to prompting methods, research, and language-model applications.",
+    "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "blogs-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "f-awesome-chatgpt-prompts",
+    "name": "Awesome ChatGPT Prompts",
+    "type": "awesome-list",
+    "category": "blogs-research",
+    "description": "Community prompt examples for writing, productivity, coding, and general assistant tasks.",
+    "url": "https://github.com/f/awesome-chatgpt-prompts",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "blogs-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "hugging-face-blog",
+    "name": "Hugging Face Blog",
+    "type": "guide",
+    "category": "blogs-research",
+    "description": "Engineering articles, model releases, datasets, and open-source machine-learning tutorials.",
+    "url": "https://huggingface.co/blog",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "research",
+      "blog"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "google-research-blog",
+    "name": "Google Research Blog",
+    "type": "guide",
+    "category": "blogs-research",
+    "description": "Primary research announcements and technical articles from Google Research.",
+    "url": "https://research.google/blog/",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "research",
+      "blog"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "microsoft-research-blog",
+    "name": "Microsoft Research Blog",
+    "type": "guide",
+    "category": "blogs-research",
+    "description": "Research publications and technical perspectives from Microsoft Research.",
+    "url": "https://www.microsoft.com/en-us/research/blog/",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "research",
+      "blog"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "anthropic-engineering",
+    "name": "Anthropic Engineering",
+    "type": "guide",
+    "category": "blogs-research",
+    "description": "Engineering articles on agents, context, evaluations, and practical AI systems.",
+    "url": "https://www.anthropic.com/engineering",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "research",
+      "blog"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "lilian-weng-blog",
+    "name": "Lilian Weng Blog",
+    "type": "guide",
+    "category": "blogs-research",
+    "description": "Detailed technical literature reviews on machine learning, language models, and agents.",
+    "url": "https://lilianweng.github.io/",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "research",
+      "blog"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  }
 ]

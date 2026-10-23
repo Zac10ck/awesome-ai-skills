@@ -12,8 +12,8 @@ Find the right skill, server, framework, or guide without searching across dozen
 [![Contributors](https://img.shields.io/github/contributors/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/graphs/contributors)
 [![Last commit](https://img.shields.io/github/last-commit/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/commits/main)
 [![Link check](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml/badge.svg)](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml)
-[![Resources](https://img.shields.io/badge/resources-170%2B-7c3aed)](#explore-the-directory)
-[![Categories](https://img.shields.io/badge/categories-24-0f766e)](#browse-by-category)
+[![Resources](https://img.shields.io/badge/resources-205-7c3aed)](#explore-the-directory)
+[![Categories](https://img.shields.io/badge/categories-29-0f766e)](#browse-by-category)
 
 [Browse Directory](#browse-by-category) · [Agent Skills](#agent-skills) · [MCP Servers](#mcp-servers) · [Creative AI](#video-generation) · [Testing](#software-testing) · [Contribute](CONTRIBUTING.md)
 
@@ -34,6 +34,10 @@ Awesome AI Skills is a community-curated directory for developers, designers, re
 - [License](#license)
 
 ## Browse by category
+
+**Industry workflows:** [Trading research](#trading-research) · [Finance & accounting](#finance-accounting) · [Healthcare & life sciences](#healthcare-ai) · [Organization & team operations](#organization-work) · [Blogs & discovery](#blogs-research)
+
+Trading entries support research and historical evaluation; they do not establish future profitability. Healthcare entries support research and development; clinical suitability requires independent assessment.
 
 | Build | Create | Operate | Learn & Work |
 |---|---|---|---|
@@ -86,7 +90,37 @@ This is an editorial starting set, not an objective ranking. Compatibility is on
 
 ## Explore the directory
 
-[Agent Skills](#agent-skills) · [MCP Servers](#mcp-servers) · [Frontend & UI/UX](#frontend-design) · [Software Engineering](#software-engineering) · [DevOps, Cloud & Infrastructure](#devops-cloud) · [Cybersecurity](#cybersecurity) · [Research & Knowledge](#research-knowledge) · [Productivity & Personal Workflows](#productivity) · [Content & Creative Work](#content-creative) · [Video, Motion & 3D](#video-generation) · [Image Generation & Visual Media](#image-generation) · [Audio, Voice & Music](#audio-music) · [Business, Marketing & Sales](#business-marketing) · [Data Science & Analytics](#data-analytics) · [Software Testing & Quality](#software-testing) · [Programming Languages & SDKs](#programming-languages) · [Databases, Storage & Search](#databases) · [Automation & Integrations](#automation-integration) · [Backend, APIs & Full Stack](#backend-api) · [AI Agent Development](#agent-development) · [Education & Learning](#education) · [Specialized Industries](#specialized-industries) · [AI Ecosystem Resources](#ecosystem) · [Design Guides](#design-guides)
+| Category | Resources |
+|---|---:|
+| [Agent Skills](#agent-skills) | 13 |
+| [MCP Servers](#mcp-servers) | 20 |
+| [Frontend & UI/UX](#frontend-design) | 9 |
+| [Software Engineering](#software-engineering) | 5 |
+| [DevOps, Cloud & Infrastructure](#devops-cloud) | 8 |
+| [Cybersecurity](#cybersecurity) | 4 |
+| [Research & Knowledge](#research-knowledge) | 6 |
+| [Productivity & Personal Workflows](#productivity) | 3 |
+| [Content & Creative Work](#content-creative) | 2 |
+| [Video, Motion & 3D](#video-generation) | 8 |
+| [Image Generation & Visual Media](#image-generation) | 6 |
+| [Audio, Voice & Music](#audio-music) | 6 |
+| [Business, Marketing & Sales](#business-marketing) | 4 |
+| [Data Science & Analytics](#data-analytics) | 4 |
+| [Software Testing & Quality](#software-testing) | 8 |
+| [Programming Languages & SDKs](#programming-languages) | 8 |
+| [Databases, Storage & Search](#databases) | 8 |
+| [Automation & Integrations](#automation-integration) | 6 |
+| [Backend, APIs & Full Stack](#backend-api) | 7 |
+| [AI Agent Development](#agent-development) | 13 |
+| [Education & Learning](#education) | 4 |
+| [Specialized Industries](#specialized-industries) | 6 |
+| [AI Ecosystem Resources](#ecosystem) | 9 |
+| [Design Guides](#design-guides) | 5 |
+| [Trading & Quantitative Research](#trading-research) | 7 |
+| [Finance & Accounting](#finance-accounting) | 5 |
+| [Healthcare & Life Sciences](#healthcare-ai) | 5 |
+| [Organization & Team Operations](#organization-work) | 7 |
+| [Blogs, Research & Discovery](#blogs-research) | 9 |
 
 <a id="agent-skills"></a>
 
@@ -109,6 +143,8 @@ Reusable instructions and capabilities for AI coding and general-purpose agents.
 | OpenCode Agents | documentation | Official OpenCode documentation for configuring specialized primary agents and subagents. | OpenCode | [Visit](https://opencode.ai/docs/agents/) |
 | Stripe AI Skills | skill-collection | Official Stripe resources and skills for integrating, upgrading, and operating Stripe-powered applications. | Agent Skills clients | [Visit](https://github.com/stripe/ai) |
 | Supabase Agent Skills | skill-collection | Supabase-maintained agent skills for PostgreSQL design, security, performance, and platform workflows. | Agent Skills clients | [Visit](https://github.com/supabase/agent-skills) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <a id="mcp-servers"></a>
 
@@ -139,6 +175,8 @@ Servers that expose tools and context through the Model Context Protocol.
 | Stripe Agent Toolkit | mcp-server | Official Stripe toolkit exposing payment and business operations to supported AI agents and MCP clients. | MCP clients, Python, TypeScript | [Visit](https://github.com/stripe/agent-toolkit) |
 | Supabase MCP Server | mcp-server | Official community-maintained Supabase server for database, project, migration, and development workflows. | MCP clients | [Visit](https://github.com/supabase-community/supabase-mcp) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="frontend-design"></a>
 
 ### Frontend & UI/UX
@@ -157,6 +195,8 @@ Skills, tools, and guidance for interface design and frontend development.
 | vercel-react-best-practices | agent-skill | Vercel-maintained guidance for React and Next.js performance patterns used by coding agents. | Agent Skills clients | [Visit](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices) |
 | vercel-react-native-skills | agent-skill | Vercel-maintained best practices for performant React Native and Expo applications. | Agent Skills clients | [Visit](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="software-engineering"></a>
 
 ### Software Engineering
@@ -170,6 +210,8 @@ Development, review, testing, architecture, and maintenance resources.
 | convex-create-component | agent-skill | Convex-maintained skill for building reusable components with isolated schemas and APIs. | Agent Skills clients | [Visit](https://github.com/get-convex/agent-skills) |
 | OpenHands | open-source-app | Open-source platform for software-development agents that can edit code and run tools. | — | [Visit](https://github.com/All-Hands-AI/OpenHands) |
 | SWE-agent | framework | Princeton research project for agents that resolve issues in real GitHub repositories. | Python | [Visit](https://github.com/SWE-agent/SWE-agent) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <a id="devops-cloud"></a>
 
@@ -188,6 +230,8 @@ Deployment, operations, observability, cloud, and infrastructure resources.
 | OpenTofu | open-source-app | Linux Foundation infrastructure-as-code tool and open-source Terraform-compatible alternative. | — | [Visit](https://github.com/opentofu/opentofu) |
 | Prometheus | open-source-app | Cloud Native Computing Foundation monitoring system and time-series database. | — | [Visit](https://github.com/prometheus/prometheus) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="cybersecurity"></a>
 
 ### Cybersecurity
@@ -200,6 +244,8 @@ Defensive security, secure development, auditing, and compliance resources.
 | OWASP Top 10 | guide | Widely used awareness document covering the most critical security risks to web applications. | — | [Visit](https://owasp.org/projects/top-ten) |
 | Semgrep | ai-tool | Static analysis platform for finding security and correctness issues with customizable rules. | CLI, CI | [Visit](https://github.com/semgrep/semgrep) |
 | Trivy | ai-tool | Aqua Security scanner for vulnerabilities, misconfigurations, secrets, licenses, and supply chains. | CLI, CI | [Visit](https://github.com/aquasecurity/trivy) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <a id="research-knowledge"></a>
 
@@ -216,6 +262,8 @@ Research, retrieval, citations, knowledge management, and fact-checking tools.
 | Wikidata | platform | Collaboratively maintained open knowledge base with structured, queryable entities and relationships. | — | [Visit](https://www.wikidata.org/wiki/Wikidata:Introduction) |
 | Zotero | open-source-app | Open-source research assistant for collecting, organizing, citing, and sharing sources. | — | [Visit](https://github.com/zotero/zotero) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="productivity"></a>
 
 ### Productivity & Personal Workflows
@@ -228,6 +276,8 @@ Documents, scheduling, notes, communication, and workflow automation.
 | Obsidian Help | documentation | Official documentation for the local-first note-taking and personal knowledge-management application. | Obsidian | [Visit](https://help.obsidian.md/) |
 | Paperless-ngx | open-source-app | Community document-management system for indexing, searching, and organizing scanned documents. | — | [Visit](https://github.com/paperless-ngx/paperless-ngx) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="content-creative"></a>
 
 ### Content & Creative Work
@@ -238,6 +288,8 @@ Writing, media generation, design, and creative automation resources.
 |---|---|---|---|---|
 | ComfyUI | open-source-app | Node-based graphical interface and inference engine for composable generative-media workflows. | — | [Visit](https://github.com/Comfy-Org/ComfyUI) |
 | Diffusers | library | Hugging Face library providing pretrained diffusion models for image, video, and audio generation. | Python | [Visit](https://github.com/huggingface/diffusers) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <a id="video-generation"></a>
 
@@ -256,6 +308,8 @@ Video generation, editing, compositing, motion graphics, avatars, and 3D creativ
 | Shotcut | open-source-app | Cross-platform open-source video editor with timeline, filters, transitions, and broad format support. | — | [Visit](https://github.com/mltframework/shotcut) |
 | Wan Video | framework | Open-source video generation models and inference code from Alibaba's Wan research team. | Python | [Visit](https://github.com/Wan-Video/Wan2.1) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="image-generation"></a>
 
 ### Image Generation & Visual Media
@@ -270,6 +324,8 @@ Image generation, editing, upscaling, visual pipelines, and creative model tooli
 | Real-ESRGAN | framework | Open-source restoration framework for practical image and video super-resolution and enhancement. | Python | [Visit](https://github.com/xinntao/Real-ESRGAN) |
 | Segment Anything | framework | Meta AI research models and code for promptable object segmentation in images. | Python | [Visit](https://github.com/facebookresearch/segment-anything) |
 | Stable Diffusion Web UI | open-source-app | Community web interface for Stable Diffusion generation, editing, extensions, and model workflows. | Python | [Visit](https://github.com/AUTOMATIC1111/stable-diffusion-webui) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <a id="audio-music"></a>
 
@@ -286,6 +342,8 @@ Speech, transcription, voice synthesis, music generation, and audio production r
 | MuseScore | open-source-app | Open-source music notation and composition application with playback, engraving, and export tools. | — | [Visit](https://github.com/musescore/MuseScore) |
 | Whisper | framework | OpenAI's open-source neural speech recognition model and transcription toolkit. | Python | [Visit](https://github.com/openai/whisper) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="business-marketing"></a>
 
 ### Business, Marketing & Sales
@@ -299,6 +357,8 @@ Customer, market, sales, support, and business operations tools.
 | Mautic | open-source-app | Open-source marketing automation platform for campaigns, contacts, email, and segmentation. | — | [Visit](https://github.com/mautic/mautic) |
 | Metabase | open-source-app | Open-source business intelligence platform for questions, dashboards, and embedded analytics. | — | [Visit](https://github.com/metabase/metabase) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="data-analytics"></a>
 
 ### Data Science & Analytics
@@ -311,6 +371,8 @@ Analysis, visualization, machine learning, data engineering, and BI resources.
 | DuckDB | open-source-app | In-process analytical SQL database suited to local analysis and data engineering workflows. | — | [Visit](https://github.com/duckdb/duckdb) |
 | Jupyter AI | ai-tool | JupyterLab extension and Python package for generative-AI assistance in notebook workflows. | JupyterLab | [Visit](https://github.com/jupyterlab/jupyter-ai) |
 | Polars | library | Fast DataFrame library written in Rust with bindings for Python and other languages. | Python, Rust | [Visit](https://github.com/pola-rs/polars) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <a id="software-testing"></a>
 
@@ -329,6 +391,8 @@ Unit, integration, end-to-end, load, accessibility, API, and AI-system testing r
 | Testcontainers | framework | Libraries for integration tests using lightweight, disposable containers for databases and services. | Java | [Visit](https://github.com/testcontainers/testcontainers-java) |
 | Vitest | framework | Vite-native unit testing framework with TypeScript, ESM, mocking, coverage, and workspace support. | JavaScript, TypeScript | [Visit](https://github.com/vitest-dev/vitest) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="programming-languages"></a>
 
 ### Programming Languages & SDKs
@@ -345,6 +409,8 @@ Language ecosystems, runtimes, SDKs, package tooling, and programming references
 | Rust | documentation | Official Rust language repository and gateway to its compiler, standard library, and documentation. | Rust | [Visit](https://github.com/rust-lang/rust) |
 | Swift | documentation | Official Swift programming language and standard library for Apple platforms and servers. | Swift | [Visit](https://github.com/swiftlang/swift) |
 | TypeScript | documentation | Official TypeScript language, compiler, handbook, and tooling repository from Microsoft. | TypeScript | [Visit](https://github.com/microsoft/TypeScript) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <a id="databases"></a>
 
@@ -363,6 +429,8 @@ Relational, document, vector, search, caching, and data-platform resources.
 | SQLite | library | Small, self-contained transactional SQL database engine embedded in applications and tools. | — | [Visit](https://www.sqlite.org/) |
 | Weaviate | open-source-app | Open-source vector database supporting semantic search, hybrid retrieval, and generative integrations. | — | [Visit](https://github.com/weaviate/weaviate) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="automation-integration"></a>
 
 ### Automation & Integrations
@@ -377,6 +445,8 @@ Workflow automation, browser control, integration platforms, and event-driven to
 | Kestra | open-source-app | Event-driven orchestration platform for declarative data, infrastructure, and business workflows. | — | [Visit](https://github.com/kestra-io/kestra) |
 | Stagehand | framework | Browserbase framework combining browser automation code with natural-language AI actions and extraction. | TypeScript, Python | [Visit](https://github.com/browserbase/stagehand) |
 | Windmill | open-source-app | Open-source workflow engine and developer platform for scripts, flows, apps, and scheduled jobs. | — | [Visit](https://github.com/windmill-labs/windmill) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <a id="backend-api"></a>
 
@@ -393,6 +463,8 @@ Backend frameworks, API development, authentication, real-time systems, and full
 | NestJS | framework | Progressive Node.js framework for structured, scalable server-side TypeScript applications. | TypeScript | [Visit](https://github.com/nestjs/nest) |
 | PocketBase | open-source-app | Single-file open-source backend with embedded database, authentication, files, and real-time subscriptions. | Go, JavaScript | [Visit](https://github.com/pocketbase/pocketbase) |
 | Spring Boot | framework | Spring framework for production Java services with opinionated configuration and operational features. | Java, Kotlin | [Visit](https://github.com/spring-projects/spring-boot) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <a id="agent-development"></a>
 
@@ -416,6 +488,8 @@ Frameworks and infrastructure for building, evaluating, and operating agents.
 | Qdrant | open-source-app | Open-source vector search engine and database designed for filtering and similarity retrieval. | — | [Visit](https://github.com/qdrant/qdrant) |
 | Semantic Kernel | framework | Microsoft SDK for integrating models, plugins, memory, and agent orchestration into applications. | Python, .NET, Java | [Visit](https://github.com/microsoft/semantic-kernel) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="education"></a>
 
 ### Education & Learning
@@ -428,6 +502,8 @@ Tutoring, study, courseware, and educational creation resources.
 | Khanmigo | platform | Khan Academy's AI-powered learning and teaching assistant with guided educational workflows. | — | [Visit](https://www.khanmigo.ai/) |
 | OpenStax | platform | Nonprofit publisher providing openly licensed textbooks and supporting learning resources. | — | [Visit](https://openstax.org/) |
 | The Algorithms | documentation | Community collection of open-source algorithm implementations across many programming languages. | — | [Visit](https://github.com/TheAlgorithms) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <a id="specialized-industries"></a>
 
@@ -443,6 +519,8 @@ Domain-specific resources whose professional limitations should be assessed.
 | OpenBB | platform | Open-source investment research platform; outputs are informational and not financial advice. | Python | [Visit](https://github.com/OpenBB-finance/OpenBB) |
 | OpenFOAM | open-source-app | Open-source computational fluid dynamics software requiring appropriate engineering validation and expertise. | — | [Visit](https://github.com/OpenFOAM/OpenFOAM-dev) |
 | QGIS | open-source-app | Open-source geographic information system for spatial analysis, mapping, and geospatial workflows. | — | [Visit](https://github.com/qgis/QGIS) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <a id="ecosystem"></a>
 
@@ -462,6 +540,8 @@ Directories, registries, documentation, tutorials, and awesome lists.
 | Open WebUI | open-source-app | Self-hosted extensible interface for interacting with language models and knowledge sources. | — | [Visit](https://github.com/open-webui/open-webui) |
 | Skills Directory | platform | Public Agent Skills directory; treat listings as untrusted code and independently inspect every skill before use. | Agent Skills clients | [Visit](https://www.skills.sh/) |
 
+[Back to directory ↑](#explore-the-directory)
+
 <a id="design-guides"></a>
 
 ### Design Guides
@@ -475,6 +555,96 @@ Authoritative interface, platform, and accessibility guidance.
 | Material Design | guide | Google's design system and guidance for building accessible, adaptive digital products. | — | [Visit](https://m3.material.io/) |
 | Vercel Web Interface Guidelines | guide | Practical guidance for interactions, animation, layout, content, forms, and web performance. | — | [Visit](https://vercel.com/design/guidelines) |
 | Web Content Accessibility Guidelines | guide | W3C's international recommendations for making web content more accessible to people with disabilities. | — | [Visit](https://www.w3.org/WAI/standards-guidelines/wcag/) |
+
+[Back to directory ↑](#explore-the-directory)
+
+<a id="trading-research"></a>
+
+### Trading & Quantitative Research
+
+Research, backtesting, and market-data tools. Backtests do not establish future returns.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| Backtesting.py | library | Python framework for simulating and analyzing trading strategies on historical data. | — | [Visit](https://github.com/kernc/backtesting.py) |
+| FinRL | framework | Reinforcement learning framework for quantitative finance and trading research. | — | [Visit](https://github.com/AI4Finance-Foundation/FinRL) |
+| Freqtrade | open-source-app | Crypto strategy research, backtesting, optimization, and trading automation platform. | — | [Visit](https://github.com/freqtrade/freqtrade) |
+| LEAN | framework | Open-source algorithmic trading engine for research, backtesting, and execution integrations. | — | [Visit](https://github.com/QuantConnect/Lean) |
+| Qlib | framework | Microsoft quantitative investment research platform for data, modeling, and strategy evaluation. | — | [Visit](https://github.com/microsoft/qlib) |
+| vectorbt | library | Vectorized Python tools for quantitative strategy exploration and portfolio backtesting. | — | [Visit](https://github.com/polakowo/vectorbt) |
+| Zipline | library | Event-driven algorithmic trading backtesting engine and research reference. | — | [Visit](https://github.com/quantopian/zipline) |
+
+[Back to directory ↑](#explore-the-directory)
+
+<a id="finance-accounting"></a>
+
+### Finance & Accounting
+
+Financial language models, accounting, reporting, and financial research resources.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| Awesome AI4Finance | awesome-list | Curated financial AI research, models, datasets, and quantitative tooling. | — | [Visit](https://github.com/AI4Finance-Foundation/Awesome_AI4Finance) |
+| Beancount | open-source-app | Plain-text double-entry accounting system for programmable financial workflows. | — | [Visit](https://github.com/beancount/beancount) |
+| FinGPT | framework | Open-source financial language-model research, datasets, and application examples. | — | [Visit](https://github.com/AI4Finance-Foundation/FinGPT) |
+| FinNLP | library | Financial natural-language processing data pipelines and research tooling. | — | [Visit](https://github.com/AI4Finance-Foundation/FinNLP) |
+| Frappe Books | open-source-app | Open-source desktop bookkeeping application for small-business accounting. | — | [Visit](https://github.com/frappe/books) |
+
+[Back to directory ↑](#explore-the-directory)
+
+<a id="healthcare-ai"></a>
+
+### Healthcare & Life Sciences
+
+Medical AI research and biomedical tooling; inclusion does not establish clinical validation.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| DeepChem | framework | Machine-learning framework for molecular, chemical, and life-science research. | — | [Visit](https://github.com/DeepChem/deepchem) |
+| MedGemma | framework | Google Health resources and examples for medical multimodal model research. | — | [Visit](https://github.com/google-health/medgemma) |
+| MONAI | framework | PyTorch-based toolkit for deep learning research in healthcare imaging. | — | [Visit](https://github.com/Project-MONAI/MONAI) |
+| Scanpy | library | Scalable Python toolkit for analyzing single-cell gene expression data. | — | [Visit](https://github.com/scverse/scanpy) |
+| TorchIO | library | Tools for loading, preprocessing, augmenting, and sampling medical images. | — | [Visit](https://github.com/TorchIO-project/torchio) |
+
+[Back to directory ↑](#explore-the-directory)
+
+<a id="organization-work"></a>
+
+### Organization & Team Operations
+
+Knowledge, project management, team collaboration, and organizational automation.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| Dify | open-source-app | Platform for building AI workflows, knowledge applications, and agents. | — | [Visit](https://github.com/langgenius/dify) |
+| Docmost | open-source-app | Collaborative documentation and wiki platform for organizational knowledge. | — | [Visit](https://github.com/docmost/docmost) |
+| Flowise | open-source-app | Visual tools for composing language-model workflows and agent applications. | — | [Visit](https://github.com/FlowiseAI/Flowise) |
+| Onyx | open-source-app | Enterprise AI search and assistant platform connected to organizational knowledge. | — | [Visit](https://github.com/onyx-dot-app/onyx) |
+| Outline | open-source-app | Collaborative team knowledge base with search, documents, and integrations. | — | [Visit](https://github.com/outline/outline) |
+| Plane | open-source-app | Project management platform for issues, cycles, roadmaps, and team planning. | — | [Visit](https://github.com/makeplane/plane) |
+| Twenty | open-source-app | Open-source CRM for organizing customer records, relationships, and team workflows. | — | [Visit](https://github.com/twentyhq/twenty) |
+
+[Back to directory ↑](#explore-the-directory)
+
+<a id="blogs-research"></a>
+
+### Blogs, Research & Discovery
+
+Primary engineering blogs, research publications, and established curated directories.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| Anthropic Engineering | guide | Engineering articles on agents, context, evaluations, and practical AI systems. | — | [Visit](https://www.anthropic.com/engineering) |
+| Awesome AI Agents | awesome-list | Community collection of AI agent projects and application examples. | — | [Visit](https://github.com/e2b-dev/awesome-ai-agents) |
+| Awesome ChatGPT Prompts | awesome-list | Community prompt examples for writing, productivity, coding, and general assistant tasks. | — | [Visit](https://github.com/f/awesome-chatgpt-prompts) |
+| Awesome LLM Apps | awesome-list | Curated example applications for agents, retrieval, multimodal AI, and practical workflows. | — | [Visit](https://github.com/Shubhamsaboo/awesome-llm-apps) |
+| Google Research Blog | guide | Primary research announcements and technical articles from Google Research. | — | [Visit](https://research.google/blog/) |
+| Hugging Face Blog | guide | Engineering articles, model releases, datasets, and open-source machine-learning tutorials. | — | [Visit](https://huggingface.co/blog) |
+| Lilian Weng Blog | guide | Detailed technical literature reviews on machine learning, language models, and agents. | — | [Visit](https://lilianweng.github.io/) |
+| Microsoft Research Blog | guide | Research publications and technical perspectives from Microsoft Research. | — | [Visit](https://www.microsoft.com/en-us/research/blog/) |
+| Prompt Engineering Guide | guide | Community educational guide to prompting methods, research, and language-model applications. | — | [Visit](https://github.com/dair-ai/Prompt-Engineering-Guide) |
+
+[Back to directory ↑](#explore-the-directory)
 
 <!-- CATALOG:END -->
 
