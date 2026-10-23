@@ -3827,5 +3827,145 @@
     "verified_at": "2026-10-23",
     "maintenance": "unknown",
     "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
+  },
+  {
+    "id": "datamimic-ce",
+    "name": "DATAMIMIC Community Edition",
+    "type": "ai-tool",
+    "category": "data-analytics",
+    "url": "https://github.com/rapiddweller/datamimic",
+    "description": "Deterministic synthetic-data and pseudonymization engine with CLI and optional MCP adapter; enterprise governance features are separate.",
+    "source": "community",
+    "compatibility": [
+      "Python",
+      "MCP clients"
+    ],
+    "tags": [
+      "synthetic-data",
+      "finance",
+      "healthcare",
+      "testing"
+    ],
+    "verified_at": "2026-10-23",
+    "maintenance": "unknown",
+    "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
+  },
+  {
+    "id": "datamimic-generate-skill",
+    "name": "DATAMIMIC Generate Test Data",
+    "type": "agent-skill",
+    "category": "software-testing",
+    "url": "https://github.com/rapiddweller/datamimic/tree/development/plugins/datamimic/skills/generate-test-data",
+    "description": "Agent skill for authoring and verifying DATAMIMIC synthetic test-data projects using the Community Edition CLI.",
+    "source": "community",
+    "compatibility": [
+      "Codex",
+      "Claude Code"
+    ],
+    "tags": [
+      "test-data",
+      "synthetic-data"
+    ],
+    "verified_at": "2026-10-23",
+    "maintenance": "unknown",
+    "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
+  },
+  {
+    "id": "healthcare-evidence-mcp",
+    "name": "Healthcare Evidence Agent",
+    "type": "mcp-server",
+    "category": "healthcare-ai",
+    "url": "https://github.com/Akhilesh-Vangala/healthcare-evidence-agent",
+    "description": "Research agent and MCP tools for FDA labels, clinical trials, and Medicare coverage evidence with citation checks; public data only.",
+    "source": "community",
+    "compatibility": [
+      "Claude Code"
+    ],
+    "tags": [
+      "fda",
+      "clinical-trials",
+      "evidence"
+    ],
+    "verified_at": "2026-10-23",
+    "maintenance": "unknown",
+    "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
+  },
+  {
+    "id": "healthcare-citation-skill",
+    "name": "Cited Healthcare Evidence",
+    "type": "agent-skill",
+    "category": "healthcare-ai",
+    "url": "https://github.com/Akhilesh-Vangala/healthcare-evidence-agent/tree/main/agent_workspace/.claude/skills/cited-evidence",
+    "description": "Claude skill for healthcare evidence synthesis with retrieved-source citations and quote verification; not clinical decision support.",
+    "source": "community",
+    "compatibility": [
+      "Claude Code"
+    ],
+    "tags": [
+      "citations",
+      "research"
+    ],
+    "verified_at": "2026-10-23",
+    "maintenance": "unknown",
+    "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
+  },
+  {
+    "id": "evidence-deflator",
+    "name": "Evidence Deflator",
+    "type": "ai-tool",
+    "category": "trading-research",
+    "url": "https://github.com/Beltran12138/evidence-deflator",
+    "description": "Trading research tools for examining backtest leakage, selection effects, and public wallet evidence; includes MCP integration.",
+    "source": "community",
+    "compatibility": [
+      "Python",
+      "MCP clients"
+    ],
+    "tags": [
+      "backtesting",
+      "research",
+      "evaluation"
+    ],
+    "verified_at": "2026-10-23",
+    "maintenance": "unknown",
+    "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
+  },
+  {
+    "id": "calendar-reminders-skill",
+    "name": "Manage Calendar and Reminders",
+    "type": "agent-skill",
+    "category": "organization-work",
+    "url": "https://github.com/Austrust/harness-productivity-cli/tree/main/skills/manage-calendar-reminders",
+    "description": "Agent skill using Python CLIs for CalDAV or Microsoft Graph calendars and iCloud reminders; requires local authentication.",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "calendar",
+      "reminders",
+      "organization"
+    ],
+    "verified_at": "2026-10-23",
+    "maintenance": "unknown",
+    "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
+  },
+  {
+    "id": "allneurons-contract-dashboard",
+    "name": "Contract Dashboards",
+    "type": "agent-skill",
+    "category": "organization-work",
+    "url": "https://github.com/allNeurons-AI/back-office-agents/tree/main/legal/skills/agiloft-dashboards",
+    "description": "Claude skill for read-only contract reporting and dashboards from connected systems, spreadsheets, and documents.",
+    "source": "community",
+    "compatibility": [
+      "Claude Code"
+    ],
+    "tags": [
+      "contracts",
+      "reporting",
+      "operations"
+    ],
+    "verified_at": "2026-10-23",
+    "maintenance": "unknown",
+    "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
   }
 ]

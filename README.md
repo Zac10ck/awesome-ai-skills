@@ -16,7 +16,7 @@ Find the right skill, server, framework, or guide without searching across dozen
 [![Contributors](https://img.shields.io/github/contributors/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/graphs/contributors)
 [![Last commit](https://img.shields.io/github/last-commit/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/commits/main)
 [![Link check](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml/badge.svg)](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml)
-[![Resources](https://img.shields.io/badge/resources-222-7c3aed)](#explore-the-directory)
+[![Resources](https://img.shields.io/badge/resources-229-7c3aed)](#explore-the-directory)
 [![Categories](https://img.shields.io/badge/categories-29-0f766e)](#browse-by-category)
 
 [Browse Directory](#browse-by-category) · [Agent Skills](#agent-skills) · [MCP Servers](#mcp-servers) · [Creative AI](#video-generation) · [Testing](#software-testing) · [Contribute](CONTRIBUTING.md)
@@ -109,8 +109,8 @@ This is an editorial starting set, not an objective ranking. Compatibility is on
 | [Image Generation & Visual Media](#image-generation) | 6 |
 | [Audio, Voice & Music](#audio-music) | 6 |
 | [Business, Marketing & Sales](#business-marketing) | 4 |
-| [Data Science & Analytics](#data-analytics) | 4 |
-| [Software Testing & Quality](#software-testing) | 8 |
+| [Data Science & Analytics](#data-analytics) | 5 |
+| [Software Testing & Quality](#software-testing) | 9 |
 | [Programming Languages & SDKs](#programming-languages) | 8 |
 | [Databases, Storage & Search](#databases) | 8 |
 | [Automation & Integrations](#automation-integration) | 6 |
@@ -120,10 +120,10 @@ This is an editorial starting set, not an objective ranking. Compatibility is on
 | [Specialized Industries](#specialized-industries) | 6 |
 | [AI Ecosystem Resources](#ecosystem) | 9 |
 | [Design Guides](#design-guides) | 5 |
-| [Trading & Quantitative Research](#trading-research) | 9 |
+| [Trading & Quantitative Research](#trading-research) | 10 |
 | [Finance & Accounting](#finance-accounting) | 11 |
-| [Healthcare & Life Sciences](#healthcare-ai) | 10 |
-| [Organization & Team Operations](#organization-work) | 11 |
+| [Healthcare & Life Sciences](#healthcare-ai) | 12 |
+| [Organization & Team Operations](#organization-work) | 13 |
 | [Blogs, Research & Discovery](#blogs-research) | 9 |
 
 <a id="agent-skills"></a>
@@ -372,6 +372,7 @@ Analysis, visualization, machine learning, data engineering, and BI resources.
 | Name | Type | Description | Compatibility | Link |
 |---|---|---|---|---|
 | Apache Superset | open-source-app | Apache's open-source platform for data exploration, visualization, and business intelligence. | — | [Visit](https://github.com/apache/superset) |
+| DATAMIMIC Community Edition | ai-tool | Deterministic synthetic-data and pseudonymization engine with CLI and optional MCP adapter; enterprise governance features are separate. | Python, MCP clients | [Visit](https://github.com/rapiddweller/datamimic) |
 | DuckDB | open-source-app | In-process analytical SQL database suited to local analysis and data engineering workflows. | — | [Visit](https://github.com/duckdb/duckdb) |
 | Jupyter AI | ai-tool | JupyterLab extension and Python package for generative-AI assistance in notebook workflows. | JupyterLab | [Visit](https://github.com/jupyterlab/jupyter-ai) |
 | Polars | library | Fast DataFrame library written in Rust with bindings for Python and other languages. | Python, Rust | [Visit](https://github.com/pola-rs/polars) |
@@ -388,6 +389,7 @@ Unit, integration, end-to-end, load, accessibility, API, and AI-system testing r
 |---|---|---|---|---|
 | axe-core | library | Deque's accessibility testing engine for automated checks in browsers and testing frameworks. | JavaScript | [Visit](https://github.com/dequelabs/axe-core) |
 | Cypress | framework | JavaScript testing framework for browser end-to-end, component, integration, and API testing. | JavaScript, TypeScript | [Visit](https://github.com/cypress-io/cypress) |
+| DATAMIMIC Generate Test Data | agent-skill | Agent skill for authoring and verifying DATAMIMIC synthetic test-data projects using the Community Edition CLI. | Codex, Claude Code | [Visit](https://github.com/rapiddweller/datamimic/tree/development/plugins/datamimic/skills/generate-test-data) |
 | Grafana k6 | ai-tool | Developer-focused load and performance testing tool for APIs, websites, and distributed systems. | JavaScript, CLI | [Visit](https://github.com/grafana/k6) |
 | Playwright | framework | Microsoft's cross-browser end-to-end testing and automation framework for modern web applications. | TypeScript, Python, Java, .NET | [Visit](https://github.com/microsoft/playwright) |
 | pytest | framework | Mature Python testing framework with concise fixtures, parametrization, plugins, and rich failure output. | Python | [Visit](https://github.com/pytest-dev/pytest) |
@@ -573,6 +575,7 @@ Research, backtesting, and market-data tools. Backtests do not establish future 
 | Alpaca MCP Server | mcp-server | Official Alpaca integration for market data, account inspection, and trading operations; use paper accounts for evaluation. | MCP clients | [Visit](https://github.com/alpacahq/alpaca-mcp-server) |
 | Backtesting.py | library | Python framework for simulating and analyzing trading strategies on historical data. | — | [Visit](https://github.com/kernc/backtesting.py) |
 | Canary | ai-tool | Local Interactive Brokers research desk with portfolio briefs and read-only MCP tools; MCP cannot execute orders. | MCP clients | [Visit](https://github.com/osauer/canary) |
+| Evidence Deflator | ai-tool | Trading research tools for examining backtest leakage, selection effects, and public wallet evidence; includes MCP integration. | Python, MCP clients | [Visit](https://github.com/Beltran12138/evidence-deflator) |
 | FinRL | framework | Reinforcement learning framework for quantitative finance and trading research. | — | [Visit](https://github.com/AI4Finance-Foundation/FinRL) |
 | Freqtrade | open-source-app | Crypto strategy research, backtesting, optimization, and trading automation platform. | — | [Visit](https://github.com/freqtrade/freqtrade) |
 | LEAN | framework | Open-source algorithmic trading engine for research, backtesting, and execution integrations. | — | [Visit](https://github.com/QuantConnect/Lean) |
@@ -612,7 +615,9 @@ Medical AI research and biomedical tooling; inclusion does not establish clinica
 
 | Name | Type | Description | Compatibility | Link |
 |---|---|---|---|---|
+| Cited Healthcare Evidence | agent-skill | Claude skill for healthcare evidence synthesis with retrieved-source citations and quote verification; not clinical decision support. | Claude Code | [Visit](https://github.com/Akhilesh-Vangala/healthcare-evidence-agent/tree/main/agent_workspace/.claude/skills/cited-evidence) |
 | DeepChem | framework | Machine-learning framework for molecular, chemical, and life-science research. | — | [Visit](https://github.com/DeepChem/deepchem) |
+| Healthcare Evidence Agent | mcp-server | Research agent and MCP tools for FDA labels, clinical trials, and Medicare coverage evidence with citation checks; public data only. | Claude Code | [Visit](https://github.com/Akhilesh-Vangala/healthcare-evidence-agent) |
 | MedGemma | framework | Google Health resources and examples for medical multimodal model research. | — | [Visit](https://github.com/google-health/medgemma) |
 | MONAI | framework | PyTorch-based toolkit for deep learning research in healthcare imaging. | — | [Visit](https://github.com/Project-MONAI/MONAI) |
 | nnU-Net | framework | Self-configuring deep-learning framework for biomedical image segmentation research and reproducible benchmarking. | — | [Visit](https://github.com/MIC-DKFZ/nnUNet) |
@@ -635,9 +640,11 @@ Knowledge, project management, team collaboration, and organizational automation
 |---|---|---|---|---|
 | Anthropic Knowledge Work Plugins | skill-collection | Official plugins with skills for finance, productivity, sales, marketing, data, and other knowledge-work tasks. | — | [Visit](https://github.com/anthropics/knowledge-work-plugins) |
 | Atlassian MCP Server | mcp-server | Official remote integration connecting authorized Atlassian projects, issues, and organizational knowledge to AI tools. | MCP clients | [Visit](https://github.com/atlassian/atlassian-mcp-server) |
+| Contract Dashboards | agent-skill | Claude skill for read-only contract reporting and dashboards from connected systems, spreadsheets, and documents. | Claude Code | [Visit](https://github.com/allNeurons-AI/back-office-agents/tree/main/legal/skills/agiloft-dashboards) |
 | Dify | open-source-app | Platform for building AI workflows, knowledge applications, and agents. | — | [Visit](https://github.com/langgenius/dify) |
 | Docmost | open-source-app | Collaborative documentation and wiki platform for organizational knowledge. | — | [Visit](https://github.com/docmost/docmost) |
 | Flowise | open-source-app | Visual tools for composing language-model workflows and agent applications. | — | [Visit](https://github.com/FlowiseAI/Flowise) |
+| Manage Calendar and Reminders | agent-skill | Agent skill using Python CLIs for CalDAV or Microsoft Graph calendars and iCloud reminders; requires local authentication. | — | [Visit](https://github.com/Austrust/harness-productivity-cli/tree/main/skills/manage-calendar-reminders) |
 | Onyx | open-source-app | Enterprise AI search and assistant platform connected to organizational knowledge. | — | [Visit](https://github.com/onyx-dot-app/onyx) |
 | OpenProject | open-source-app | Project management platform for planning, tasks, timelines, collaboration, and organizational work tracking. | — | [Visit](https://github.com/opf/openproject) |
 | Orbit CRM MCP | mcp-server | Local Markdown-vault CRM for contacts, organizations, interactions, and follow-up tasks through MCP. | MCP clients | [Visit](https://github.com/tobiaswuerth/orbit) |
