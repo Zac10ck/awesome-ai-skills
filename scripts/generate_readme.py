@@ -12,10 +12,6 @@ START = "<!-- CATALOG:START -->"
 END = "<!-- CATALOG:END -->"
 
 
-def anchor(value: str) -> str:
-    return value.lower().replace("&", "and").replace("/", "").replace(" ", "-").replace(",", "")
-
-
 def main() -> None:
     resources = json.loads((ROOT / "data/resources.json").read_text())
     categories = json.loads((ROOT / "data/categories.json").read_text())
@@ -25,10 +21,10 @@ def main() -> None:
 
     lines = [START, "", "## Explore the directory", ""]
     visible = [category for category in categories if grouped[category["id"]]]
-    lines.append(" · ".join(f"[{category['name']}](#{anchor(category['name'])})" for category in visible))
+    lines.append(" · ".join(f"[{category['name']}](#{category['id']})" for category in visible))
     lines.append("")
     for category in visible:
-        lines.extend([f"### {category['name']}", "", category["description"], "", "| Name | Type | Description | Compatibility | Link |", "|---|---|---|---|---|"])
+        lines.extend([f"<a id=\"{category['id']}\"></a>", "", f"### {category['name']}", "", category["description"], "", "| Name | Type | Description | Compatibility | Link |", "|---|---|---|---|---|"])
         for item in sorted(grouped[category["id"]], key=lambda value: value["name"].lower()):
             compatibility = ", ".join(item["compatibility"]) if item["compatibility"] else "—"
             lines.append(f"| {item['name']} | {item['type']} | {item['description']} | {compatibility} | [Visit]({item['url']}) |")

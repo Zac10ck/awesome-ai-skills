@@ -1,10 +1,10 @@
 <div align="center">
 
-# Awesome AI Skills
+<img src="assets/hero.svg" alt="Awesome AI Skills — skills, MCP servers, tools, frameworks, and guides" width="100%">
 
-**The Ultimate Collection of AI Skills, MCP Servers, Tools & Resources**
+### The open directory for discovering practical AI capabilities
 
-Discover, learn, and supercharge your AI workflows — all in one place.
+Find the right skill, server, framework, or guide without searching across dozens of disconnected ecosystems.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![CC0 1.0](https://img.shields.io/github/license/Zac10ck/awesome-ai-skills)](LICENSE)
@@ -12,23 +12,46 @@ Discover, learn, and supercharge your AI workflows — all in one place.
 [![Contributors](https://img.shields.io/github/contributors/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/graphs/contributors)
 [![Last commit](https://img.shields.io/github/last-commit/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/commits/main)
 [![Link check](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml/badge.svg)](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml)
+[![Resources](https://img.shields.io/badge/resources-170%2B-7c3aed)](#explore-the-directory)
+[![Categories](https://img.shields.io/badge/categories-24-0f766e)](#browse-by-category)
 
-[Explore Skills](#agent-skills) · [MCP Servers](#mcp-servers) · [AI Tools](#software-engineering) · [Guides](#design-guides) · [Contribute](CONTRIBUTING.md)
+[Browse Directory](#browse-by-category) · [Agent Skills](#agent-skills) · [MCP Servers](#mcp-servers) · [Creative AI](#video-generation) · [Testing](#software-testing) · [Contribute](CONTRIBUTING.md)
 
 </div>
 
-Awesome AI Skills is a community-curated directory of practical resources for people building with AI. It separates installable skills, MCP servers, frameworks, tools, and guidance so you can understand what a resource is before following the link.
+Awesome AI Skills is a community-curated directory for developers, designers, researchers, creators, operators, students, and teams building with AI. Every entry is typed and categorized so you can tell an installable Agent Skill from an MCP server, framework, application, or reference before following the link.
 
 > If this directory saves you time, [star the repository](https://github.com/Zac10ck/awesome-ai-skills) and help improve it by [suggesting a resource](https://github.com/Zac10ck/awesome-ai-skills/issues/new?template=add-resource.yml).
 
 ## Contents
 
+- [Browse by category](#browse-by-category)
 - [Featured collection](#featured-collection)
 - [Explore the directory](#explore-the-directory)
 - [How resources are selected](#how-resources-are-selected)
 - [Using this catalog](#using-this-catalog)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Browse by category
+
+| Build | Create | Operate | Learn & Work |
+|---|---|---|---|
+| [Agent Skills](#agent-skills) | [Video, Motion & 3D](#video-generation) | [MCP Servers](#mcp-servers) | [Research & Knowledge](#research-knowledge) |
+| [Programming Languages](#programming-languages) | [Image Generation](#image-generation) | [DevOps & Cloud](#devops-cloud) | [Productivity](#productivity) |
+| [Backend & APIs](#backend-api) | [Audio, Voice & Music](#audio-music) | [Cybersecurity](#cybersecurity) | [Education](#education) |
+| [Testing & Quality](#software-testing) | [Frontend & UI/UX](#frontend-design) | [Automation](#automation-integration) | [Business & Marketing](#business-marketing) |
+| [Databases & Search](#databases) | [Content & Creative](#content-creative) | [Data & Analytics](#data-analytics) | [Design Guides](#design-guides) |
+
+### Know what you are installing
+
+| Resource type | What it gives you |
+|---|---|
+| **Agent Skill** | Reusable instructions, scripts, and domain knowledge loaded by a compatible AI agent. |
+| **MCP Server** | Tools or data exposed to an AI application through the Model Context Protocol. |
+| **Framework / SDK** | Building blocks for creating applications, agents, media, tests, or integrations. |
+| **Tool / App** | A usable application, command-line utility, or hosted platform. |
+| **Guide** | Documentation and standards to learn from; nothing to install. |
 
 ## Featured collection
 
@@ -49,11 +72,23 @@ This is an editorial starting set, not an objective ranking. Compatibility is on
 9. [convex-create-component](https://github.com/get-convex/agent-skills)
 10. [vercel-react-native-skills](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills)
 
+### Curated paths
+
+| Collection | Best for | Start here |
+|---|---|---|
+| **Frontend design** | Polished interfaces, accessibility, React, motion, and design systems | [Open collection](collections/frontend-design.md) |
+| **MCP essentials** | Choosing secure, useful servers and learning the protocol | [Open collection](collections/mcp-essentials.md) |
+| **Software testing** | Unit, browser, API, accessibility, integration, and load testing | [Open collection](collections/software-testing.md) |
+| **Video & creative coding** | Programmatic video, editing, generation, animation, and 3D | [Open collection](collections/video-creative.md) |
+| **Programming foundations** | Languages, backends, databases, and developer tooling | [Open collection](collections/programming.md) |
+
 <!-- CATALOG:START -->
 
 ## Explore the directory
 
-[Agent Skills](#agent-skills) · [MCP Servers](#mcp-servers) · [Frontend & UI/UX](#frontend-and-uiux) · [Software Engineering](#software-engineering) · [DevOps, Cloud & Infrastructure](#devops-cloud-and-infrastructure) · [Cybersecurity](#cybersecurity) · [Research & Knowledge](#research-and-knowledge) · [Productivity & Personal Workflows](#productivity-and-personal-workflows) · [Content & Creative Work](#content-and-creative-work) · [Business, Marketing & Sales](#business-marketing-and-sales) · [Data Science & Analytics](#data-science-and-analytics) · [AI Agent Development](#ai-agent-development) · [Education & Learning](#education-and-learning) · [Specialized Industries](#specialized-industries) · [AI Ecosystem Resources](#ai-ecosystem-resources) · [Design Guides](#design-guides)
+[Agent Skills](#agent-skills) · [MCP Servers](#mcp-servers) · [Frontend & UI/UX](#frontend-design) · [Software Engineering](#software-engineering) · [DevOps, Cloud & Infrastructure](#devops-cloud) · [Cybersecurity](#cybersecurity) · [Research & Knowledge](#research-knowledge) · [Productivity & Personal Workflows](#productivity) · [Content & Creative Work](#content-creative) · [Video, Motion & 3D](#video-generation) · [Image Generation & Visual Media](#image-generation) · [Audio, Voice & Music](#audio-music) · [Business, Marketing & Sales](#business-marketing) · [Data Science & Analytics](#data-analytics) · [Software Testing & Quality](#software-testing) · [Programming Languages & SDKs](#programming-languages) · [Databases, Storage & Search](#databases) · [Automation & Integrations](#automation-integration) · [Backend, APIs & Full Stack](#backend-api) · [AI Agent Development](#agent-development) · [Education & Learning](#education) · [Specialized Industries](#specialized-industries) · [AI Ecosystem Resources](#ecosystem) · [Design Guides](#design-guides)
+
+<a id="agent-skills"></a>
 
 ### Agent Skills
 
@@ -64,10 +99,18 @@ Reusable instructions and capabilities for AI coding and general-purpose agents.
 | Agent Skills Specification | documentation | Open specification describing the portable Agent Skills folder and SKILL.md format. | Agent Skills clients | [Visit](https://agentskills.io/specification) |
 | Anthropic Skills | skill-collection | Official collection of example and production skills for Claude products and compatible agents. | Claude Code, Claude.ai | [Visit](https://github.com/anthropics/skills) |
 | awesome-copilot | skill-collection | GitHub-maintained community catalog of Copilot instructions, prompts, agents, and skills. | GitHub Copilot | [Visit](https://github.com/github/awesome-copilot) |
+| Azure Agent Skills | skill-collection | Microsoft-maintained skills for planning, deploying, operating, and optimizing workloads on Azure. | Agent Skills clients | [Visit](https://github.com/microsoft/azure-skills) |
+| Cloudflare Agent Skills | skill-collection | Official Cloudflare skills covering Workers, Durable Objects, performance, security, and platform tooling. | Agent Skills clients | [Visit](https://github.com/cloudflare/skills) |
 | Cursor Rules | documentation | Official Cursor documentation for persistent project instructions and reusable agent guidance. | Cursor | [Visit](https://cursor.com/docs/rules) |
+| Expo Skills | skill-collection | Expo-maintained skills for building, reviewing, and improving React Native applications. | Agent Skills clients | [Visit](https://github.com/expo/skills) |
+| Firebase Agent Skills | skill-collection | Official Firebase skills for authentication, Firestore, hosting, security rules, Genkit, and app development. | Agent Skills clients | [Visit](https://github.com/firebase/agent-skills) |
 | Gemini CLI Extensions | documentation | Official documentation for packaging prompts, MCP servers, skills, and configuration as Gemini CLI extensions. | Gemini CLI | [Visit](https://github.com/google-gemini/gemini-cli/blob/main/docs/extensions/index.md) |
 | OpenAI Skills | skill-collection | OpenAI's public collection of reusable skills for Codex and agent workflows. | Codex | [Visit](https://github.com/openai/skills) |
 | OpenCode Agents | documentation | Official OpenCode documentation for configuring specialized primary agents and subagents. | OpenCode | [Visit](https://opencode.ai/docs/agents/) |
+| Stripe AI Skills | skill-collection | Official Stripe resources and skills for integrating, upgrading, and operating Stripe-powered applications. | Agent Skills clients | [Visit](https://github.com/stripe/ai) |
+| Supabase Agent Skills | skill-collection | Supabase-maintained agent skills for PostgreSQL design, security, performance, and platform workflows. | Agent Skills clients | [Visit](https://github.com/supabase/agent-skills) |
+
+<a id="mcp-servers"></a>
 
 ### MCP Servers
 
@@ -77,17 +120,26 @@ Servers that expose tools and context through the Model Context Protocol.
 |---|---|---|---|---|
 | AWS MCP Servers | mcp-server | AWS Labs collection of specialized MCP servers for AWS services and cloud development. | MCP clients | [Visit](https://github.com/awslabs/mcp) |
 | Azure MCP Server | mcp-server | Microsoft's official MCP server for working with supported Azure services and resources. | MCP clients | [Visit](https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server) |
+| Blender MCP | mcp-server | Community MCP integration that lets compatible agents control Blender scenes, objects, and rendering workflows. | MCP clients, Blender | [Visit](https://github.com/ahujasid/blender-mcp) |
 | Cloudflare MCP Servers | mcp-server | Cloudflare-maintained MCP servers for documentation, observability, bindings, and platform operations. | MCP clients | [Visit](https://github.com/cloudflare/mcp-server-cloudflare) |
 | Context7 MCP | mcp-server | Upstash-maintained MCP server that supplies current, version-specific library documentation. | MCP clients | [Visit](https://github.com/upstash/context7) |
+| Figma Context MCP | mcp-server | Community MCP server that provides design context from Figma files to AI coding agents. | MCP clients, Figma | [Visit](https://github.com/GLips/Figma-Context-MCP) |
+| Firecrawl MCP Server | mcp-server | Official Firecrawl MCP server for web search, crawling, extraction, and structured research workflows. | MCP clients | [Visit](https://github.com/mendableai/firecrawl-mcp-server) |
 | GitHub MCP Server | mcp-server | GitHub's official MCP server for repository, issue, pull request, code, and workflow operations. | MCP clients | [Visit](https://github.com/github/github-mcp-server) |
 | MCP Inspector | ai-tool | Official interactive developer tool for testing and debugging MCP servers and protocol exchanges. | MCP | [Visit](https://github.com/modelcontextprotocol/inspector) |
 | MCP Python SDK | mcp-sdk | Official Python SDK for implementing Model Context Protocol clients and servers. | Python | [Visit](https://github.com/modelcontextprotocol/python-sdk) |
 | MCP Reference Servers | skill-collection | Official reference implementations demonstrating core Model Context Protocol server patterns. | MCP clients | [Visit](https://github.com/modelcontextprotocol/servers) |
 | MCP TypeScript SDK | mcp-sdk | Official TypeScript SDK for building Model Context Protocol clients and servers. | TypeScript | [Visit](https://github.com/modelcontextprotocol/typescript-sdk) |
 | Model Context Protocol | documentation | Official protocol documentation for connecting AI applications to tools and external data. | MCP | [Visit](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro) |
+| Notion MCP Server | mcp-server | Official Notion MCP server for connecting AI tools to pages, databases, and workspace content. | MCP clients | [Visit](https://github.com/makenotion/notion-mcp-server) |
 | Playwright MCP | mcp-server | Microsoft's official browser automation MCP server built on Playwright's accessibility model. | MCP clients | [Visit](https://github.com/microsoft/playwright-mcp) |
 | Postgres MCP Pro | mcp-server | Community PostgreSQL MCP server with database inspection, analysis, and performance tooling. | MCP clients | [Visit](https://github.com/crystaldba/postgres-mcp) |
+| Sentry MCP Server | mcp-server | Official Sentry MCP server for investigating application errors, issues, projects, and observability data. | MCP clients | [Visit](https://github.com/getsentry/sentry-mcp) |
 | Sequential Thinking | mcp-server | Reference MCP server offering a structured tool for dynamic, reflective problem-solving sequences. | MCP clients | [Visit](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) |
+| Stripe Agent Toolkit | mcp-server | Official Stripe toolkit exposing payment and business operations to supported AI agents and MCP clients. | MCP clients, Python, TypeScript | [Visit](https://github.com/stripe/agent-toolkit) |
+| Supabase MCP Server | mcp-server | Official community-maintained Supabase server for database, project, migration, and development workflows. | MCP clients | [Visit](https://github.com/supabase-community/supabase-mcp) |
+
+<a id="frontend-design"></a>
 
 ### Frontend & UI/UX
 
@@ -105,6 +157,8 @@ Skills, tools, and guidance for interface design and frontend development.
 | vercel-react-best-practices | agent-skill | Vercel-maintained guidance for React and Next.js performance patterns used by coding agents. | Agent Skills clients | [Visit](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices) |
 | vercel-react-native-skills | agent-skill | Vercel-maintained best practices for performant React Native and Expo applications. | Agent Skills clients | [Visit](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills) |
 
+<a id="software-engineering"></a>
+
 ### Software Engineering
 
 Development, review, testing, architecture, and maintenance resources.
@@ -116,6 +170,8 @@ Development, review, testing, architecture, and maintenance resources.
 | convex-create-component | agent-skill | Convex-maintained skill for building reusable components with isolated schemas and APIs. | Agent Skills clients | [Visit](https://github.com/get-convex/agent-skills) |
 | OpenHands | open-source-app | Open-source platform for software-development agents that can edit code and run tools. | — | [Visit](https://github.com/All-Hands-AI/OpenHands) |
 | SWE-agent | framework | Princeton research project for agents that resolve issues in real GitHub repositories. | Python | [Visit](https://github.com/SWE-agent/SWE-agent) |
+
+<a id="devops-cloud"></a>
 
 ### DevOps, Cloud & Infrastructure
 
@@ -132,6 +188,8 @@ Deployment, operations, observability, cloud, and infrastructure resources.
 | OpenTofu | open-source-app | Linux Foundation infrastructure-as-code tool and open-source Terraform-compatible alternative. | — | [Visit](https://github.com/opentofu/opentofu) |
 | Prometheus | open-source-app | Cloud Native Computing Foundation monitoring system and time-series database. | — | [Visit](https://github.com/prometheus/prometheus) |
 
+<a id="cybersecurity"></a>
+
 ### Cybersecurity
 
 Defensive security, secure development, auditing, and compliance resources.
@@ -142,6 +200,8 @@ Defensive security, secure development, auditing, and compliance resources.
 | OWASP Top 10 | guide | Widely used awareness document covering the most critical security risks to web applications. | — | [Visit](https://owasp.org/projects/top-ten) |
 | Semgrep | ai-tool | Static analysis platform for finding security and correctness issues with customizable rules. | CLI, CI | [Visit](https://github.com/semgrep/semgrep) |
 | Trivy | ai-tool | Aqua Security scanner for vulnerabilities, misconfigurations, secrets, licenses, and supply chains. | CLI, CI | [Visit](https://github.com/aquasecurity/trivy) |
+
+<a id="research-knowledge"></a>
 
 ### Research & Knowledge
 
@@ -156,6 +216,8 @@ Research, retrieval, citations, knowledge management, and fact-checking tools.
 | Wikidata | platform | Collaboratively maintained open knowledge base with structured, queryable entities and relationships. | — | [Visit](https://www.wikidata.org/wiki/Wikidata:Introduction) |
 | Zotero | open-source-app | Open-source research assistant for collecting, organizing, citing, and sharing sources. | — | [Visit](https://github.com/zotero/zotero) |
 
+<a id="productivity"></a>
+
 ### Productivity & Personal Workflows
 
 Documents, scheduling, notes, communication, and workflow automation.
@@ -166,6 +228,8 @@ Documents, scheduling, notes, communication, and workflow automation.
 | Obsidian Help | documentation | Official documentation for the local-first note-taking and personal knowledge-management application. | Obsidian | [Visit](https://help.obsidian.md/) |
 | Paperless-ngx | open-source-app | Community document-management system for indexing, searching, and organizing scanned documents. | — | [Visit](https://github.com/paperless-ngx/paperless-ngx) |
 
+<a id="content-creative"></a>
+
 ### Content & Creative Work
 
 Writing, media generation, design, and creative automation resources.
@@ -174,6 +238,55 @@ Writing, media generation, design, and creative automation resources.
 |---|---|---|---|---|
 | ComfyUI | open-source-app | Node-based graphical interface and inference engine for composable generative-media workflows. | — | [Visit](https://github.com/Comfy-Org/ComfyUI) |
 | Diffusers | library | Hugging Face library providing pretrained diffusion models for image, video, and audio generation. | Python | [Visit](https://github.com/huggingface/diffusers) |
+
+<a id="video-generation"></a>
+
+### Video, Motion & 3D
+
+Video generation, editing, compositing, motion graphics, avatars, and 3D creative workflows.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| Blender | open-source-app | Open-source 3D creation suite for modeling, animation, simulation, compositing, and video editing. | — | [Visit](https://github.com/blender/blender) |
+| FFmpeg | open-source-app | Cross-platform toolkit for recording, converting, filtering, streaming, and processing multimedia. | — | [Visit](https://github.com/FFmpeg/FFmpeg) |
+| Kdenlive | open-source-app | KDE's open-source non-linear video editor for multitrack editing, effects, titles, and proxy workflows. | — | [Visit](https://invent.kde.org/multimedia/kdenlive) |
+| MoviePy | library | Python library for scripted video editing, compositing, transformations, titles, and audio mixing. | Python | [Visit](https://github.com/Zulko/moviepy) |
+| Remotion | framework | React framework for creating programmatic videos, compositions, captions, and rendering pipelines. | React, TypeScript | [Visit](https://github.com/remotion-dev/remotion) |
+| Remotion Agent Skills | skill-collection | Official Remotion skills for creating, rendering, captioning, and structuring programmatic videos. | Agent Skills clients | [Visit](https://github.com/remotion-dev/skills) |
+| Shotcut | open-source-app | Cross-platform open-source video editor with timeline, filters, transitions, and broad format support. | — | [Visit](https://github.com/mltframework/shotcut) |
+| Wan Video | framework | Open-source video generation models and inference code from Alibaba's Wan research team. | Python | [Visit](https://github.com/Wan-Video/Wan2.1) |
+
+<a id="image-generation"></a>
+
+### Image Generation & Visual Media
+
+Image generation, editing, upscaling, visual pipelines, and creative model tooling.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| FLUX | framework | Official inference code and model resources for Black Forest Labs' FLUX image generation models. | Python | [Visit](https://github.com/black-forest-labs/flux) |
+| InvokeAI | open-source-app | Creative engine for Stable Diffusion models with canvas, workflow, gallery, and generation tooling. | Python | [Visit](https://github.com/invoke-ai/InvokeAI) |
+| Krita AI Diffusion | ai-tool | Krita plugin for generative fill, upscaling, control workflows, and local diffusion-based editing. | Krita | [Visit](https://github.com/Acly/krita-ai-diffusion) |
+| Real-ESRGAN | framework | Open-source restoration framework for practical image and video super-resolution and enhancement. | Python | [Visit](https://github.com/xinntao/Real-ESRGAN) |
+| Segment Anything | framework | Meta AI research models and code for promptable object segmentation in images. | Python | [Visit](https://github.com/facebookresearch/segment-anything) |
+| Stable Diffusion Web UI | open-source-app | Community web interface for Stable Diffusion generation, editing, extensions, and model workflows. | Python | [Visit](https://github.com/AUTOMATIC1111/stable-diffusion-webui) |
+
+<a id="audio-music"></a>
+
+### Audio, Voice & Music
+
+Speech, transcription, voice synthesis, music generation, and audio production resources.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| Audacity | open-source-app | Cross-platform multi-track audio editor and recorder for editing, cleanup, effects, and export. | — | [Visit](https://github.com/audacity/audacity) |
+| AudioCraft | framework | Meta research library for audio and music generation models including MusicGen and AudioGen. | Python | [Visit](https://github.com/facebookresearch/audiocraft) |
+| Coqui TTS | framework | Deep-learning toolkit for training and running text-to-speech and voice synthesis models. | Python | [Visit](https://github.com/coqui-ai/TTS) |
+| faster-whisper | library | CTranslate2 implementation of Whisper optimized for faster and lower-memory transcription. | Python | [Visit](https://github.com/SYSTRAN/faster-whisper) |
+| MuseScore | open-source-app | Open-source music notation and composition application with playback, engraving, and export tools. | — | [Visit](https://github.com/musescore/MuseScore) |
+| Whisper | framework | OpenAI's open-source neural speech recognition model and transcription toolkit. | Python | [Visit](https://github.com/openai/whisper) |
+
+<a id="business-marketing"></a>
 
 ### Business, Marketing & Sales
 
@@ -186,6 +299,8 @@ Customer, market, sales, support, and business operations tools.
 | Mautic | open-source-app | Open-source marketing automation platform for campaigns, contacts, email, and segmentation. | — | [Visit](https://github.com/mautic/mautic) |
 | Metabase | open-source-app | Open-source business intelligence platform for questions, dashboards, and embedded analytics. | — | [Visit](https://github.com/metabase/metabase) |
 
+<a id="data-analytics"></a>
+
 ### Data Science & Analytics
 
 Analysis, visualization, machine learning, data engineering, and BI resources.
@@ -196,6 +311,90 @@ Analysis, visualization, machine learning, data engineering, and BI resources.
 | DuckDB | open-source-app | In-process analytical SQL database suited to local analysis and data engineering workflows. | — | [Visit](https://github.com/duckdb/duckdb) |
 | Jupyter AI | ai-tool | JupyterLab extension and Python package for generative-AI assistance in notebook workflows. | JupyterLab | [Visit](https://github.com/jupyterlab/jupyter-ai) |
 | Polars | library | Fast DataFrame library written in Rust with bindings for Python and other languages. | Python, Rust | [Visit](https://github.com/pola-rs/polars) |
+
+<a id="software-testing"></a>
+
+### Software Testing & Quality
+
+Unit, integration, end-to-end, load, accessibility, API, and AI-system testing resources.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| axe-core | library | Deque's accessibility testing engine for automated checks in browsers and testing frameworks. | JavaScript | [Visit](https://github.com/dequelabs/axe-core) |
+| Cypress | framework | JavaScript testing framework for browser end-to-end, component, integration, and API testing. | JavaScript, TypeScript | [Visit](https://github.com/cypress-io/cypress) |
+| Grafana k6 | ai-tool | Developer-focused load and performance testing tool for APIs, websites, and distributed systems. | JavaScript, CLI | [Visit](https://github.com/grafana/k6) |
+| Playwright | framework | Microsoft's cross-browser end-to-end testing and automation framework for modern web applications. | TypeScript, Python, Java, .NET | [Visit](https://github.com/microsoft/playwright) |
+| pytest | framework | Mature Python testing framework with concise fixtures, parametrization, plugins, and rich failure output. | Python | [Visit](https://github.com/pytest-dev/pytest) |
+| Schemathesis | framework | Property-based API testing tool that generates checks from OpenAPI and GraphQL schemas. | Python, CLI | [Visit](https://github.com/schemathesis/schemathesis) |
+| Testcontainers | framework | Libraries for integration tests using lightweight, disposable containers for databases and services. | Java | [Visit](https://github.com/testcontainers/testcontainers-java) |
+| Vitest | framework | Vite-native unit testing framework with TypeScript, ESM, mocking, coverage, and workspace support. | JavaScript, TypeScript | [Visit](https://github.com/vitest-dev/vitest) |
+
+<a id="programming-languages"></a>
+
+### Programming Languages & SDKs
+
+Language ecosystems, runtimes, SDKs, package tooling, and programming references.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| .NET | framework | Microsoft's cross-platform runtime, SDK, and libraries for building .NET applications. | C#, F#, Visual Basic | [Visit](https://github.com/dotnet/runtime) |
+| Go | documentation | Official source, documentation, and tooling for the Go programming language. | Go | [Visit](https://github.com/golang/go) |
+| Kotlin | documentation | Official Kotlin language repository for JVM, Android, JavaScript, WebAssembly, and native development. | Kotlin | [Visit](https://github.com/JetBrains/kotlin) |
+| Node.js | framework | Cross-platform JavaScript runtime for servers, tools, command-line applications, and automation. | JavaScript, TypeScript | [Visit](https://github.com/nodejs/node) |
+| Python | documentation | Official documentation, tutorials, language reference, and standard library for Python. | Python | [Visit](https://docs.python.org/3/) |
+| Rust | documentation | Official Rust language repository and gateway to its compiler, standard library, and documentation. | Rust | [Visit](https://github.com/rust-lang/rust) |
+| Swift | documentation | Official Swift programming language and standard library for Apple platforms and servers. | Swift | [Visit](https://github.com/swiftlang/swift) |
+| TypeScript | documentation | Official TypeScript language, compiler, handbook, and tooling repository from Microsoft. | TypeScript | [Visit](https://github.com/microsoft/TypeScript) |
+
+<a id="databases"></a>
+
+### Databases, Storage & Search
+
+Relational, document, vector, search, caching, and data-platform resources.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| Chroma | open-source-app | Open-source embedding database focused on local and application-level AI retrieval workflows. | Python, JavaScript | [Visit](https://github.com/chroma-core/chroma) |
+| Elasticsearch | open-source-app | Distributed search and analytics engine for full-text search, observability, and structured data. | — | [Visit](https://github.com/elastic/elasticsearch) |
+| Milvus | open-source-app | Cloud-native vector database for similarity search and large-scale AI retrieval workloads. | — | [Visit](https://github.com/milvus-io/milvus) |
+| MongoDB | open-source-app | Document database platform with flexible JSON-like data models, indexing, and distributed operation. | — | [Visit](https://github.com/mongodb/mongo) |
+| PostgreSQL | open-source-app | Advanced open-source relational database with extensibility, transactions, JSON, and rich SQL support. | — | [Visit](https://www.postgresql.org/) |
+| Redis | open-source-app | In-memory data store for caching, queues, streams, vector search, and real-time applications. | — | [Visit](https://github.com/redis/redis) |
+| SQLite | library | Small, self-contained transactional SQL database engine embedded in applications and tools. | — | [Visit](https://www.sqlite.org/) |
+| Weaviate | open-source-app | Open-source vector database supporting semantic search, hybrid retrieval, and generative integrations. | — | [Visit](https://github.com/weaviate/weaviate) |
+
+<a id="automation-integration"></a>
+
+### Automation & Integrations
+
+Workflow automation, browser control, integration platforms, and event-driven tooling.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| Activepieces | open-source-app | Open-source automation platform for building human and AI workflows across apps and services. | — | [Visit](https://github.com/activepieces/activepieces) |
+| Browser Use | framework | Open-source framework for enabling AI agents to navigate and interact with websites in a browser. | Python | [Visit](https://github.com/browser-use/browser-use) |
+| Huginn | open-source-app | Self-hosted system for creating agents that monitor events and automate actions across the web. | — | [Visit](https://github.com/huginn/huginn) |
+| Kestra | open-source-app | Event-driven orchestration platform for declarative data, infrastructure, and business workflows. | — | [Visit](https://github.com/kestra-io/kestra) |
+| Stagehand | framework | Browserbase framework combining browser automation code with natural-language AI actions and extraction. | TypeScript, Python | [Visit](https://github.com/browserbase/stagehand) |
+| Windmill | open-source-app | Open-source workflow engine and developer platform for scripts, flows, apps, and scheduled jobs. | — | [Visit](https://github.com/windmill-labs/windmill) |
+
+<a id="backend-api"></a>
+
+### Backend, APIs & Full Stack
+
+Backend frameworks, API development, authentication, real-time systems, and full-stack platforms.
+
+| Name | Type | Description | Compatibility | Link |
+|---|---|---|---|---|
+| Appwrite | open-source-app | Open-source backend platform providing authentication, databases, storage, functions, and messaging APIs. | — | [Visit](https://github.com/appwrite/appwrite) |
+| Directus | open-source-app | Data platform providing instant REST and GraphQL APIs, authentication, automation, and an admin application. | — | [Visit](https://github.com/directus/directus) |
+| Django | framework | Batteries-included Python web framework with ORM, authentication, administration, and security tooling. | Python | [Visit](https://github.com/django/django) |
+| FastAPI | framework | Modern Python framework for high-performance APIs with type hints and automatic OpenAPI documentation. | Python | [Visit](https://github.com/fastapi/fastapi) |
+| NestJS | framework | Progressive Node.js framework for structured, scalable server-side TypeScript applications. | TypeScript | [Visit](https://github.com/nestjs/nest) |
+| PocketBase | open-source-app | Single-file open-source backend with embedded database, authentication, files, and real-time subscriptions. | Go, JavaScript | [Visit](https://github.com/pocketbase/pocketbase) |
+| Spring Boot | framework | Spring framework for production Java services with opinionated configuration and operational features. | Java, Kotlin | [Visit](https://github.com/spring-projects/spring-boot) |
+
+<a id="agent-development"></a>
 
 ### AI Agent Development
 
@@ -217,6 +416,8 @@ Frameworks and infrastructure for building, evaluating, and operating agents.
 | Qdrant | open-source-app | Open-source vector search engine and database designed for filtering and similarity retrieval. | — | [Visit](https://github.com/qdrant/qdrant) |
 | Semantic Kernel | framework | Microsoft SDK for integrating models, plugins, memory, and agent orchestration into applications. | Python, .NET, Java | [Visit](https://github.com/microsoft/semantic-kernel) |
 
+<a id="education"></a>
+
 ### Education & Learning
 
 Tutoring, study, courseware, and educational creation resources.
@@ -227,6 +428,8 @@ Tutoring, study, courseware, and educational creation resources.
 | Khanmigo | platform | Khan Academy's AI-powered learning and teaching assistant with guided educational workflows. | — | [Visit](https://www.khanmigo.ai/) |
 | OpenStax | platform | Nonprofit publisher providing openly licensed textbooks and supporting learning resources. | — | [Visit](https://openstax.org/) |
 | The Algorithms | documentation | Community collection of open-source algorithm implementations across many programming languages. | — | [Visit](https://github.com/TheAlgorithms) |
+
+<a id="specialized-industries"></a>
 
 ### Specialized Industries
 
@@ -240,6 +443,8 @@ Domain-specific resources whose professional limitations should be assessed.
 | OpenBB | platform | Open-source investment research platform; outputs are informational and not financial advice. | Python | [Visit](https://github.com/OpenBB-finance/OpenBB) |
 | OpenFOAM | open-source-app | Open-source computational fluid dynamics software requiring appropriate engineering validation and expertise. | — | [Visit](https://github.com/OpenFOAM/OpenFOAM-dev) |
 | QGIS | open-source-app | Open-source geographic information system for spatial analysis, mapping, and geospatial workflows. | — | [Visit](https://github.com/qgis/QGIS) |
+
+<a id="ecosystem"></a>
 
 ### AI Ecosystem Resources
 
@@ -256,6 +461,8 @@ Directories, registries, documentation, tutorials, and awesome lists.
 | Ollama | open-source-app | Local model runtime and distribution tool for running supported language and multimodal models. | — | [Visit](https://github.com/ollama/ollama) |
 | Open WebUI | open-source-app | Self-hosted extensible interface for interacting with language models and knowledge sources. | — | [Visit](https://github.com/open-webui/open-webui) |
 | Skills Directory | platform | Public Agent Skills directory; treat listings as untrusted code and independently inspect every skill before use. | Agent Skills clients | [Visit](https://www.skills.sh/) |
+
+<a id="design-guides"></a>
 
 ### Design Guides
 

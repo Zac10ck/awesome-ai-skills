@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome AI Skills</title>
+  <desc id="desc">A curated map of skills, MCP servers, tools, and resources for building with AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.48" stop-color="#12243c"/>
+      <stop offset="1" stop-color="#102a2b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#7dd3fc"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <circle cx="1020" cy="55" r="120" fill="#5eead4" opacity=".12" filter="url(#glow)"/>
+  <circle cx="170" cy="280" r="145" fill="#8b5cf6" opacity=".16" filter="url(#glow)"/>
+  <path d="M820 65h230M875 110h215M840 155h175M910 200h150" stroke="url(#accent)" stroke-width="2" opacity=".35"/>
+  <g transform="translate(72 64)">
+    <rect width="64" height="64" rx="16" fill="url(#accent)"/>
+    <path d="M20 35l9 9 17-25M18 18h10M18 50h28" fill="none" stroke="#07111f" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="72" y="175" fill="#f8fafc" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" font-size="58" font-weight="750" letter-spacing="-2">Awesome AI Skills</text>
+  <text x="74" y="222" fill="#cbd5e1" font-family="ui-sans-serif,system-ui,-apple-system,sans-serif" font-size="22">Skills · MCP servers · tools · frameworks · guides</text>
+  <rect x="74" y="254" width="350" height="4" rx="2" fill="url(#accent)"/>
+</svg>
