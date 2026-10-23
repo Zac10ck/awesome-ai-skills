@@ -1,0 +1,31 @@
+name: Broken or incorrect resource
+description: Report a dead link, inaccurate description, or potentially unsafe entry.
+title: "[Catalog issue]: "
+labels: ["catalog", "needs review"]
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource name or URL
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem
+      options:
+        - Broken link
+        - Redirected or renamed
+        - Incorrect description
+        - Incorrect compatibility
+        - Abandoned or archived
+        - Security or trust concern
+        - Other catalog issue
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and suggested correction
+    validations:
+      required: true

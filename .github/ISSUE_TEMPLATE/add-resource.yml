@@ -1,0 +1,78 @@
+name: Add a resource
+description: Suggest a useful AI skill, MCP server, tool, framework, or guide.
+title: "[Resource]: "
+labels: ["resource request", "needs review"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Resource type
+      options:
+        - Agent Skill
+        - Skill collection
+        - MCP server
+        - MCP registry or SDK
+        - AI tool
+        - Framework or library
+        - Guide or tutorial
+        - Awesome list
+        - Open-source application
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category
+      description: Use a category from data/categories.json when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Give one factual sentence describing what the resource does.
+    validations:
+      required: true
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Documented compatibility
+      description: Name supported clients or platforms and link to evidence. Write "Not stated" when unknown.
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why should it be included?
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Your relationship to the resource
+      options:
+        - I maintain or contribute to it
+        - I use it but am not affiliated
+        - I have no relationship to it
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I searched the catalog and did not find this URL already listed.
+          required: true
+        - label: The URL is public and the description does not contain marketing claims.
+          required: true

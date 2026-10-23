@@ -1,0 +1,39 @@
+name: Link check
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "data/resources.json"
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links with retry support
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --max-retries 3
+            --retry-wait-time 5
+            --timeout 30
+            --accept 200,204,206,429
+            './**/*.md'
+            './data/resources.json'
+          fail: true
+      - name: Open or update failure issue
+        if: failure() && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Weekly link check found failures
+          content-filepath: ./lychee/out.md
+          labels: broken-link,automated

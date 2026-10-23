@@ -1,0 +1,16 @@
+# Local maintainer instructions and credentials (never commit)
+github.md
+master prompt.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Generated reports
+reports/
