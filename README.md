@@ -97,7 +97,7 @@ This is an editorial starting set, not an objective ranking. Compatibility is on
 | Category | Resources |
 |---|---:|
 | [Agent Skills](#agent-skills) | 13 |
-| [MCP Servers](#mcp-servers) | 20 |
+| [MCP Servers](#mcp-servers) | 21 |
 | [Frontend & UI/UX](#frontend-design) | 9 |
 | [Software Engineering](#software-engineering) | 5 |
 | [DevOps, Cloud & Infrastructure](#devops-cloud) | 8 |
@@ -163,6 +163,7 @@ Servers that expose tools and context through the Model Context Protocol.
 | Blender MCP | mcp-server | Community MCP integration that lets compatible agents control Blender scenes, objects, and rendering workflows. | MCP clients, Blender | [Visit](https://github.com/ahujasid/blender-mcp) |
 | Cloudflare MCP Servers | mcp-server | Cloudflare-maintained MCP servers for documentation, observability, bindings, and platform operations. | MCP clients | [Visit](https://github.com/cloudflare/mcp-server-cloudflare) |
 | Context7 MCP | mcp-server | Upstash-maintained MCP server that supplies current, version-specific library documentation. | MCP clients | [Visit](https://github.com/upstash/context7) |
+| DC Hub | mcp-server | DC Hub is live data for data-center site selection. Its Data Center Power Index (DCPI) scores grid power in 300+ markets daily. | MCP clients | [Visit](https://github.com/azmartone67/dchub-mcp-server) |
 | Figma Context MCP | mcp-server | Community MCP server that provides design context from Figma files to AI coding agents. | MCP clients, Figma | [Visit](https://github.com/GLips/Figma-Context-MCP) |
 | Firecrawl MCP Server | mcp-server | Official Firecrawl MCP server for web search, crawling, extraction, and structured research workflows. | MCP clients | [Visit](https://github.com/mendableai/firecrawl-mcp-server) |
 | GitHub MCP Server | mcp-server | GitHub's official MCP server for repository, issue, pull request, code, and workflow operations. | MCP clients | [Visit](https://github.com/github/github-mcp-server) |
