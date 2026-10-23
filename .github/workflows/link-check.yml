@@ -17,7 +17,7 @@ jobs:
   links:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Check links with retry support
         uses: lycheeverse/lychee-action@v2
         with:
@@ -32,7 +32,7 @@ jobs:
           fail: true
       - name: Open or update failure issue
         if: failure() && github.event_name == 'schedule'
-        uses: peter-evans/create-issue-from-file@v5
+        uses: peter-evans/create-issue-from-file@v6
         with:
           title: Weekly link check found failures
           content-filepath: ./lychee/out.md
