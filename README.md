@@ -16,7 +16,7 @@ Find the right skill, server, framework, or guide without searching across dozen
 [![Contributors](https://img.shields.io/github/contributors/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/graphs/contributors)
 [![Last commit](https://img.shields.io/github/last-commit/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/commits/main)
 [![Link check](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml/badge.svg)](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml)
-[![Resources](https://img.shields.io/badge/resources-217-7c3aed)](#explore-the-directory)
+[![Resources](https://img.shields.io/badge/resources-222-7c3aed)](#explore-the-directory)
 [![Categories](https://img.shields.io/badge/categories-29-0f766e)](#browse-by-category)
 
 [Browse Directory](#browse-by-category) · [Agent Skills](#agent-skills) · [MCP Servers](#mcp-servers) · [Creative AI](#video-generation) · [Testing](#software-testing) · [Contribute](CONTRIBUTING.md)
@@ -120,10 +120,10 @@ This is an editorial starting set, not an objective ranking. Compatibility is on
 | [Specialized Industries](#specialized-industries) | 6 |
 | [AI Ecosystem Resources](#ecosystem) | 9 |
 | [Design Guides](#design-guides) | 5 |
-| [Trading & Quantitative Research](#trading-research) | 8 |
-| [Finance & Accounting](#finance-accounting) | 9 |
-| [Healthcare & Life Sciences](#healthcare-ai) | 9 |
-| [Organization & Team Operations](#organization-work) | 10 |
+| [Trading & Quantitative Research](#trading-research) | 9 |
+| [Finance & Accounting](#finance-accounting) | 11 |
+| [Healthcare & Life Sciences](#healthcare-ai) | 10 |
+| [Organization & Team Operations](#organization-work) | 11 |
 | [Blogs, Research & Discovery](#blogs-research) | 9 |
 
 <a id="agent-skills"></a>
@@ -572,6 +572,7 @@ Research, backtesting, and market-data tools. Backtests do not establish future 
 |---|---|---|---|---|
 | Alpaca MCP Server | mcp-server | Official Alpaca integration for market data, account inspection, and trading operations; use paper accounts for evaluation. | MCP clients | [Visit](https://github.com/alpacahq/alpaca-mcp-server) |
 | Backtesting.py | library | Python framework for simulating and analyzing trading strategies on historical data. | — | [Visit](https://github.com/kernc/backtesting.py) |
+| Canary | ai-tool | Local Interactive Brokers research desk with portfolio briefs and read-only MCP tools; MCP cannot execute orders. | MCP clients | [Visit](https://github.com/osauer/canary) |
 | FinRL | framework | Reinforcement learning framework for quantitative finance and trading research. | — | [Visit](https://github.com/AI4Finance-Foundation/FinRL) |
 | Freqtrade | open-source-app | Crypto strategy research, backtesting, optimization, and trading automation platform. | — | [Visit](https://github.com/freqtrade/freqtrade) |
 | LEAN | framework | Open-source algorithmic trading engine for research, backtesting, and execution integrations. | — | [Visit](https://github.com/QuantConnect/Lean) |
@@ -596,7 +597,9 @@ Financial language models, accounting, reporting, and financial research resourc
 | FinGPT | framework | Open-source financial language-model research, datasets, and application examples. | — | [Visit](https://github.com/AI4Finance-Foundation/FinGPT) |
 | FinNLP | library | Financial natural-language processing data pipelines and research tooling. | — | [Visit](https://github.com/AI4Finance-Foundation/FinNLP) |
 | Frappe Books | open-source-app | Open-source desktop bookkeeping application for small-business accounting. | — | [Visit](https://github.com/frappe/books) |
+| GL Account Flux Explainer | agent-skill | Claude skill for explaining period-to-period general-ledger changes with source details and Excel output. | Claude Code | [Visit](https://github.com/allNeurons-AI/back-office-agents/tree/main/finance/skills/allneurons-flux) |
 | TipRanks MCP | mcp-server | Official TipRanks MCP integration exposing financial market data and analyst research to compatible agents. | MCP clients | [Visit](https://github.com/TipRanks/mcp) |
+| Trial Balance Roll-Forward | agent-skill | Claude skill for trial-balance roll-forwards, month-end baselines, and multi-entity reporting workbooks. | Claude Code | [Visit](https://github.com/allNeurons-AI/back-office-agents/tree/main/finance/skills/tb-rollforward) |
 | Xero MCP Server | mcp-server | Xero-maintained MCP integration for working with accounting data through authorized Xero accounts. | MCP clients | [Visit](https://github.com/XeroAPI/xero-mcp-server) |
 
 [Back to directory ↑](#explore-the-directory)
@@ -616,6 +619,7 @@ Medical AI research and biomedical tooling; inclusion does not establish clinica
 | PyHealth | framework | Machine-learning toolkit for healthcare research using clinical datasets, predictive models, and evaluation pipelines. | — | [Visit](https://github.com/sunlabuiuc/PyHealth) |
 | Scanpy | library | Scalable Python toolkit for analyzing single-cell gene expression data. | — | [Visit](https://github.com/scverse/scanpy) |
 | scispaCy | library | Allen Institute toolkit for biomedical text processing, named entities, and scientific-language pipelines. | — | [Visit](https://github.com/allenai/scispacy) |
+| Taiwan Health MCP | mcp-server | Taiwan-focused medical terminology, drug-data, and FHIR validation tools; assess clinical suitability independently. | MCP clients | [Visit](https://github.com/healthymind-tech/Taiwan-Health-MCP) |
 | TorchIO | library | Tools for loading, preprocessing, augmenting, and sampling medical images. | — | [Visit](https://github.com/TorchIO-project/torchio) |
 | WSO2 FHIR MCP Server | mcp-server | Expose FHIR server capabilities through MCP for healthcare interoperability workflows; assess data access before use. | MCP clients | [Visit](https://github.com/wso2/fhir-mcp-server) |
 
@@ -636,6 +640,7 @@ Knowledge, project management, team collaboration, and organizational automation
 | Flowise | open-source-app | Visual tools for composing language-model workflows and agent applications. | — | [Visit](https://github.com/FlowiseAI/Flowise) |
 | Onyx | open-source-app | Enterprise AI search and assistant platform connected to organizational knowledge. | — | [Visit](https://github.com/onyx-dot-app/onyx) |
 | OpenProject | open-source-app | Project management platform for planning, tasks, timelines, collaboration, and organizational work tracking. | — | [Visit](https://github.com/opf/openproject) |
+| Orbit CRM MCP | mcp-server | Local Markdown-vault CRM for contacts, organizations, interactions, and follow-up tasks through MCP. | MCP clients | [Visit](https://github.com/tobiaswuerth/orbit) |
 | Outline | open-source-app | Collaborative team knowledge base with search, documents, and integrations. | — | [Visit](https://github.com/outline/outline) |
 | Plane | open-source-app | Project management platform for issues, cycles, roadmaps, and team planning. | — | [Visit](https://github.com/makeplane/plane) |
 | Twenty | open-source-app | Open-source CRM for organizing customer records, relationships, and team workflows. | — | [Visit](https://github.com/twentyhq/twenty) |
