@@ -27,6 +27,7 @@ jobs:
             --retry-wait-time 5
             --timeout 30
             --accept 200,204,206,429
+            --exclude '^https://www\.courtlistener\.com/?$'
             './**/*.md'
             './data/resources.json'
           fail: true

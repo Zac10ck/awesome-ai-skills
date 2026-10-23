@@ -8,7 +8,7 @@ Find the right skill, server, framework, or guide without searching across dozen
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![CC0 1.0](https://img.shields.io/github/license/Zac10ck/awesome-ai-skills)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/Zac10ck/awesome-ai-skills?style=flat)](https://github.com/Zac10ck/awesome-ai-skills/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/Zac10ck/awesome-ai-skills?style=flat)](https://github.com/Zac10ck/awesome-ai-skills)
 [![Contributors](https://img.shields.io/github/contributors/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/graphs/contributors)
 [![Last commit](https://img.shields.io/github/last-commit/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/commits/main)
 [![Link check](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml/badge.svg)](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml)
