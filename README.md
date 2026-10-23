@@ -1,5 +1,9 @@
 <div align="center">
 
+### [Explore the searchable website →](https://zac10ck.github.io/awesome-ai-skills/)
+
+Search resources, filter by category and type, and save your favorites.
+
 <img src="assets/hero.svg" alt="Awesome AI Skills — skills, MCP servers, tools, frameworks, and guides" width="100%">
 
 ### The open directory for discovering practical AI capabilities
