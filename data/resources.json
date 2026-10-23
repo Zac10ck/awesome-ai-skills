@@ -3967,5 +3967,25 @@
     "verified_at": "2026-10-23",
     "maintenance": "unknown",
     "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
+  },
+  {
+    "id": "dc-hub",
+    "name": "DC Hub",
+    "type": "mcp-server",
+    "category": "mcp-servers",
+    "description": "DC Hub is live data for data-center site selection. Its Data Center Power Index (DCPI) scores grid power in 300+ markets daily.",
+    "url": "https://github.com/azmartone67/dchub-mcp-server",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "data-center",
+      "energy",
+      "grid",
+      "mcp"
+    ],
+    "verified_at": "2026-10-23",
+    "maintenance": "active"
   }
 ]
