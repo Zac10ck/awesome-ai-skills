@@ -1,0 +1,19 @@
+{
+  "queries": [
+    "mcp finance in:name,description archived:false",
+    "mcp healthcare in:name,description archived:false",
+    "agent skills finance in:name,description archived:false",
+    "agent skills productivity in:name,description archived:false",
+    "mcp trading in:name,description archived:false",
+    "mcp organization in:name,description archived:false"
+  ],
+  "seed_repositories": [
+    "atlassian/atlassian-mcp-server",
+    "financial-datasets/mcp-server",
+    "XeroAPI/xero-mcp-server",
+    "wso2/fhir-mcp-server",
+    "Bigdata-com/bigdata-plugins-marketplace",
+    "TipRanks/mcp",
+    "VoltAgent/official-mcp-servers"
+  ]
+}

@@ -3537,5 +3537,197 @@
     ],
     "verified_at": null,
     "maintenance": "unknown"
+  },
+  {
+    "id": "alpaca-mcp",
+    "name": "Alpaca MCP Server",
+    "category": "trading-research",
+    "type": "mcp-server",
+    "url": "https://github.com/alpacahq/alpaca-mcp-server",
+    "description": "Official Alpaca integration for market data, account inspection, and trading operations; use paper accounts for evaluation.",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "trading-research"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "financial-datasets-mcp",
+    "name": "Financial Datasets MCP",
+    "category": "finance-accounting",
+    "type": "mcp-server",
+    "url": "https://github.com/financial-datasets/mcp-server",
+    "description": "Financial Datasets integration for company statements, stock prices, crypto data, and financial news.",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "finance-accounting"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "xero-mcp",
+    "name": "Xero MCP Server",
+    "category": "finance-accounting",
+    "type": "mcp-server",
+    "url": "https://github.com/XeroAPI/xero-mcp-server",
+    "description": "Xero-maintained MCP integration for working with accounting data through authorized Xero accounts.",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "finance-accounting"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "tipranks-mcp",
+    "name": "TipRanks MCP",
+    "category": "finance-accounting",
+    "type": "mcp-server",
+    "url": "https://github.com/TipRanks/mcp",
+    "description": "Official TipRanks MCP integration exposing financial market data and analyst research to compatible agents.",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "finance-accounting"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "bigdata-finance-plugins",
+    "name": "Bigdata Financial Research Plugins",
+    "category": "finance-accounting",
+    "type": "skill-collection",
+    "url": "https://github.com/Bigdata-com/bigdata-plugins-marketplace",
+    "description": "Financial research skills and MCP setup resources using licensed financial data with citations.",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "finance-accounting"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "fhir-mcp",
+    "name": "WSO2 FHIR MCP Server",
+    "category": "healthcare-ai",
+    "type": "mcp-server",
+    "url": "https://github.com/wso2/fhir-mcp-server",
+    "description": "Expose FHIR server capabilities through MCP for healthcare interoperability workflows; assess data access before use.",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "healthcare-ai"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "atlassian-mcp",
+    "name": "Atlassian MCP Server",
+    "category": "organization-work",
+    "type": "mcp-server",
+    "url": "https://github.com/atlassian/atlassian-mcp-server",
+    "description": "Official remote integration connecting authorized Atlassian projects, issues, and organizational knowledge to AI tools.",
+    "source": "official",
+    "compatibility": [
+      "MCP clients"
+    ],
+    "tags": [
+      "organization-work"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "knowledge-work-plugins",
+    "name": "Anthropic Knowledge Work Plugins",
+    "category": "organization-work",
+    "type": "skill-collection",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "description": "Official plugins with skills for finance, productivity, sales, marketing, data, and other knowledge-work tasks.",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "organization-work"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "pyhealth",
+    "name": "PyHealth",
+    "category": "healthcare-ai",
+    "type": "framework",
+    "url": "https://github.com/sunlabuiuc/PyHealth",
+    "description": "Machine-learning toolkit for healthcare research using clinical datasets, predictive models, and evaluation pipelines.",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "healthcare-ai"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "scispacy",
+    "name": "scispaCy",
+    "category": "healthcare-ai",
+    "type": "library",
+    "url": "https://github.com/allenai/scispacy",
+    "description": "Allen Institute toolkit for biomedical text processing, named entities, and scientific-language pipelines.",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "healthcare-ai"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "nnunet",
+    "name": "nnU-Net",
+    "category": "healthcare-ai",
+    "type": "framework",
+    "url": "https://github.com/MIC-DKFZ/nnUNet",
+    "description": "Self-configuring deep-learning framework for biomedical image segmentation research and reproducible benchmarking.",
+    "source": "community",
+    "compatibility": [],
+    "tags": [
+      "healthcare-ai"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
+  },
+  {
+    "id": "openproject",
+    "name": "OpenProject",
+    "category": "organization-work",
+    "type": "open-source-app",
+    "url": "https://github.com/opf/openproject",
+    "description": "Project management platform for planning, tasks, timelines, collaboration, and organizational work tracking.",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "organization-work"
+    ],
+    "verified_at": null,
+    "maintenance": "unknown"
   }
 ]

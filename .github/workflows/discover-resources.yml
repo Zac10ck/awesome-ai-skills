@@ -1,0 +1,26 @@
+name: Discover new resources
+on:
+  schedule:
+    - cron: '23 6 * * 2'
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+concurrency:
+  group: resource-discovery
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Discover candidates and update review queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/discover_resources.py --issue
+      - name: Preserve discovery reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: resource-discovery
+          path: reports/discovery.*
