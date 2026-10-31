@@ -27,7 +27,7 @@ Find the right skill, server, framework, or guide without searching across dozen
 [![Contributors](https://img.shields.io/github/contributors/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/graphs/contributors)
 [![Last commit](https://img.shields.io/github/last-commit/Zac10ck/awesome-ai-skills)](https://github.com/Zac10ck/awesome-ai-skills/commits/main)
 [![Link check](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml/badge.svg)](https://github.com/Zac10ck/awesome-ai-skills/actions/workflows/link-check.yml)
-[![Resources](https://img.shields.io/badge/resources-229-7c3aed)](#explore-the-directory)
+[![Resources](https://img.shields.io/badge/resources-230-7c3aed)](#explore-the-directory)
 [![Categories](https://img.shields.io/badge/categories-29-0f766e)](#browse-by-category)
 
 [Browse Directory](#browse-by-category) · [Agent Skills](#agent-skills) · [MCP Servers](#mcp-servers) · [Creative AI](#video-generation) · [Testing](#software-testing) · [Contribute](CONTRIBUTING.md)
@@ -121,7 +121,7 @@ This is an editorial starting set, not an objective ranking. Compatibility is on
 | [Audio, Voice & Music](#audio-music) | 6 |
 | [Business, Marketing & Sales](#business-marketing) | 4 |
 | [Data Science & Analytics](#data-analytics) | 5 |
-| [Software Testing & Quality](#software-testing) | 9 |
+| [Software Testing & Quality](#software-testing) | 10 |
 | [Programming Languages & SDKs](#programming-languages) | 8 |
 | [Databases, Storage & Search](#databases) | 8 |
 | [Automation & Integrations](#automation-integration) | 6 |
@@ -398,6 +398,7 @@ Unit, integration, end-to-end, load, accessibility, API, and AI-system testing r
 
 | Name | Type | Description | Compatibility | Link |
 |---|---|---|---|---|
+| agent-qa | ai-tool | Natural-language web and mobile QA with persistent memidex memory, recorded evidence, and validated self-improvement. | Claude Code, Codex | [Visit](https://vostride.com) |
 | axe-core | library | Deque's accessibility testing engine for automated checks in browsers and testing frameworks. | JavaScript | [Visit](https://github.com/dequelabs/axe-core) |
 | Cypress | framework | JavaScript testing framework for browser end-to-end, component, integration, and API testing. | JavaScript, TypeScript | [Visit](https://github.com/cypress-io/cypress) |
 | DATAMIMIC Generate Test Data | agent-skill | Agent skill for authoring and verifying DATAMIMIC synthetic test-data projects using the Community Edition CLI. | Codex, Claude Code | [Visit](https://github.com/rapiddweller/datamimic/tree/development/plugins/datamimic/skills/generate-test-data) |

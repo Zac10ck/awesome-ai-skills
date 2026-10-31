@@ -3967,5 +3967,28 @@
     "verified_at": "2026-10-23",
     "maintenance": "unknown",
     "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
+  },
+  {
+    "id": "agent-qa",
+    "name": "agent-qa",
+    "type": "ai-tool",
+    "category": "software-testing",
+    "description": "Natural-language web and mobile QA with persistent memidex memory, recorded evidence, and validated self-improvement.",
+    "url": "https://vostride.com",
+    "source": "official",
+    "compatibility": [
+      "Claude Code",
+      "Codex"
+    ],
+    "tags": [
+      "qa",
+      "e2e",
+      "mobile-testing",
+      "mcp",
+      "memory"
+    ],
+    "verified_at": "2026-10-31",
+    "maintenance": "active",
+    "verification_note": "Reviewed official site, MCP/coding-agent documentation and public skill sources. FSL-1.1-ALv2; requires Node.js 24+, configured model and target access. Provider costs may apply. Compatibility is documented, not runtime-tested here."
   }
 ]
