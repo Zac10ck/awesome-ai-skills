@@ -120,7 +120,7 @@ This is an editorial starting set, not an objective ranking. Compatibility is on
 | [Image Generation & Visual Media](#image-generation) | 6 |
 | [Audio, Voice & Music](#audio-music) | 6 |
 | [Business, Marketing & Sales](#business-marketing) | 4 |
-| [Data Science & Analytics](#data-analytics) | 5 |
+| [Data Science & Analytics](#data-analytics) | 6 |
 | [Software Testing & Quality](#software-testing) | 9 |
 | [Programming Languages & SDKs](#programming-languages) | 8 |
 | [Databases, Storage & Search](#databases) | 8 |
@@ -383,6 +383,7 @@ Analysis, visualization, machine learning, data engineering, and BI resources.
 | Name | Type | Description | Compatibility | Link |
 |---|---|---|---|---|
 | Apache Superset | open-source-app | Apache's open-source platform for data exploration, visualization, and business intelligence. | — | [Visit](https://github.com/apache/superset) |
+| Datacircle | ai-tool | Find the best GTM APIs. Open API with no key, an MCP server and an agent skill. | — | [Visit](https://datacircle.dev) |
 | DATAMIMIC Community Edition | ai-tool | Deterministic synthetic-data and pseudonymization engine with CLI and optional MCP adapter; enterprise governance features are separate. | Python, MCP clients | [Visit](https://github.com/rapiddweller/datamimic) |
 | DuckDB | open-source-app | In-process analytical SQL database suited to local analysis and data engineering workflows. | — | [Visit](https://github.com/duckdb/duckdb) |
 | Jupyter AI | ai-tool | JupyterLab extension and Python package for generative-AI assistance in notebook workflows. | JupyterLab | [Visit](https://github.com/jupyterlab/jupyter-ai) |

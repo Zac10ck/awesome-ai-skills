@@ -3967,5 +3967,22 @@
     "verified_at": "2026-10-23",
     "maintenance": "unknown",
     "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
+  },
+  {
+    "id": "datacircle",
+    "name": "Datacircle",
+    "type": "ai-tool",
+    "category": "data-analytics",
+    "description": "Find the best GTM APIs. Open API with no key, an MCP server and an agent skill.",
+    "url": "https://datacircle.dev",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "api",
+      "benchmark",
+      "gtm"
+    ],
+    "verified_at": null,
+    "maintenance": "active"
   }
 ]
