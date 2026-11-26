@@ -127,7 +127,7 @@ This is an editorial starting set, not an objective ranking. Compatibility is on
 | [Automation & Integrations](#automation-integration) | 6 |
 | [Backend, APIs & Full Stack](#backend-api) | 7 |
 | [AI Agent Development](#agent-development) | 13 |
-| [Education & Learning](#education) | 4 |
+| [Education & Learning](#education) | 5 |
 | [Specialized Industries](#specialized-industries) | 6 |
 | [AI Ecosystem Resources](#ecosystem) | 9 |
 | [Design Guides](#design-guides) | 5 |
@@ -518,6 +518,7 @@ Tutoring, study, courseware, and educational creation resources.
 | freeCodeCamp | platform | Nonprofit learning platform with free programming curricula, projects, and certifications. | — | [Visit](https://github.com/freeCodeCamp/freeCodeCamp) |
 | Khanmigo | platform | Khan Academy's AI-powered learning and teaching assistant with guided educational workflows. | — | [Visit](https://www.khanmigo.ai/) |
 | OpenStax | platform | Nonprofit publisher providing openly licensed textbooks and supporting learning resources. | — | [Visit](https://openstax.org/) |
+| StudyArena | platform | Students with a free account can compare three AI explanations for a study question, vote for the most helpful, and reveal the models. | — | [Visit](https://studyarena.com) |
 | The Algorithms | documentation | Community collection of open-source algorithm implementations across many programming languages. | — | [Visit](https://github.com/TheAlgorithms) |
 
 [Back to directory ↑](#explore-the-directory)

@@ -3967,5 +3967,22 @@
     "verified_at": "2026-10-23",
     "maintenance": "unknown",
     "verification_note": "Reviewed primary README, documented resource type, and canonical URL; no installation or professional validation performed."
+  },
+  {
+    "id": "studyarena",
+    "name": "StudyArena",
+    "type": "platform",
+    "category": "education",
+    "description": "Students with a free account can compare three AI explanations for a study question, vote for the most helpful, and reveal the models.",
+    "url": "https://studyarena.com",
+    "source": "official",
+    "compatibility": [],
+    "tags": [
+      "learning",
+      "tutoring",
+      "model-comparison"
+    ],
+    "verified_at": "2026-11-26",
+    "maintenance": "active"
   }
 ]
